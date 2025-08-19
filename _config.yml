@@ -1,0 +1,27 @@
+# Configuration file for GitHub Pages
+# Documentation: https://docs.github.com/en/pages/configuring-a-publishing-source-for-your-github-pages-site
+
+title: AutoCAD API Docs
+description: Documentation for the AutoCAD API
+theme: jekyll-theme-cayman
+
+# Optional settings
+url: "https://shtirlitsdva.github.io/AutoCAD-API-Docs"
+baseurl: "/AutoCAD-API-Docs"
+
+# Exclude files and directories from the site
+exclude:
+  - README.md
+  - node_modules/
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
