@@ -52,6 +52,7 @@ public void ErrorsFixed(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int count | Input the number of errors fixed |
@@ -67,6 +68,7 @@ public void ErrorsFound(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int count | Input the number of errors found |
@@ -94,6 +96,7 @@ public void PrintError(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject value | Input the name string will be extracted. |
@@ -117,6 +120,7 @@ public void PrintError(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input a string describing the type of erroneous data found |
@@ -137,6 +141,7 @@ public void PrintNumEntities(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string msg | Input the string to be printed |

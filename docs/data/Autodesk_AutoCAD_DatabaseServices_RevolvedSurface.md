@@ -65,6 +65,7 @@ public virtual void CreateRevolvedSurface(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity revolveEntity | Input the planar curve, region, or planar surface that is to be revolved |
@@ -88,6 +89,7 @@ public void SetRevolve(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d axisPoint | Input axis point |

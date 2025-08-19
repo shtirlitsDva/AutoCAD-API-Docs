@@ -15,6 +15,7 @@ public enum ViewStyleType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | FromBase | The view style type is controlled by the base view. Return value is an enum. |

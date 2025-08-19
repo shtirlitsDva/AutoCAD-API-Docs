@@ -71,6 +71,7 @@ public virtual void AdjustAlignment(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database alternateDatabaseToUse | Database to be used if the text entity is not in a database (this argument is ignored if the text entity is in a database) |

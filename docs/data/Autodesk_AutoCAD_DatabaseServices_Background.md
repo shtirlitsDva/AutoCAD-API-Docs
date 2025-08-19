@@ -45,6 +45,7 @@ public static ObjectId GetBackgroundDictionaryId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | Input the database from which to retrieve the background dictionary |

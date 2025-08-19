@@ -15,6 +15,7 @@ public enum CellEdgeMasks {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | BottomMask = 4 | Indicates the bottom-edge index of the cell. |

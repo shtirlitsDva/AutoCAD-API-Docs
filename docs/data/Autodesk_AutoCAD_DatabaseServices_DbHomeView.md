@@ -67,6 +67,7 @@ public override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Input object to compare against |
@@ -91,6 +92,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DbHomeView lhvm | Left operand |
@@ -108,6 +110,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DbHomeView rhvw | Right operand |

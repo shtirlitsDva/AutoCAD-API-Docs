@@ -125,6 +125,7 @@ public void AddFirstVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input index of the leader line. |
@@ -142,6 +143,7 @@ public void AddLastVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input leader line index. |
@@ -167,6 +169,7 @@ public int AddLeaderLine(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderIndex | Index of the leader cluster. |
@@ -184,6 +187,7 @@ public int AddLeaderLine(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d point | Input position of the first(head) vertex of the new leader line. |
@@ -199,6 +203,7 @@ public Point3d ConnectionPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d direction | Input the specific direction. |
@@ -215,6 +220,7 @@ public Point3d ConnectionPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d direction | Input the specific direction. |
@@ -233,6 +239,7 @@ public ObjectId GetArrowSymbolId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input the index of the specific leaderline. |
@@ -248,6 +255,7 @@ public AttributeReference GetBlockAttribute(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId attDefId | Input attribute definition id. |
@@ -279,6 +287,7 @@ public Vector3d GetDogleg(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderIndex | Input leader index. |
@@ -294,6 +303,7 @@ public double GetDoglegLength(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderIndex | Input leader index |
@@ -309,6 +319,7 @@ public Point3d GetFirstVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input leader line index. |
@@ -324,6 +335,7 @@ public Point3d GetLastVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input leader line index. |
@@ -339,6 +351,7 @@ public int GetLeaderIndex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input leader line index. |
@@ -362,6 +375,7 @@ public ArrayList GetLeaderLineIndexes(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderIndex | Input leader index. |
@@ -377,6 +391,7 @@ public void getOverridedMLeaderStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MLeaderStyle | Input a reference of MLeaderStyle, MLeader object will set its properties to this object. |
@@ -400,6 +415,7 @@ public Autodesk.AutoCAD.DatabaseServices.TextAttachmentType GetTextAttachmentTyp
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.LeaderDirectionType leaderDirection | Input text leader direction type |
@@ -416,6 +432,7 @@ public Point3d GetVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input leader line index. |
@@ -441,6 +458,7 @@ public void MoveMLeader(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d vec | Input vector indicate direction and distance the MLeader will be moved. |
@@ -457,6 +475,7 @@ public void PostMLeaderToDb(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database db | Input database into which the current MLeader object should be added. |
@@ -480,6 +499,7 @@ public void RemoveFirstVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input leader line index. |
@@ -495,6 +515,7 @@ public void RemoveLastVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input leader line index. |
@@ -510,6 +531,7 @@ public void RemoveLeader(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input the index of the leader to be removed. |
@@ -525,6 +547,7 @@ public void RemoveLeaderLine(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input the index of leader cluster. |
@@ -541,6 +564,7 @@ public void SetArrowSymbolId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input the index of the specific leaderline. |
@@ -558,6 +582,7 @@ public void SetBlockAttribute(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId attDefId | Input attribute definition id. |
@@ -574,6 +599,7 @@ public void SetContextDataManager(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntPtr contextDataManager | Input the pointer of context data manager. |
@@ -590,6 +616,7 @@ public void SetDogleg(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderIndex | Input leader index. |
@@ -607,6 +634,7 @@ public void SetDoglegLength(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderIndex | Input leader index |
@@ -624,6 +652,7 @@ public void SetFirstVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input the leader line index. |
@@ -641,6 +670,7 @@ public void SetLastVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input the leader line index. |
@@ -657,6 +687,7 @@ public virtual void SetPlane(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Plane value | Input desired plane within which the MLeader will reside. |
@@ -673,6 +704,7 @@ public void SetTextAttachmentType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.TextAttachmentType textAttachmentType | Input text attachment type |
@@ -691,6 +723,7 @@ public void SetVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input leader line index. |
@@ -708,6 +741,7 @@ public int VerticesCount(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int leaderLineIndex | Input leader line index. |

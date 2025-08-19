@@ -70,6 +70,7 @@ public LayerStateManager(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | Database association constructor. |
@@ -175,6 +176,7 @@ public bool CompareLayerStateToDb(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name of layer state to be compared to the drawing. |
@@ -191,6 +193,7 @@ public void DeleteLayerState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input layer state name to delete |
@@ -207,6 +210,7 @@ public void ExportLayerState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string nameToExport | Input layer state name to export |
@@ -223,6 +227,7 @@ public string GetLayerStateDescription(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input layer state whose description is to be retrieved |
@@ -239,6 +244,7 @@ public ArrayList GetLayerStateLayers(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input the name of the layer state to query |
@@ -255,6 +261,7 @@ public LayerStateMasks GetLayerStateMask(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input layer state name |
@@ -271,6 +278,7 @@ public ArrayList GetLayerStateNames(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool bIncludeHidden | Input flag to include names of hidden layer states in array. |
@@ -287,6 +295,7 @@ public bool HasLayerState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input layer state name |
@@ -302,6 +311,7 @@ public void ImportLayerState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input file to extract layer states from |
@@ -318,6 +328,7 @@ public void ImportLayerStateFromDb(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input the name of the layer state to be imported |
@@ -334,6 +345,7 @@ public bool LayerStateHasViewportData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input layer state to be interrogated |
@@ -349,6 +361,7 @@ public ObjectId LayerStatesDictionaryId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool createIfNotPresent | Input flag controlling dictionary creation |
@@ -365,6 +378,7 @@ public void RenameLayerState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input existing layer state name |
@@ -384,6 +398,7 @@ public void RestoreLayerState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name of layer state to make current |
@@ -404,6 +419,7 @@ public void SaveLayerState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name of layer state to save |
@@ -422,6 +438,7 @@ public void SetLayerStateDescription(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input layer state whose description is to be updated |
@@ -439,6 +456,7 @@ public void SetLayerStateMask(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name of layer state to mask |

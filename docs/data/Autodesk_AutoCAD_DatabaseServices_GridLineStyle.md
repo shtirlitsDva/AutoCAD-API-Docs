@@ -12,6 +12,7 @@ public enum GridLineStyle {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Double = 2 | Double grid lines |

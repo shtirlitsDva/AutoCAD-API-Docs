@@ -57,6 +57,7 @@ public PolylineVertex3d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d param0 | Input WCS position point for the vertex |

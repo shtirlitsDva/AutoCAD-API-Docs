@@ -72,6 +72,7 @@ public static void RedirectToAnotherSubentity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId oldObjectId | The DBObject whose AssocGeomDependencies are to be redirected. It will be opened for write. |

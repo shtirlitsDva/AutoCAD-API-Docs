@@ -40,6 +40,7 @@ public abstract class SelectionSet : ICollection, IDisposable;
 #### Description
 Constructor.
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AdsName ss | Input adsname that represents the selection set to use |
@@ -62,6 +63,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectedObject[] array | Input the one-dimensional array that is the destination of the elements copied from SelectionSet. The array must have zero-based indexing |
@@ -78,6 +80,7 @@ public static SelectionSet FromObjectIds(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId[] ids | Input array of IDs to copy |
@@ -117,6 +120,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input for culture-specific format |

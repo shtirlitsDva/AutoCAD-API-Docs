@@ -48,6 +48,7 @@ public Handle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | long value | Input all 64 bits of the handle |
@@ -63,6 +64,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Object to compare |
@@ -94,6 +96,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input culture-specific format |
@@ -110,6 +113,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Handle a | Left operand |
@@ -127,6 +131,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Handle a | Left operand |

@@ -164,6 +164,7 @@ public enum DxfCode {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Alpha = 440 | Base entity property; Alpha is an integer |

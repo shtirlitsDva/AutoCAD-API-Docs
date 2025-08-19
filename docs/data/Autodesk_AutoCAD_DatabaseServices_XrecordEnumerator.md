@@ -40,6 +40,7 @@ public void InsertAtCurrent(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ResultBuffer data | Input first result buffer (not its address) in a linked list of result buffer that contain the data for the xrecord. |

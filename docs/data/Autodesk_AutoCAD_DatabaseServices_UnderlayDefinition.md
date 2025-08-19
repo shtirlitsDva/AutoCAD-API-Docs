@@ -48,6 +48,7 @@ public static string GetDictionaryKey(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | System.Type underlayDefinitionType | Input the class descriptor of the underlay type for which to retrieve the dictionary name |
@@ -63,6 +64,7 @@ public void Load(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string password | Input optional password |
@@ -81,6 +83,7 @@ public void SetUnderlayItem(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string sourceFileName | Input source file path |

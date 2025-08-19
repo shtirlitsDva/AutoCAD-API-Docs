@@ -80,6 +80,7 @@ public string getRcsFilePath(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string guid | Specifies the GUID of the RCS |

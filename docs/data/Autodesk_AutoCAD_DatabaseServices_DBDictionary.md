@@ -86,6 +86,7 @@ public bool Contains(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId objId | Object to search for |
@@ -101,6 +102,7 @@ public bool Contains(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string entryName | Name to search by |
@@ -125,6 +127,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBDictionaryEntry[] array | Array to receive data from |
@@ -141,6 +144,7 @@ public virtual ObjectId GetAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string entryName | String representing the entry's search key name to look for |
@@ -164,6 +168,7 @@ public virtual string NameAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId objId | Object ID to search for |
@@ -179,6 +184,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId objId | Object ID of the object to remove |
@@ -194,6 +200,7 @@ public ObjectId Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string key | String representing the entry's key (or name) |
@@ -210,6 +217,7 @@ public ObjectId SetAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string searchKey | String representing the object's search key name |
@@ -229,6 +237,7 @@ public void SetName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string oldName | String representing the entry's old key string name |

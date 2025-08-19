@@ -16,6 +16,7 @@ public enum MergeCellStyleOption {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ConvertDuplicatesToOverrrides = 4 | If there are cell style name conflicts, set the cell style format as overrides in the target cells, rows, or columns which reference the cell styles. |

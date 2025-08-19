@@ -60,6 +60,7 @@ public virtual void CreateExtrudedSurface(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity sweepEnt | Input the curve, region, or planar surface to be swept |
@@ -78,6 +79,7 @@ public void SetExtrude(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d sweepVec | Input extrusion vector |

@@ -33,6 +33,7 @@ public GradientColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Color color | Input color making up the parameters |

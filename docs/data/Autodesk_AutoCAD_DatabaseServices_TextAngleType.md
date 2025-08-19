@@ -14,6 +14,7 @@ public enum TextAngleType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | InsertAngle | The direction of text is according to the last leaderline segment. |

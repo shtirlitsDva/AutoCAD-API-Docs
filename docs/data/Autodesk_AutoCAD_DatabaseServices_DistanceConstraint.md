@@ -55,6 +55,7 @@ public DistanceConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | uint consLineId | Input AcConstraintGroupNodeId indicating the constrained line whose direction is used to measure the distance. |
@@ -71,6 +72,7 @@ public DistanceConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d direction | Input AcGeVector3d indicating the fixed direction which is used to measure the distance. The vector length must not be zero. |
@@ -89,6 +91,7 @@ public enum DistanceDirectionType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | NotDirected | Not directed distance. The minimum distance between the two geometries is measured. |

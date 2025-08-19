@@ -58,6 +58,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string globalName | Input the global name of the keyword; this is never displayed, but can be used by programs to access keywords when the local translation is not known. |
@@ -76,6 +77,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string globalName | Input the global name of the keyword; this is never displayed, but can be used by programs to access keywords when the local translation is not known. |
@@ -96,6 +98,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string globalName | Input global name of the keyword; this is never displayed, but can be used by programs to access keywords when the local translation is not known. |
@@ -118,6 +121,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string globalName | Input global name of the keyword; this is never displayed, but can be used by programs to access keywords when the local translation is not known. |
@@ -146,6 +150,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Keyword[] array | Input the one-dimensional Array that is the destination of the elements copied from KeywordCollection. The array must have zero-based indexing. |
@@ -162,6 +167,7 @@ public string GetDisplayString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool showNoDefault | Input true if the default values ought not be shown |

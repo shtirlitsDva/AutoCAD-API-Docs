@@ -113,6 +113,7 @@ public void AppendLoop(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | HatchLoop hatchLoop | Input type of loop |
@@ -130,6 +131,7 @@ public void AppendLoop(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | HatchLoopTypes loopType | Input loop type. |
@@ -148,6 +150,7 @@ public void AppendLoop(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | HatchLoopTypes loopType | Input loop type |
@@ -166,6 +169,7 @@ public void AppendLoop(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | HatchLoopTypes loopType | Input type of loop. |
@@ -183,6 +187,7 @@ public Autodesk.AutoCAD.Colors.Color EvaluateGradientColorAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | float value | Input normalized value, [0.0...1.0], at which to evaluate the gradient color |
@@ -199,6 +204,7 @@ public void EvaluateHatch(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool underEstimateNumLines | If true, underestimates the count before deciding to abort. That is, if Hatch::EvaluateHatch(true) is used, the function will abort if the count is in excess of 100,000. |
@@ -222,6 +228,7 @@ public ObjectIdCollection GetAssociatedObjectIdsAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int loopIndex | Input index for the selected loop |
@@ -245,6 +252,7 @@ public Line2d GetHatchLineDataAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input number at which the hatch line data will be returned |
@@ -270,6 +278,7 @@ public HatchLoop GetLoopAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int loopIndex | Input index of selected loop |
@@ -285,6 +294,7 @@ public PatternDefinition GetPatternDefinitionAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input pattern index |
@@ -301,6 +311,7 @@ public void InsertLoopAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int loopIndex | Input index for the selected loop |
@@ -319,6 +330,7 @@ public void InsertLoopAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int loopIndex | Input index for the selected loop |
@@ -336,6 +348,7 @@ public HatchLoopTypes LoopTypeAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int loopIndex | Input index of the selected loop |
@@ -359,6 +372,7 @@ public void RemoveLoopAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int loopIndex | Input index for the selected loop |
@@ -375,6 +389,7 @@ public void SetGradient(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.GradientPatternType gradientType | Input gradient type |
@@ -391,6 +406,7 @@ public void SetGradientColors(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GradientColor[] value | Input array of floats representing the interpolation values defining the gradient |
@@ -412,6 +428,7 @@ public void SetHatchPattern(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.HatchPatternType patternType | Input enumerated number of pattern type |

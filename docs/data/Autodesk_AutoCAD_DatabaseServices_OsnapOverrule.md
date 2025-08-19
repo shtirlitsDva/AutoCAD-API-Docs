@@ -86,6 +86,7 @@ public sealed override void SetExtensionDictionaryEntryFilter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string entryName | Input the name of the entry. |
@@ -105,6 +106,7 @@ public sealed override void SetIdFilter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId[] ids | Input an array of ObjectId. |
@@ -134,6 +136,7 @@ public sealed override void SetXDataFilter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string registeredApplicationName | Input the name of the registered application. |

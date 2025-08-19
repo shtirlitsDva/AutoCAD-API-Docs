@@ -56,6 +56,7 @@ public PolyFaceMeshVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d position | Input WCS position point for the vertex |

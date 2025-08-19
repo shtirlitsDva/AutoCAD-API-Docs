@@ -86,6 +86,7 @@ public ObjectId AppendVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PolygonMeshVertex toAppend | Input vertex to append to mesh |
@@ -110,6 +111,7 @@ public void ConvertToPolyMeshType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.PolyMeshType newVal | Input type to which the polygon mesh should be converted |

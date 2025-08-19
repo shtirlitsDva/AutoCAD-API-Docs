@@ -17,6 +17,7 @@ public enum SubentityType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Null | No subentity. |

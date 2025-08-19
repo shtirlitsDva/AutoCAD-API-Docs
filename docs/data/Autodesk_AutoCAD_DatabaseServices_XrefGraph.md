@@ -44,6 +44,7 @@ public XrefGraphNode GetXrefNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database db | Input Autodesk.AutoCAD.DatabaseServices.Database object; node database to search for |
@@ -60,6 +61,7 @@ public XrefGraphNode GetXrefNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int idx | Input System.Int32 object; Index into the graph |
@@ -76,6 +78,7 @@ public XrefGraphNode GetXrefNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId btrId | Input Autodesk.AutoCAD.DatabaseServices.ObjectId object; Block table record ID to search for |
@@ -93,6 +96,7 @@ public XrefGraphNode GetXrefNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input System.String object; Node name to search for |

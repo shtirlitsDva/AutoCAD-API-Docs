@@ -13,6 +13,7 @@ public enum TextAlignmentType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | LeftAlignment | Left-justifies text in the MText. |

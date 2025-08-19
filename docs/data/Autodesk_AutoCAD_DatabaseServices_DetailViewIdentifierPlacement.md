@@ -14,6 +14,7 @@ public enum DetailViewIdentifierPlacement {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | OutsideBoundary | AcDbDetailViewStyle::kOutsideBoundary. The return value is enum. |

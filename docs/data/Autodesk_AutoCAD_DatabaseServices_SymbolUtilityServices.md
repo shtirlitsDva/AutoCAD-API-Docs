@@ -76,6 +76,7 @@ public static ObjectId GetBlockModelSpaceId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database databasePointer | Input database to access |
@@ -91,6 +92,7 @@ public static string GetBlockNameFromInsertPathName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string pathName | Input path name to examine |
@@ -106,6 +108,7 @@ public static ObjectId GetBlockPaperSpaceId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database databasePointer | Input pointer to database to access |
@@ -121,6 +124,7 @@ public static string GetInsertPathNameFromBlockName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string blockName | Input name of block from which to get the path |
@@ -137,6 +141,7 @@ public static ObjectId GetLayerDefpointsId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | Input database to access |
@@ -152,6 +157,7 @@ public static ObjectId GetLayerZeroId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | Input database to access |
@@ -167,6 +173,7 @@ public static ObjectId GetLinetypeByBlockId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database databasePointer | Input database to access |
@@ -182,6 +189,7 @@ public static ObjectId GetLinetypeByLayerId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database databasePointer | Input database to access |
@@ -197,6 +205,7 @@ public static ObjectId GetLinetypeContinuousId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database databasePointer | Input database to access |
@@ -219,6 +228,7 @@ public static int GetMaxSymbolNameLength(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool isNewName | Input Boolean to indicate whether we want to the length for extended or legacy symbol names |
@@ -237,6 +247,7 @@ public static string GetPathNameFromSymbolName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string symbolName | Input name of block from which to get the path |
@@ -255,6 +266,7 @@ public static ObjectId GetRegAppAcadId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database databasePointer | Input database to access |
@@ -272,6 +284,7 @@ public static string GetSymbolNameFromPathName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string pathName | Input path name |
@@ -288,6 +301,7 @@ public static ObjectId GetTextStyleStandardId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database databasePointer | Input database to access |
@@ -303,6 +317,7 @@ public static bool IsBlockLayoutName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -318,6 +333,7 @@ public static bool IsBlockModelSpaceName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -333,6 +349,7 @@ public static bool IsBlockPaperSpaceName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -348,6 +365,7 @@ public static bool IsCompatibilityMode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | Input database to access |
@@ -363,6 +381,7 @@ public static bool IsLayerDefpointsName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -378,6 +397,7 @@ public static bool IsLayerZeroName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -393,6 +413,7 @@ public static bool IsLinetypeByBlockName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -408,6 +429,7 @@ public static bool IsLinetypeByLayerName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -423,6 +445,7 @@ public static bool IsLinetypeContinuousName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -438,6 +461,7 @@ public static bool IsRegAppAcadName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -453,6 +477,7 @@ public static bool IsTextStyleStandardName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -468,6 +493,7 @@ public static bool IsViewportActiveName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to compare |
@@ -484,6 +510,7 @@ public static string MakeDependentName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string dwgName | Input the drawing name |
@@ -496,6 +523,7 @@ Perform any "pre-validation" steps on a string that will be validated as a symbo
 Normalize the name. If preserveCase is false, the symbol name is converted to uppercase. 
 Strip leading and trailing whitespace.
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool preserveCase | Input Boolean to indicate whether to preserve the case of alphabetic letters |
@@ -519,6 +547,7 @@ public static string RepairPreExtendedSymbolName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string oldName | Input symbol name to repair |
@@ -536,6 +565,7 @@ public static string RepairSymbolName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string oldName | Input symbol name to repair |
@@ -558,6 +588,7 @@ public static ErrorStatus ValidateCompatibleSymbolName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to validate |
@@ -577,6 +608,7 @@ public static void ValidatePreExtendedSymbolName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to validate |
@@ -594,6 +626,7 @@ public static void ValidateSymbolName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name to validate |

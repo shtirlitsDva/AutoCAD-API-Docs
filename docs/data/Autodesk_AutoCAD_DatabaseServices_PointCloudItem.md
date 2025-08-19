@@ -65,6 +65,7 @@ public bool CompareTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PointCloudItem other | The second point cloud item for comparison. |
@@ -82,6 +83,7 @@ public static List<PointCloudItem> CreatePointCloudDataItemCollection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntPtr unmanagedObjPtr | The pointer of array of AcPointCloudItem |

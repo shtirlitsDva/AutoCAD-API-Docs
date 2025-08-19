@@ -167,6 +167,7 @@ public abstract void ReadBytes(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte[] value | A pre-allocated memory area to read bytes into |
@@ -402,6 +403,7 @@ public abstract void WriteAddress(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntPtr value | Location to write to |
@@ -423,6 +425,7 @@ public abstract void WriteBinaryChunk(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte[] chunk | Location to write to |
@@ -441,6 +444,7 @@ public abstract void WriteBoolean(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool value | Location to write to |
@@ -460,6 +464,7 @@ public abstract void WriteByte(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte value | Location to write to |
@@ -479,6 +484,7 @@ public abstract void WriteBytes(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte[] value | Location to write to |
@@ -497,6 +503,7 @@ public abstract void WriteDouble(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Location to write to |
@@ -516,6 +523,7 @@ public abstract void WriteHandle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Handle handle | Location to write to |
@@ -534,6 +542,7 @@ public abstract void WriteHardOwnershipId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Location to write to |
@@ -552,6 +561,7 @@ public abstract void WriteHardPointerId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Location to write to |
@@ -570,6 +580,7 @@ public abstract void WriteInt16(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short value | Location to write to |
@@ -588,6 +599,7 @@ public abstract void WriteInt32(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int value | Location to write to |
@@ -616,6 +628,7 @@ public abstract void WritePoint2d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point2d value | Location to write to |
@@ -634,6 +647,7 @@ public abstract void WritePoint3d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d value | Location to write to |
@@ -652,6 +666,7 @@ public abstract void WriteScale3d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Scale3d value | Location to write to |
@@ -670,6 +685,7 @@ public abstract void WriteSoftOwnershipId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Location to write to |
@@ -688,6 +704,7 @@ public abstract void WriteSoftPointerId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Location to write to |
@@ -707,6 +724,7 @@ public abstract void WriteString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string value | Location to write to |
@@ -725,6 +743,7 @@ public abstract void WriteUInt16(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ushort value | Location to write to |
@@ -743,6 +762,7 @@ public abstract void WriteUInt32(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | uint value | Location to write to |
@@ -771,6 +791,7 @@ public abstract void WriteVector2d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector2d value | Location to write to |
@@ -789,6 +810,7 @@ public abstract void WriteVector3d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d value | Location to write to |

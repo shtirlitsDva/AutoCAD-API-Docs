@@ -15,6 +15,7 @@ public enum Vertex2dType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | SimpleVertex | A standard vertex within a 2D polyline. |

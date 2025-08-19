@@ -15,6 +15,7 @@ public enum SectionGeometry {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | BackgroundGeometry = 4 | Background geometry settings. |

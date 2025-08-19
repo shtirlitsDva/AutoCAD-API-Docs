@@ -34,6 +34,7 @@ public DecomposeForSaveReplacementRecord(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject replacement | Input Autodesk.AutoCAD.DatabaseServices.DBObject object |

@@ -55,6 +55,7 @@ public DBPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d position | Input position (in WCS coordinates) for the point |

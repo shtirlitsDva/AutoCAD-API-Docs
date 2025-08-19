@@ -53,6 +53,7 @@ public Point3d GetUcsBaseOrigin(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OrthographicView view | Input orthographic view |
@@ -69,6 +70,7 @@ public void SetUcsBaseOrigin(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d origin | Input origin point |

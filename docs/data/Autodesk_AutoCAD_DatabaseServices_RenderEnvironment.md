@@ -56,6 +56,7 @@ public DoubleRangeParameter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double n | Near distance |

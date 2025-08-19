@@ -13,6 +13,7 @@ public enum Planarity {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | NonPlanar |

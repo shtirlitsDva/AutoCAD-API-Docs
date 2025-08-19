@@ -60,6 +60,7 @@ public void AddAction(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId actionId | AssocAction being added to the network. |
@@ -78,6 +79,7 @@ public void AddActions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection actionIds | AssocActions being added to the network. |
@@ -97,6 +99,7 @@ public static ObjectId GetInstanceFromDatabase(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | Database owning the network. |
@@ -120,6 +123,7 @@ public static ObjectId GetInstanceFromObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId owningObjectId | The Object owning the sub-dictionary that owns the AssocNetwork. |
@@ -141,6 +145,7 @@ public void OwnedActionStatusChanged(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocAction ownedAction | The action whose status has just been changed. |
@@ -158,6 +163,7 @@ public void RemoveAction(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId actionId | AssocAction being removed from the network. |
@@ -174,6 +180,7 @@ public void RemoveAllActions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool alsoEraseThem | Erase the actions after removing them. |
@@ -191,6 +198,7 @@ public static void RemoveInstanceFromDatabase(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool alsoEraseIt | Erase the network after removing it. |
@@ -210,6 +218,7 @@ public static void RemoveInstanceFromObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId owningObjectId | The DBObject whose extension dictionary owns the sub-dictionary that owns the AssocNetwork. |

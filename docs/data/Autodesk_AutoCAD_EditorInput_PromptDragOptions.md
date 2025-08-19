@@ -44,6 +44,7 @@ public PromptDragOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectionSet selection | Input selection set |
@@ -64,6 +65,7 @@ public PromptDragOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectionSet selection | Input selection set |

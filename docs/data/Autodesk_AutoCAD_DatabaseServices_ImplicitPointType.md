@@ -15,6 +15,7 @@ public enum ImplicitPointType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | StartImplicit | Start point of bounded line, arc or bounded ellipse. |

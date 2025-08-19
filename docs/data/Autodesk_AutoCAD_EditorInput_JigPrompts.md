@@ -54,6 +54,7 @@ public PromptDoubleResult AcquireAngle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | JigPromptAngleOptions options | Input prompt angle options |
@@ -69,6 +70,7 @@ public PromptDoubleResult AcquireAngle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -104,6 +106,7 @@ public PromptDoubleResult AcquireDistance(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | JigPromptDistanceOptions options | Input prompt distance options |
@@ -119,6 +122,7 @@ public PromptDoubleResult AcquireDistance(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -154,6 +158,7 @@ public PromptPointResult AcquirePoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | JigPromptPointOptions options | Input prompt point options |
@@ -169,6 +174,7 @@ public PromptPointResult AcquirePoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -204,6 +210,7 @@ public PromptResult AcquireString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | JigPromptStringOptions options | Input prompt string options |
@@ -219,6 +226,7 @@ public PromptResult AcquireString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |

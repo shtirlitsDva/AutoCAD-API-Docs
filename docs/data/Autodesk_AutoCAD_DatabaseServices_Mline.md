@@ -69,6 +69,7 @@ public void AppendSegment(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d newVertex | Input new vertex point (in WCS) to be added |
@@ -85,6 +86,7 @@ public int Element(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pt | Input search point |
@@ -102,6 +104,7 @@ public Point3d GetClosestPointTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d givenPoint | Input point to find nearest point to |
@@ -122,6 +125,7 @@ public Point3d GetClosestPointTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d givenPoint | Input point to find nearest point to |
@@ -141,6 +145,7 @@ public void MoveVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index of vertex to move in the vertex array |
@@ -157,6 +162,7 @@ public void RemoveLastSegment(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d lastVertex | Returns filled in with the value of the vertex that becomes last when current last is removed |
@@ -172,6 +178,7 @@ public Point3d VertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Returns the value of the vertex at the index location (0 based) in the MLine object's vertex array. |

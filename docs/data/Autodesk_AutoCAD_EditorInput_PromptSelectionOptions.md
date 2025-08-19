@@ -83,6 +83,7 @@ public void AddKeywordsToMinimalList(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AddedKeywords kwds | bitwise combination of AddedKeywords enum values |
@@ -99,6 +100,7 @@ public void RemoveKeywordsFromFullList(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubtractedKeywords kwds | bitwise combination of SubtractedKeywords enum values |
@@ -117,6 +119,7 @@ public void SetKeywords(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string keywords | Input keywords |

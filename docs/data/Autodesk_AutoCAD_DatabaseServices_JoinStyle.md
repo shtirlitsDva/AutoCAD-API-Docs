@@ -15,6 +15,7 @@ public enum JoinStyle {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | StyleRound |

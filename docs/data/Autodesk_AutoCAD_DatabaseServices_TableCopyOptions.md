@@ -37,6 +37,7 @@ public enum TableCopyOptions {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ConvertFormatToOverrides = 0x800 | Convert formats to overrides after copying. |

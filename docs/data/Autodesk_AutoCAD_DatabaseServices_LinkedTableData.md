@@ -94,6 +94,7 @@ public virtual int AppendColumn(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int columnsNumber | Input number of columns to append |
@@ -109,6 +110,7 @@ public virtual int AppendRow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int rowsNumber | Input number of rows to append |
@@ -125,6 +127,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.DataType DataType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -142,6 +145,7 @@ public virtual void DeleteColumn(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input starting index of the columns to delete |
@@ -159,6 +163,7 @@ public virtual void DeleteContent(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -176,6 +181,7 @@ public virtual void DeleteRow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input starting index of the rows to delete |
@@ -194,6 +200,7 @@ public virtual string GetBlockAttributeValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -212,6 +219,7 @@ public virtual ObjectId GetBlockTableRecordId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -229,6 +237,7 @@ public virtual CellStates GetCellState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -245,6 +254,7 @@ public virtual string GetColumnName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input column index |
@@ -261,6 +271,7 @@ public virtual CellContentTypes GetContentTypes(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -280,6 +291,7 @@ public virtual object GetCustomData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -298,6 +310,7 @@ public virtual string GetDataFormat(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -322,6 +335,7 @@ public virtual ObjectIdCollection GetDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CellRange range | Input range to get the data links. If this is NULL it gets all the data links in the table |
@@ -339,6 +353,7 @@ public virtual ObjectId GetDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -363,6 +378,7 @@ public TableEnumerator GetEnumerator(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | TableEnumeratorOption option | Input iterator option. |
@@ -379,6 +395,7 @@ public virtual ObjectId GetFieldId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -397,6 +414,7 @@ public virtual string GetToolTip(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -414,6 +432,7 @@ public virtual object GetValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -436,6 +455,7 @@ public virtual object GetValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -456,6 +476,7 @@ public virtual int InsertColumn(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index at which to insert the new columns |
@@ -474,6 +495,7 @@ public virtual int InsertRow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index at which to insert the new rows. |
@@ -493,6 +515,7 @@ public virtual bool IsContentEditable(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -511,6 +534,7 @@ public virtual bool IsLinked(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -530,6 +554,7 @@ public virtual void SetBlockAttributeValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -550,6 +575,7 @@ public virtual void SetBlockTableRecordId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -570,6 +596,7 @@ public virtual void SetCellState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -589,6 +616,7 @@ public virtual void SetColumnName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input zero based index of the column |
@@ -609,6 +637,7 @@ public virtual void SetCustomData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -629,6 +658,7 @@ public virtual void SetDataFormat(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -649,6 +679,7 @@ public virtual void SetDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CellRange range | Range of cells to link to external source. |
@@ -670,6 +701,7 @@ public virtual void SetDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -691,6 +723,7 @@ public virtual void SetDataType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -711,6 +744,7 @@ public virtual void SetFieldId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -729,6 +763,7 @@ public virtual void SetSize(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int numRows | Input new row size. |
@@ -748,6 +783,7 @@ public virtual void SetToolTip(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -772,6 +808,7 @@ public virtual void SetValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -793,6 +830,7 @@ public virtual void SetValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -811,6 +849,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.UnitType UnitType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -828,6 +867,7 @@ public virtual void UpdateDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.UpdateDirection dir | Input direction of update |
@@ -847,6 +887,7 @@ public virtual void UpdateDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |

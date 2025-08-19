@@ -45,6 +45,7 @@ public PlotStyleDescriptor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID of plot to create from |
@@ -61,6 +62,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object unmanagedObjPtr | Object to compare with |
@@ -92,6 +94,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Culture-specific format |
@@ -108,6 +111,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotStyleDescriptor a | Left operand |
@@ -125,6 +129,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotStyleDescriptor a | Left operand |

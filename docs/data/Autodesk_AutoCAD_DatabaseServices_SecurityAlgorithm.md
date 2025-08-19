@@ -11,6 +11,7 @@ public enum SecurityAlgorithm {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | RC4 = 0x6801 | SECURITYPARAMS_ALGID_RC4 |

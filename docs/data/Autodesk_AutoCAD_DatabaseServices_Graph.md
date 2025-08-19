@@ -59,6 +59,7 @@ public Graph(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode root | Input root node. Default is NULL. |
@@ -75,6 +76,7 @@ public void AddEdge(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode from | Input the node to begin the edge at |
@@ -91,6 +93,7 @@ public void AddNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode nodeToAdd | Node to add |
@@ -107,6 +110,7 @@ public void BreakCycleEdge(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode from | Input node that the edge begins at |
@@ -123,6 +127,7 @@ public void ClearAll(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte flags | Input flag values to clear for all nodes in the graph |
@@ -138,6 +143,7 @@ public void DelNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode nodeToDelete | Node to delete |
@@ -155,6 +161,7 @@ public virtual bool FindCycles(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode start | Input node to begin the search for cycles at. Usually defaulted to NULL. |
@@ -178,6 +185,7 @@ public GraphNode Node(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input desired node index |
@@ -201,6 +209,7 @@ public void SetNodeGrowthRate(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int rate | Number of nodes to allocate at once |

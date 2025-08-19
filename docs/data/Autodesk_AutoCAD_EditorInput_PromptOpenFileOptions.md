@@ -37,6 +37,7 @@ public PromptOpenFileOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |

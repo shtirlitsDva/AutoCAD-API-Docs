@@ -87,6 +87,7 @@ public ObjectId AppendVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vertex2d vertexToAppend | Input the vertex to add to the polyline |
@@ -102,6 +103,7 @@ public void ConvertToPolyType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.Poly2dType newVal | Input type to which the polyline should be converted |
@@ -137,6 +139,7 @@ public ObjectId InsertVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vertex2d newVertex | Input vertex to be inserted |
@@ -157,6 +160,7 @@ public void InsertVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vertex2d newVertex | Input pointer to vertex to be inserted |
@@ -173,6 +177,7 @@ public void NonDBAppendVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vertex2d vertexToAppend | Input the vertex to add to the polyline |
@@ -208,6 +213,7 @@ public Point3d VertexPosition(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vertex2d vertex | Input vertex object to get the WCS coordinate for |

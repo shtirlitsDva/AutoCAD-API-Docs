@@ -45,6 +45,7 @@ public abstract bool AllowsDependencies(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool isWriteDependency | The dependency will also modify the object. |

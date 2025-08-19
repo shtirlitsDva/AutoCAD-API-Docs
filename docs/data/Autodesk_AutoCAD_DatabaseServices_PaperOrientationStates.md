@@ -13,6 +13,7 @@ public enum PaperOrientationStates {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | True | The object is currently associated with the paper. |

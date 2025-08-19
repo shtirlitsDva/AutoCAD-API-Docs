@@ -61,6 +61,7 @@ public ObjectId AppendFaceRecord(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FaceRecord toAppend | Input FaceRecord to append to the mesh |
@@ -79,6 +80,7 @@ public ObjectId AppendVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PolyFaceMeshVertex vertexToAppend | Input vertex to append to mesh |

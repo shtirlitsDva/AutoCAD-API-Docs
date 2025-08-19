@@ -41,6 +41,7 @@ public int Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MlineStyleElement element | Input element to add |
@@ -58,6 +59,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MlineStyleElement[] array | Target array. |
@@ -82,6 +84,7 @@ public void RemoveAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index of item to remove |

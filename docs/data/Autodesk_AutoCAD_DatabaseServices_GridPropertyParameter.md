@@ -17,6 +17,7 @@ public struct GridPropertyParameter {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | public GridProperties PropertyMask; | Mask to specify the grid properties to get or set. The properties should be combined using OR. |

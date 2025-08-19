@@ -79,6 +79,7 @@ public FeatureControlFrame(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string codes | Input text string containing the codes to specify the feature control symbols and the tolerance for this object. If this value is Null, this is just like calling the default constructor. |
@@ -132,6 +133,7 @@ public void SetDimstyleData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DimStyleTableRecord style | Input objectId of the desired DimensionStyle to be used by the Fcf |
@@ -148,6 +150,7 @@ public virtual void SetOrientation(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d norm | Input vector (in WCS) to be used to define the new plane that will contain the Fcf |

@@ -45,6 +45,7 @@ public ThreePointAngleConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AngularConstraint.AngularSectorType type | Input SectorType indicating the angle sector which is used to measure the angle. |

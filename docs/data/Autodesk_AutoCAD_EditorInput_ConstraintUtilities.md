@@ -32,6 +32,7 @@ public static bool ShowConstraintBar(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath[] subentityPaths | Array of full sub-entity paths of entities for which constraint bars are to be shown or hidden. If this array is empty, the show/hide action will then be applied to all constrained entities in the active document. |

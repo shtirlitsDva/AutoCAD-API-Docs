@@ -22,6 +22,7 @@ public enum TextAttachmentType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | AttachmentTopOfTop | Attach to top of top text line of MText content. |

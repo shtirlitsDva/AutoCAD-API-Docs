@@ -77,6 +77,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Input object to compare |
@@ -108,6 +109,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input System.IFormatProvider object. |
@@ -124,6 +126,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SecurityParameters a | Left operand |
@@ -141,6 +144,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SecurityParameters a | Left operand |

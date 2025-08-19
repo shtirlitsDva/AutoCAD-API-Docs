@@ -37,6 +37,7 @@ public BulgeVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point2d point | Input the 2D coordinates of the new vertex. |

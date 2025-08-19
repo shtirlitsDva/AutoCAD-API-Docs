@@ -60,6 +60,7 @@ public Line(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pointer1 | Input line start point (WCS coordinates) |

@@ -6,6 +6,7 @@
 This .NET class wraps the AcDbLayerStateManager::LayerStateMask ObjectARX class. 
 The LayerStateMasks enumeration defines the bits used to specify the layer attributes.
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Color = 0x20 | Allows color changes |

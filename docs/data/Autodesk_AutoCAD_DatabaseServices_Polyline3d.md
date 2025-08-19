@@ -73,6 +73,7 @@ public ObjectId AppendVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PolylineVertex3d vertexToAppend | Input pointer to the vertex to add to the polyline |
@@ -88,6 +89,7 @@ public void ConvertToPolyType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.Poly3dType newVal | Input type to which the polyline should be converted |
@@ -114,6 +116,7 @@ public ObjectId InsertVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId indexVertexId | Input vertex in polyline after which the new vertex is to be inserted |
@@ -133,6 +136,7 @@ public void InsertVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PolylineVertex3d indexVertex | Input objectId of the vertex in the polyline after which the new vertex is to be inserted |

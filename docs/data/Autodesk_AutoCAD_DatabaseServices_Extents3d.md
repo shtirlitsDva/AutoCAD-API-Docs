@@ -71,6 +71,7 @@ public Extents3d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d min | Input minimum extent |
@@ -87,6 +88,7 @@ public void AddBlockExtents(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | BlockTableRecord pointerToBlockTableRecord | Pointer to a block table record |
@@ -102,6 +104,7 @@ public void AddExtents(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents3d source | Input another Extents3d object |
@@ -117,6 +120,7 @@ public void AddPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pt | Input 3D point |
@@ -132,6 +136,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Object to compare |
@@ -147,6 +152,7 @@ public void ExpandBy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d vector | Input 3D vector |
@@ -170,6 +176,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents3d a | Input object to compare |
@@ -186,6 +193,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents3d a | Input object to compare |
@@ -203,6 +211,7 @@ public void Set(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d min | Input minimum extent |
@@ -227,6 +236,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input culture-specific format |
@@ -243,6 +253,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string format | Input format to display |
@@ -259,6 +270,7 @@ public void TransformBy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d mat | Input 3D transformation matrix |
@@ -275,6 +287,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents3d a | Left-hand operand |
@@ -292,6 +305,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents3d a | Left-hand operand |

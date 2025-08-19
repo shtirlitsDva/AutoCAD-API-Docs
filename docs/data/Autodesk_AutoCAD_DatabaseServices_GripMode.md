@@ -59,6 +59,7 @@ public enum ActionType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | DragOn | Instructs the grip editor to proceed with dragging. The mode specific behavior is determined by object's moveGripPointsAt current mode awareness. |
@@ -81,6 +82,7 @@ public enum CursorType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | CursorNone | No cursor change, using default. |
@@ -103,6 +105,7 @@ public enum ModeIdentifier {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | CustomStart = 100 | The start of custom mode types. All custom defined mode behavior should be larger than this value. |

@@ -48,6 +48,7 @@ public ObjectContextCollection GetContextCollection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string collectionName | The name of the desired collection. |
@@ -64,6 +65,7 @@ public void RegisterContextCollection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string collectionName | The name of the collection to register with the manager. |
@@ -80,6 +82,7 @@ public void UnregisterContextCollection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string collectionName | The name of the collection to unregister with the manager. |

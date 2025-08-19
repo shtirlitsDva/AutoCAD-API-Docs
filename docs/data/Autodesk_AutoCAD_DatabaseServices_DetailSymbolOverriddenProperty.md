@@ -12,6 +12,7 @@ public enum DetailSymbolOverriddenProperty {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | IdentifierPosition = 2 | This flag indicates the identifier position has been edited and overridden. |

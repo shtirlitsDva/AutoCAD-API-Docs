@@ -95,6 +95,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.CellAlignment Alignment(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.RowType rowType | Input value specifying the row type for which the cell alignment value will be returned |
@@ -111,6 +112,7 @@ public virtual Autodesk.AutoCAD.Colors.Color BackgroundColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.RowType rowType | Input value specifying the row type for which the Color value will be returned |
@@ -126,6 +128,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.CellClass CellClass(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string styleName | Input cell style name |
@@ -142,6 +145,7 @@ public virtual Autodesk.AutoCAD.Colors.Color Color(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.RowType rowType | Input value specifying the row type for which the Color value will be returned |
@@ -158,6 +162,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.DataType DataType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.RowType rowType | Input value specifying the row type for which the DataType value will be returned |
@@ -174,6 +179,7 @@ public virtual string Format(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.RowType rowType | Input value specifying the row type for which the string format value will be returned |
@@ -190,6 +196,7 @@ public virtual Autodesk.AutoCAD.Colors.Color GridColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.GridLineType gridLineType | Input type of grid line for which to return the Color value |
@@ -207,6 +214,7 @@ public virtual double GridDoubleLineSpacing(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.GridLineType gridLineType | Input grid line type. |
@@ -226,6 +234,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.GridLineStyle GridLineStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.GridLineType gridLineType | Input grid line type. |
@@ -245,6 +254,7 @@ public virtual ObjectId GridLinetype(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.GridLineType gridLineType | Input grid line type. |
@@ -264,6 +274,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.LineWeight GridLineWeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.GridLineType gridLineType | Input type of grid line for which to return the LineWeight value |
@@ -281,6 +292,7 @@ public virtual bool GridVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.GridLineType gridLineType | Input type of grid line for which to return the grid visibility value |
@@ -298,6 +310,7 @@ public virtual bool IsBackgroundColorNone(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.RowType rowType | Input value specifying the row type for which to return the Boolean indicating whether the background color is set to none |
@@ -328,6 +341,7 @@ public virtual ObjectId PostTableStyleToDatabase(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database databasePointer | Input the database to which to add the table style |
@@ -345,6 +359,7 @@ public virtual void SetAlignment(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.CellAlignment alignment | Input alignment value |
@@ -362,6 +377,7 @@ public virtual void SetBackgroundColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.Colors.Color color | Input value indicating the new background color |
@@ -379,6 +395,7 @@ public virtual void SetBackgroundColorNone(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool value | Input Boolean indicating whether to enable the background color for the specified row type |
@@ -396,6 +413,7 @@ public virtual void SetCellClass(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.CellClass cellClass | Input new cell class value |
@@ -413,6 +431,7 @@ public virtual void SetColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.Colors.Color color | Input color |
@@ -431,6 +450,7 @@ public virtual void SetDataType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.DataType nDataType | Input data type to set |
@@ -449,6 +469,7 @@ public virtual void SetFormat(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string pFormat | Input format to set |
@@ -467,6 +488,7 @@ public virtual void SetGridColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.Colors.Color color | Input color value |
@@ -486,6 +508,7 @@ public virtual void SetGridDoubleLineSpacing(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double spacing | Input grid double line spacing to set. |
@@ -505,6 +528,7 @@ public virtual void SetGridLineStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.GridLineStyle lineStyle | Input grid line style to set. |
@@ -524,6 +548,7 @@ public virtual void SetGridLinetype(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId linetype | Input grid double line spacing to set. |
@@ -543,6 +568,7 @@ public virtual void SetGridLineWeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.LineWeight lineWeight | Input lineweight value |
@@ -562,6 +588,7 @@ public virtual void SetGridVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool visible | Input visibility value |
@@ -595,6 +622,7 @@ public virtual void SetTextHeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double height | Input value indicating the new text height |
@@ -612,6 +640,7 @@ public virtual void SetTextStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input TextStyleTableRecord object ID |
@@ -629,6 +658,7 @@ public virtual void SetTextStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input TextStyleTableRecord object ID |
@@ -645,6 +675,7 @@ public virtual double TextHeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.RowType rowType | Input value specifying the row type for which the text height will be returned |
@@ -660,6 +691,7 @@ public virtual ObjectId TextStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.RowType rowType | Input row type |
@@ -675,6 +707,7 @@ public virtual ObjectId TextStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string styleName | Input cell style |
@@ -690,6 +723,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.UnitType UnitType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.RowType rowType | Input row type |

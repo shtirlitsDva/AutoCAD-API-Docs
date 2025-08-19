@@ -48,6 +48,7 @@ public PatternDefinition(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double patternAngle | Input pattern angle |

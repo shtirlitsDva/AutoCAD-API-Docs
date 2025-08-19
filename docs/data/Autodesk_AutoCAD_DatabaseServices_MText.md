@@ -149,6 +149,7 @@ public void ExplodeFragments(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MTextFragmentCallback enumerator | Input fragment elaboration callback function |
@@ -169,6 +170,7 @@ public void ExplodeFragments(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MTextFragmentCallback enumerator | Input fragment elaboration callback function |
@@ -190,6 +192,7 @@ public void ExplodeFragments(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MTextFragmentCallback enumerator | Input fragment elaboration callback function |
@@ -224,6 +227,7 @@ public double GetColumnHeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | The column's height to get |
@@ -291,6 +295,7 @@ public void SetAttachmentMovingLocation(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.AttachmentPoint value | Input desired AttachmentPoint type value |
@@ -308,6 +313,7 @@ public void SetColumnHeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | The column's height to set |
@@ -324,6 +330,7 @@ public int SetContentsRtf(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string value | Input RTF-encoded string |
@@ -341,6 +348,7 @@ public void SetDynamicColumns(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double width | Input new column width |
@@ -360,6 +368,7 @@ public void SetStaticColumns(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double width | Input new column width |

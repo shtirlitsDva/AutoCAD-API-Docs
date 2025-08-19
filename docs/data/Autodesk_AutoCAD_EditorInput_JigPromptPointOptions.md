@@ -48,6 +48,7 @@ public JigPromptPointOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt string |
@@ -64,6 +65,7 @@ public JigPromptPointOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string messageAndKeywords | Input prompt message and keywords |

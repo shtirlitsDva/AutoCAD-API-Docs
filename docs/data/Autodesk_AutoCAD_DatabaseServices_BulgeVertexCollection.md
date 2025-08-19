@@ -48,6 +48,7 @@ public int Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | BulgeVertex value | Input the object to add. |
@@ -63,6 +64,7 @@ public bool Contains(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | BulgeVertex value | Input the object to check for. |
@@ -79,6 +81,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | BulgeVertex[] array | Input the object to copy from. |
@@ -95,6 +98,7 @@ public int IndexOf(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | BulgeVertex value | Input the object to check. |
@@ -111,6 +115,7 @@ public void Insert(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input the index to insert at. |
@@ -127,6 +132,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | BulgeVertex value | Input the object to remove. |

@@ -34,6 +34,7 @@ public static int EvaluationRequestSeverityLevel(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocStatus status | The AssocStatus. |
@@ -51,6 +52,7 @@ public static bool IsDraggingProvidingSubstituteObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocEvaluationCallback evaluationCallback | The current AssocEvaluationCallback. NULL pointer is allowed. |
@@ -66,6 +68,7 @@ public static bool IsEvaluationRequest(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocStatus status | The AssocStatus. |
@@ -83,6 +86,7 @@ public static bool IsToBeSkipped(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocStatus status | The AssocStatus. |

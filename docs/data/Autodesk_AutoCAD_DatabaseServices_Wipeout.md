@@ -58,6 +58,7 @@ public void SetFrom(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point2dCollection points | Data points for initialization |

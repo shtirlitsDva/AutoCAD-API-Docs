@@ -59,6 +59,7 @@ public int Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject value | Input object to add |
@@ -82,6 +83,7 @@ public bool Contains(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject value | Object to look for |
@@ -98,6 +100,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject[] array | Array to copy from |
@@ -122,6 +125,7 @@ public int IndexOf(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject value | Item to retrieve the index of |
@@ -138,6 +142,7 @@ public void Insert(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index to insert at |
@@ -154,6 +159,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject value | Item to remove |
@@ -169,6 +175,7 @@ public void RemoveAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index of item to remove |

@@ -22,6 +22,7 @@ public enum GridLineType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | AllGridLines = 0x3f | All grid line types |

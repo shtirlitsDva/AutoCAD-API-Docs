@@ -78,6 +78,7 @@ public PlotSettings(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool modelType | Input Boolean that determines the plot setup type |
@@ -93,6 +94,7 @@ public void AddToPlotSettingsDictionary(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database toWhichDatabase | Input database to which to add plot settings object |
@@ -110,6 +112,7 @@ public void SetShadePlot(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettingsShadePlotType type | Input type of the shade plot object |

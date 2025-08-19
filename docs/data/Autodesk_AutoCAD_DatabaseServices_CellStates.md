@@ -19,6 +19,7 @@ public enum CellStates {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ContentLocked = 1 | Cell's content is locked. Can be unlocked by user |

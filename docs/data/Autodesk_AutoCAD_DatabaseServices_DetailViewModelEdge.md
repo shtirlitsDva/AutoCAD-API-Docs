@@ -14,6 +14,7 @@ public enum DetailViewModelEdge {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Smooth | AcDbDetailViewStyle::kSmoothenum |

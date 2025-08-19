@@ -45,6 +45,7 @@ public GeometricalConstraint\[\] CommonConstraints(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ConstrainedGeometry otherConsGeom | The reference to the other ConstrainedGeometry object. |

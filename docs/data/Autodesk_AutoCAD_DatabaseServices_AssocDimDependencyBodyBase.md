@@ -84,6 +84,7 @@ public string ComposeEntityText(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int requiredNameFormat | The constraint name format display, deafault value if -1. If requiredNameFormat == -1, CONSTRAINTNAMEFORMAT sysvar is used for choosing the text format. |
@@ -118,6 +119,7 @@ public void DragStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.DragStatus status | The current DragStatus. |
@@ -133,6 +135,7 @@ public override Autodesk.AutoCAD.Runtime.ErrorStatus DwgInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to read the object data from. |
@@ -148,6 +151,7 @@ public override Autodesk.AutoCAD.Runtime.ErrorStatus DwgOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to read the object data to. |
@@ -163,6 +167,7 @@ public override Autodesk.AutoCAD.Runtime.ErrorStatus DxfInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to read the object data from. |
@@ -178,6 +183,7 @@ public override Autodesk.AutoCAD.Runtime.ErrorStatus DxfOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to read the object data to. |
@@ -198,6 +204,7 @@ public void EntityAttachmentPointMoved(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityGeometry[] newAttachedGeometries | The new attached geometries to be updated. |
@@ -208,6 +215,7 @@ public void EntityAttachmentPointMoved(
 #### Description
 When the dependent-on object (such as an Dimension) is erased, the corresponding AssocVariable is also erased.
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool isErasing | Boolean isErasing. |
@@ -241,6 +249,7 @@ public static string FormatToCurrentPrecision(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string expression | The expression to be formatted. |
@@ -260,6 +269,7 @@ public void GetEntityNameAndExpression(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ref string name | Name from the managed entity display text. |
@@ -286,6 +296,7 @@ public static ObjectId GetFromEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId entityId | The entity id of the dependent-on Entity, such as of an Dimension. |
@@ -308,6 +319,7 @@ public static void GetNameAndExpressionFromEntityText(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string entityText | The string to extract name and expression from. |
@@ -328,6 +340,7 @@ public SubentityGeometry\[\] GetSubentityGeoms(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d distanceDirection | Direction of the distance constraint. |
@@ -347,6 +360,7 @@ public void GetVariableNameAndExpression(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ref string name | Variable name. |
@@ -364,6 +378,7 @@ public override void ModifiedOverride(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject dbObj | The controlled entity. |
@@ -399,6 +414,7 @@ public void SetEntityNameAndExpression(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | New name the managed entity should display. |
@@ -416,6 +432,7 @@ public static bool SetEraseDimensionIfDependencyIsErased(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool yesNo | Indicates to suppress the erase behavior or not. |
@@ -434,6 +451,7 @@ public void SetNameAndExpression(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | New name to be set. |
@@ -451,6 +469,7 @@ public void SetVariableNameAndExpression(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | New name of the AssocVariable. |
@@ -469,6 +488,7 @@ public void SetVariableValueToMeasuredValue();
 #### Description
 Overridden method from the DBObject base class. It erases the controlled entity, such as the Dimension.
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool erasing | Boolean erasing. |
@@ -501,6 +521,7 @@ public string ValidateEntityText(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string entityTextToValidate | The entity text to check. |

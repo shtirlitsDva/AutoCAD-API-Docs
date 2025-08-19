@@ -22,6 +22,7 @@ public enum SelectionFlags {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Duplicates = 2 | Duplicate selections are allowed. |

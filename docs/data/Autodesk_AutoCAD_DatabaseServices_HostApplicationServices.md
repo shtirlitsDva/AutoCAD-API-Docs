@@ -63,6 +63,7 @@ public virtual void FatalError(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | The error message. |
@@ -91,6 +92,7 @@ public abstract string FindFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Given name of the file to find. |
@@ -122,6 +124,7 @@ public virtual string GetPassword(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string dwgName | Name of the drawing file that is requiring a password |
@@ -140,6 +143,7 @@ public virtual string GetRemoteFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Uri url | Input URL |
@@ -156,6 +160,7 @@ public virtual Uri GetUrl(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string localFile | Input local file |
@@ -173,6 +178,7 @@ public virtual bool IsUrl(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string filePath | Input string to be evaluated |
@@ -192,6 +198,7 @@ public virtual void LoadApplication(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string appName | Input null-terminated string which is the application name (as set in the system registry) of the ObjectARX module to load |
@@ -211,6 +218,7 @@ public virtual bool NotifyCorruptDrawingFoundOnOpen(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | The ID of the corrupt DB object that cannot be read. |
@@ -229,6 +237,7 @@ public virtual void PutRemoteFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Uri url | Input URL to which to upload file |

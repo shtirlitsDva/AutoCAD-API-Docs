@@ -14,6 +14,7 @@ public enum HatchPatternType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | UserDefined | A user-defined pattern provides a direct method to define a simple hatch pattern using a specified hatch entity linetype. The definition data for user-defined hatch pattern include angle, space and double. "Angle" specifies an angle for the hatch pattern relative to the X axis of the hatch plane in OCS. "Space" defines the vertical distance between two consecutive pattern lines. "Double" specifies that a second set of lines is to be drawn at 90 degrees to the original lines. When specifying a user-defined hatch pattern, you don't need to set the pattern name. AutoCAD designates a default pattern name "U" for all user-defined patterns. |

@@ -42,6 +42,7 @@ public FenceSelectedObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input object to fence |
@@ -56,6 +57,7 @@ Obsolete - Use the constructor overload taking IntPtr instead.
 Class
 Autodesk.AutoCAD.EditorInput
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input object to fence |
@@ -101,6 +103,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input culture-specific format |

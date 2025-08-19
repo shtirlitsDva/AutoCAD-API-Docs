@@ -52,6 +52,7 @@ public RadiusDiameterConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | RadDiaConstrType type | Input [RadDiaConstrType](Autodesk_AutoCAD_DatabaseServices_RadiusDiameterConstraint_RadDiaConstrType.md) indicating the constraint type. |
@@ -70,6 +71,7 @@ public enum RadDiaConstrType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | CircleRadius | The radius of a constrained circle or arc is measured. |

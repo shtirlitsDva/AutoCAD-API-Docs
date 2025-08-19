@@ -91,6 +91,7 @@ public virtual void SetHotspotAndFalloff(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double hotspot | Input the hotspot cone angle, in radians. Defines the brightest part of the spot light beam. Must be smaller than or equal to the falloff. |

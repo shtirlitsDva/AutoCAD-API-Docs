@@ -74,6 +74,7 @@ public bool FirstEntityIsDrawnBeforeSecond(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId first | Input first object ID |
@@ -92,6 +93,7 @@ public ObjectIdCollection GetFullDrawOrder(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte honorSortEntitiesMask | Input indicating whether to test the host database's $SORTENTS variable |
@@ -108,6 +110,7 @@ public ObjectIdCollection GetRelativeDrawOrder(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte honorSortEntitiesMask | Input indicating whether to test the host database's $SORTENTS variable |
@@ -125,6 +128,7 @@ public Handle GetSortHandle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input object ID |
@@ -141,6 +145,7 @@ public void MoveAbove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection collection | Collection of object IDs |
@@ -158,6 +163,7 @@ public void MoveBelow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection collection | Collection of object IDs |
@@ -174,6 +180,7 @@ public void MoveToBottom(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection collection | Collection of object IDs |
@@ -189,6 +196,7 @@ public void MoveToTop(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection collection | Collection of object IDs |
@@ -204,6 +212,7 @@ public void SetRelativeDrawOrder(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection collection | Collection of object IDs |
@@ -220,6 +229,7 @@ public void SwapOrder(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id1 | Object ID of first entity |

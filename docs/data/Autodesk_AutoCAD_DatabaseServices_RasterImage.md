@@ -92,6 +92,7 @@ public virtual void AssociateRasterDef(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | RasterImageDef definition | Input raster image def |
@@ -107,6 +108,7 @@ public static void EnableReactors(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool enable | Input boolean switch |
@@ -140,6 +142,7 @@ public virtual Vector2d ImageSize(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool getCachedValue | Input Boolean indicating whether the cached should be used |
@@ -156,6 +159,7 @@ public virtual void SetClipBoundary(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ClipBoundaryType type | Input clip boundary type |
@@ -172,6 +176,7 @@ public virtual void SetClipBoundary(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector2d size | Input vector of boundary |

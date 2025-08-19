@@ -109,6 +109,7 @@ public enum TableStyleOverride {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | CellAlignment = 130 | Indicates alignment table style override for table cell. |

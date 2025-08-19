@@ -87,6 +87,7 @@ public virtual void AppendRow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataCellCollection row | Row being added |
@@ -103,6 +104,7 @@ public void Assign(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataTable other | New table to assign. |
@@ -119,6 +121,7 @@ public virtual DataCell GetCellAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Row index of cell to access |
@@ -135,6 +138,7 @@ public virtual DataColumn GetColumnAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index of column |
@@ -150,6 +154,7 @@ public virtual int GetColumnIndexAtName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Name of column |
@@ -165,6 +170,7 @@ public virtual string GetColumnNameAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Column index |
@@ -180,6 +186,7 @@ public virtual Autodesk.AutoCAD.DatabaseService.CellType GetColumnTypeAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Column index |
@@ -195,6 +202,7 @@ public virtual DataCellCollection GetRowAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Row index |
@@ -224,6 +232,7 @@ public virtual void InsertRowAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Row index of position at which to insert the row |
@@ -241,6 +250,7 @@ public virtual void RemoveColumnAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index of column to remove |
@@ -256,6 +266,7 @@ public virtual void RemoveRowAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index of row to remove |
@@ -273,6 +284,7 @@ public virtual void SetCellAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Row index of the cell to be replaced |
@@ -293,6 +305,7 @@ public virtual void SetRowAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Row index of the row to be replaced |
@@ -302,6 +315,7 @@ public virtual void SetRowAt(
 ### AutoCAD.DatabaseServices.DataTable.AppendColumn@Autodesk.AutoCAD.DatabaseServices.CellType@string
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | type | Type of the column being added |
@@ -313,6 +327,7 @@ This function creates a new column and adds it as the last column of the table. 
 ### AutoCAD.DatabaseServices.DataTable.InsertColumnAt@int@Autodesk.AutoCAD.DatabaseServices.CellType@string
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | index | Column index at which to insert the new column |

@@ -15,6 +15,7 @@ public enum ImageDisplayOptions {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Clip = 4 | Clip image |

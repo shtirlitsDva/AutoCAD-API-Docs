@@ -12,6 +12,7 @@ public enum CollisionType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | None | This entity does not participate in collision detection. |

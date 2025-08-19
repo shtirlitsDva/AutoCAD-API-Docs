@@ -18,6 +18,7 @@ public enum NewLayerNotification {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | NoNewLayerNotification = 0 | All notification states are turned off |

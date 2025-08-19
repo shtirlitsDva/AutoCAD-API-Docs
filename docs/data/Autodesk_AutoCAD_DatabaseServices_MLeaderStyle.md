@@ -89,6 +89,7 @@ public MLeaderStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MLeaderStyle | Input object to copy. |
@@ -104,6 +105,7 @@ public Autodesk.AutoCAD.DatabaseServices.TextAttachmentType GetTextAttachmentTyp
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.LeaderDirectionType leaderDirection | Input text leader direction type |
@@ -139,6 +141,7 @@ public void SetTextAttachmentType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.TextAttachmentType textAttachmentType | Input text attachment type |

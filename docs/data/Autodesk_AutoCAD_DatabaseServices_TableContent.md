@@ -63,6 +63,7 @@ public virtual string GetCellStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input System.Int32 object; row index. This can be -1. |
@@ -79,6 +80,7 @@ public virtual double GetColumnWidth(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int column | Input System.Int32 object; column index. It should be more than or equal to 0 and less than the number of columns. |
@@ -94,6 +96,7 @@ public virtual double GetRowHeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input System.Int32 object; row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -112,6 +115,7 @@ public virtual void SetCellStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input System.Int32 object; row index. This can be -1. |
@@ -130,6 +134,7 @@ public virtual void SetColumnWidth(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int column | Input System.Int32 object; column index. It should be more than or equal to 0 and less than the number of columns. |
@@ -147,6 +152,7 @@ public virtual void SetRowHeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input System.Int32 object. |

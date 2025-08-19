@@ -54,6 +54,7 @@ public static void AddGlobalEvaluationCallback(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int order | Specifies the ordering of the user-provided callbacks in the global AssocEvaluationMultiCallback. The lower-order callbacks are called before the higher-order callbacks. The drag callback is inserted with order 0, i.e. callbacks with negative order will be called before it and callbacks with positive order will be called after it. |
@@ -71,6 +72,7 @@ public static void AuditAssociativeData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | Database whose associative data is to be audited. |
@@ -92,6 +94,7 @@ public static bool EvaluateTopLevelNetwork(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocEvaluationCallback callback | Optional AssocEvaluationCallback that is added to the global callback before the evaluation and removed after the evaluation is completed. |
@@ -112,6 +115,7 @@ public static void GetGlobalEvaluationCallbacks(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ref ArrayList callbacks | The returned evaluation callbacks. |
@@ -159,6 +163,7 @@ public static void RemoveGlobalEvaluationCallback(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | pCallback | The user-provided evaluation callback to be removed. |

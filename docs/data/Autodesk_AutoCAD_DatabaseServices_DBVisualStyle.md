@@ -61,6 +61,7 @@ public virtual void CopyFrom(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | VisualStyle pSrc | Input visual style source |
@@ -76,6 +77,7 @@ public virtual void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | VisualStyle pDest | Input visual style destination. |
@@ -91,6 +93,7 @@ public object GetTrait(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | VisualStyleProperty prop | Input Autodesk.AutoCAD.GraphicsInterface.VisualStyleProperty being queried. |
@@ -109,6 +112,7 @@ public bool GetTraitFlag(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | uint modopt(IsLong) flagVal | Input bit flag enum unsigned long property being queried. |
@@ -129,6 +133,7 @@ public void SetTrait(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | VisualStyleProperty prop | Input Autodesk.AutoCAD.GraphicsInterface.VisualStyleProperty to set. Valid Property values for this method are:EdgeHidePrecision |
@@ -148,6 +153,7 @@ public void SetTrait(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | VisualStyleProperty prop | Input Autodesk.AutoCAD.GraphicsInterface.VisualStyleProperty being set. Valid Property values for this method are:FaceMonoColorEdgeIntersectionColorEdgeObscuredColorEdgeColorEdgeSilhouetteColor |
@@ -169,6 +175,7 @@ public void SetTrait(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | VisualStyleProperty prop | Input Autodesk.AutoCAD.GraphicsInterface.VisualStyleProperty to set. Valid Property values for this method are:FaceMonoColorEdgeIntersectionColorEdgeObscuredColorEdgeColorEdgeSilhouetteColor |
@@ -190,6 +197,7 @@ public void SetTrait(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | VisualStyleProperty prop | Input Autodesk.AutoCAD.GraphicsInterface.VisualStyleProperty to set. Valid Property values for this method are:FaceOpacityFaceSpecularEdgeCreaseAngleEdgeOpacityDisplayBrightness |
@@ -209,6 +217,7 @@ public void SetTrait(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | VisualStyleProperty prop | Input Autodesk.AutoCAD.GraphicsInterface.VisualStyleProperty to set. Valid Property values for this method are:FaceLightingModelFaceLightingQualityFaceColorModeFaceModifierEdgeModelEdgeStyleEdgeObscuredLinePatternEdgeIntersectionLinePatternEdgeModifierEdgeWidthEdgeOverhangEdgeJitterAmountEdgeSilhouetteWidthEdgeHaloGapEdgeIsolinesDisplayStyleDisplayShadowType |
@@ -220,6 +229,7 @@ public void SetTrait(
 #### Description
 Sets a property of the visual style.
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | VisualStyleProperty prop | Input Autodesk.AutoCAD.GraphicsInterface.VisualStyleProperty to set. |
@@ -248,6 +258,7 @@ public void SetTraitFlag(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | uint modopt(IsLong) flagVal | Input bit flag enum unsigned long property to set. |

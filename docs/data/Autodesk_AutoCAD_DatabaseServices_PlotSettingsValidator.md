@@ -65,6 +65,7 @@ public StringCollection GetCanonicalMediaNameList(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input pointer to PlotSettings object |
@@ -81,6 +82,7 @@ public string GetLocaleMediaName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |
@@ -98,6 +100,7 @@ public string GetLocaleMediaName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |
@@ -130,6 +133,7 @@ public void RefreshLists(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |
@@ -148,6 +152,7 @@ public void SetCanonicalMediaName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |
@@ -169,6 +174,7 @@ public void SetClosestMediaName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | _nt_ |
@@ -189,6 +195,7 @@ public void SetCurrentStyleSheet(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |
@@ -207,6 +214,7 @@ public void SetCustomPrintScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |
@@ -223,6 +231,7 @@ public void SetDefaultPlotConfig(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |
@@ -240,6 +249,7 @@ public void SetPlotCentered(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input PlotSettings object |
@@ -260,6 +270,7 @@ public void SetPlotConfigurationName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input PlotSettings object |
@@ -278,6 +289,7 @@ public void SetPlotOrigin(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input PlotSettings object |
@@ -295,6 +307,7 @@ public void SetPlotPaperUnits(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input PlotSettings object |
@@ -312,6 +325,7 @@ public void SetPlotRotation(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input PlotSettings object |
@@ -329,6 +343,7 @@ public void SetPlotType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input PlotSettings object |
@@ -347,6 +362,7 @@ public void SetPlotViewName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input PlotSettings object |
@@ -365,6 +381,7 @@ public void SetPlotWindowArea(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input PlotSettings object |
@@ -432,6 +449,7 @@ public void SetStdScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |
@@ -471,6 +489,7 @@ public void SetStdScaleType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input plot set |
@@ -490,6 +509,7 @@ public void SetUseStandardScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |
@@ -507,6 +527,7 @@ public void SetZoomToPaperOnUpdate(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PlotSettings plotSet | Input |

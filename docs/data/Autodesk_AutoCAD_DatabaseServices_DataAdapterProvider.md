@@ -43,6 +43,7 @@ public abstract DataAdapter GetDataAdapter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string adapterId | Input ID to check for |

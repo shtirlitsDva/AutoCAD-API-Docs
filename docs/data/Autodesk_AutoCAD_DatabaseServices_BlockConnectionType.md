@@ -13,6 +13,7 @@ public enum BlockConnectionType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ConnectExtents | Connect to extents of block. |

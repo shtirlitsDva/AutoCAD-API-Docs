@@ -94,6 +94,7 @@ public bool UpdateMapImage(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool Reset | Input Boolean to indicate whether to recapture the image in optimal resolution to the screen. If true, the L |

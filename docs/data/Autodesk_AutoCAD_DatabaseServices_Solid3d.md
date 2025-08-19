@@ -111,6 +111,7 @@ public virtual void BooleanOperation(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | BooleanOperationType operation | Input type of Boolean operation |
@@ -130,6 +131,7 @@ public virtual void ChamferEdges(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId[] subentityIds | Input object ids of edges at which the chamfer will be applied |
@@ -150,6 +152,7 @@ public virtual bool CheckInterference(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Solid3d otherSolid | Input pointer for other solid |
@@ -177,6 +180,7 @@ public virtual void ConvertToBrepAtSubentPaths(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath[] paths | Input array of references to history items |
@@ -192,6 +196,7 @@ public virtual Entity CopyEdge(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId subEntityId | Input subentity ID of an edge in the Solid3d |
@@ -210,6 +215,7 @@ public virtual Entity CopyFace(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId subEntityId | Input subentity ID of a face in the Solid3d |
@@ -227,6 +233,7 @@ public virtual void CreateBox(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double lengthAlongX | Input value for length of the box |
@@ -288,6 +295,7 @@ public virtual void CreateFrustum(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double height | Input height for the frustum |
@@ -335,6 +343,7 @@ public virtual void CreatePyramid(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double height | Input height for pyramid |
@@ -397,6 +406,7 @@ public virtual void CreateSphere(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double radius | Input radius for the sphere |
@@ -441,6 +451,7 @@ public virtual void CreateTorus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double majorRadius | Input major radius for the torus |
@@ -459,6 +470,7 @@ public virtual void CreateWedge(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double lengthAlongX | Input length for the wedge |
@@ -481,6 +493,7 @@ public virtual void Extrude(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Region region | Input a region object |
@@ -501,6 +514,7 @@ public virtual void ExtrudeAlongPath(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Region region | Input a region object |
@@ -521,6 +535,7 @@ public virtual void ExtrudeFaces(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId[] subentityIds | Input array of subentity IDs of faces to be extruded; these faces must be planar |
@@ -539,6 +554,7 @@ public virtual void ExtrudeFacesAlongPath(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId[] subentityIds | Input array of subentity IDs of faces to be extruded; these faces must be planar |
@@ -558,6 +574,7 @@ public virtual void FilletEdges(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId[] subentityIds | Input object ids of the edges where the fillet will be applied |
@@ -577,6 +594,7 @@ public virtual Region GetSection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Plane plane | Input plane to use as the section cutting plane |
@@ -592,6 +610,7 @@ public virtual Autodesk.AutoCAD.Colors.Color GetSubentityColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId subEntityId | Input subentity Id |
@@ -607,6 +626,7 @@ public virtual ObjectId GetSubentityMaterial(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId subEntityId | Input subentity Id |
@@ -622,6 +642,7 @@ public virtual Mapper GetSubentityMaterialMapper(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId subEntityId | Input subenttity Id |
@@ -639,6 +660,7 @@ public virtual void ImprintEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | Input entity to be imprinted |
@@ -654,6 +676,7 @@ public virtual void OffsetBody(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double offsetDistance | Input distance to offset each face |
@@ -670,6 +693,7 @@ public virtual void OffsetFaces(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId[] subentityIds | Input array of subentity IDs of faces to be offset |
@@ -698,6 +722,7 @@ public virtual void RemoveFaces(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId[] subentityIds | Input array of subentity IDs of faces to be removed |
@@ -716,6 +741,7 @@ public virtual void Revolve(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Region region | Input region object to be revolved |
@@ -743,6 +769,7 @@ public virtual void SetSubentityColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId subEntityId | Input ID of subentity face or edge to be colored |
@@ -760,6 +787,7 @@ public virtual void SetSubentityMaterial(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId subEntityId | Input subentity Id |
@@ -777,6 +805,7 @@ public virtual void SetSubentityMaterialMapper(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId subEntityId | Input subentity ID |
@@ -796,6 +825,7 @@ public virtual void ShellBody(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId[] subentityIds | Input array of subentity IDs of faces to be removed from the shell |
@@ -812,6 +842,7 @@ public virtual void Slice(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.Surface surface | Input the surface entity to be used to slice the solid |
@@ -828,6 +859,7 @@ public virtual Solid3d Slice(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.Surface surface | Input the surface entity to be used to slice the solid |
@@ -844,6 +876,7 @@ public virtual void Slice(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Plane plane | Input plane to be used for slicing the solid |
@@ -862,6 +895,7 @@ public virtual Solid3d Slice(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Plane plane | Input plane to be used for slicing the solid |
@@ -882,6 +916,7 @@ public virtual void StlOut(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input file name |
@@ -902,6 +937,7 @@ public virtual void TaperFaces(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId[] subentityIds | Input array of subentity IDs of faces to be tapered |
@@ -922,6 +958,7 @@ public virtual void TransformFaces(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SubentityId[] subentityIds | Input array of subentity IDs of faces to be transformed |

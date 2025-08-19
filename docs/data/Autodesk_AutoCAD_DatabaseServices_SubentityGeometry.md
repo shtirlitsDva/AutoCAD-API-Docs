@@ -49,6 +49,7 @@ public SubentityGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Curve3d curve | The curve is not owned by this SubentityGeometry. |
@@ -64,6 +65,7 @@ public SubentityGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pnt | The coordinates of the point subentity. |

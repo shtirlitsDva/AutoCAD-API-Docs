@@ -13,6 +13,7 @@ public enum PointCloudDispOptionOutOfRange {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | UseMinMaxColors | Uses maximum color in the color ramp for the points which are higher than the intensity/elevation range. Uses minimum color in the color ramp for the points which are lower than the intensity/elevation range. |

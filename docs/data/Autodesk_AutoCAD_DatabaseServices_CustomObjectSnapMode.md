@@ -65,6 +65,7 @@ public CustomObjectSnapMode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string localModeString | Input local mode string |
@@ -88,6 +89,7 @@ public CustomObjectSnapMode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string localModeString | Input local mode string |
@@ -108,6 +110,7 @@ public static void Activate(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string mode | Input custom OSNAP mode string |
@@ -124,6 +127,7 @@ public void ApplyToEntityType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | RXClass entity | Input entity to apply to |
@@ -140,6 +144,7 @@ public static void Deactivate(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string mode | Input mode string |
@@ -155,6 +160,7 @@ public static bool IsActive(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string mode | Input custom OSNAP mode string |
@@ -170,6 +176,7 @@ public void RemoveFromEntityType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | RXClass entity | Input entity to remove |

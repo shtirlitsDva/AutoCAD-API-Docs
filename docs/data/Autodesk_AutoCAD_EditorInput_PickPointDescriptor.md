@@ -49,6 +49,7 @@ public PickPointDescriptor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PickPointKind kind | Input the type of pick point |
@@ -66,6 +67,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Input object to compare |
@@ -89,6 +91,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PickPointDescriptor a | Input object to compare |
@@ -105,6 +108,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PickPointDescriptor a | Input object to compare |
@@ -129,6 +133,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input culture-specific format |
@@ -145,6 +150,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PickPointDescriptor a | Left operand |
@@ -162,6 +168,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PickPointDescriptor a | Left operand |

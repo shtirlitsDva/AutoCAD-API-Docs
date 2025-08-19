@@ -16,6 +16,7 @@ public enum ShadePlotType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | AsDisplayed | Plot the same way it is displayed. |

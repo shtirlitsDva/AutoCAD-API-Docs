@@ -17,6 +17,7 @@ public enum LoftOptionsNormalOption {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | NoNormal | When set to this value, plane normal lofting is turned off and the system will compute the surface direction at each cross-section |

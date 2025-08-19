@@ -45,6 +45,7 @@ public PickPointSelectedSubObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath path | Input subentity path |
@@ -59,6 +60,7 @@ Obsolete - Use the constructor overload taking IntPtr instead.
 Class
 Autodesk.AutoCAD.EditorInput
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath path | Input subentity path |
@@ -96,6 +98,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input for culture-specific format |

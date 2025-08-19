@@ -38,6 +38,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index of object to remove |
@@ -54,6 +55,7 @@ public void RemoveSubentity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index of object to remove |

@@ -60,6 +60,7 @@ public ArrayList GetSourceFiles(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.DataLinkGetSourceContext nContext | Context in which this method is called |
@@ -85,6 +86,7 @@ public Autodesk.AutoCAD.Runtime.ErrorStatus GetUpdateStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | out Autodesk.AutoCAD.DatabaseServices.UpdateDirection pDir | Stores the direction of the last update. |
@@ -103,6 +105,7 @@ public void RepathSourceFiles(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string sBasePath | The base path |
@@ -120,6 +123,7 @@ public void Update(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.UpdateDirection dir | Direction of update |

@@ -71,6 +71,7 @@ public ObjectId SetSun(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [CallerMustClose] DBObject sun | Input the sun object. |
@@ -86,6 +87,7 @@ public void SetUcs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OrthographicView view | Input the object for the UCS view |
@@ -101,6 +103,7 @@ public void SetUcs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input the object which references a UcsTableRecord. |
@@ -118,6 +121,7 @@ public void SetUcs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d origin | Input the object to act as an origin |
@@ -142,6 +146,7 @@ public void SetViewDirection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OrthographicView view | Input the orthographic view |

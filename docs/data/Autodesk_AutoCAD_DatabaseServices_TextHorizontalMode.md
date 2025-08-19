@@ -16,6 +16,7 @@ public enum TextHorizontalMode {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | TextLeft | TH_LEFT |

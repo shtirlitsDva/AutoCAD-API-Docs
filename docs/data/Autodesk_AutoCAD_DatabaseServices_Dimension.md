@@ -184,6 +184,7 @@ public void FieldFromMText(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MText dimMText | The MText object from which the text field is copied |
@@ -199,6 +200,7 @@ public void FieldToMText(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MText dimMText | MText object to which the new field will be attached |
@@ -215,6 +217,7 @@ public string FormatMeasurement(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double measurement | Input measurement value. |
@@ -251,6 +254,7 @@ public void RecomputeDimensionBlock(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool forceUpdate | Boolean indicating whether or not to force an update on screen |
@@ -282,6 +286,7 @@ public void SetDimstyleData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DimStyleTableRecord style | Input object ID of DimStyleTableRecord from which to copy dimension variable information |

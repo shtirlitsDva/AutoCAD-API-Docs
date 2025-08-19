@@ -31,6 +31,7 @@ public enum CellProperties {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Alignment = 0x10 | Alignment |

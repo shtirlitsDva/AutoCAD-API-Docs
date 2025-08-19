@@ -17,6 +17,7 @@ public enum GridProperties {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Color = 8 | Grid line color |

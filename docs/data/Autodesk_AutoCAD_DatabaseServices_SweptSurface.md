@@ -61,6 +61,7 @@ public virtual void CreateSweptSurface(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity sweepEnt | Input the curve, region, or planar surface to be swept |

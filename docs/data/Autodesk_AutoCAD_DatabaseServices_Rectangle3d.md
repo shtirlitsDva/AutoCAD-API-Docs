@@ -43,6 +43,7 @@ public Rectangle3d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d upperLeft | Input upper left point |
@@ -69,6 +70,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input culture-specific format. |

@@ -51,6 +51,7 @@ public Extents2d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double minX | Minimum X extent |
@@ -70,6 +71,7 @@ public Extents2d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point2d minimum | Input minimum extent |
@@ -86,6 +88,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Object to compare |
@@ -109,6 +112,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents2d a | Object to compare |
@@ -125,6 +129,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents2d a | Input object to compare |
@@ -149,6 +154,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input culture-specific format |
@@ -165,6 +171,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string format | Input format to display |
@@ -182,6 +189,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents2d a | Left-hand operand |
@@ -199,6 +207,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents2d a | Left-hand operand |

@@ -82,6 +82,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.CellAlignment GetAlignment(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -100,6 +101,7 @@ public virtual Autodesk.AutoCAD.Colors.Color GetBackgroundColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -117,6 +119,7 @@ public virtual Autodesk.AutoCAD.Colors.Color GetContentColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -136,6 +139,7 @@ public virtual Autodesk.AutoCAD.Colors.Color GetGridColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -156,6 +160,7 @@ public virtual ObjectId GetGridLinetype(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -176,6 +181,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.LineWeight GetGridLineWeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -196,6 +202,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.Visibility GetGridVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -216,6 +223,7 @@ public virtual double GetMargin(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int column | Input column index. This can be -1. See remarks. |
@@ -233,6 +241,7 @@ public virtual CellRange GetMergeRange(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -252,6 +261,7 @@ public virtual GridProperties GetOverride(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -272,6 +282,7 @@ public virtual CellProperties GetOverride(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -290,6 +301,7 @@ public virtual double GetRotation(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -307,6 +319,7 @@ public virtual double GetScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -324,6 +337,7 @@ public virtual double GetTextHeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -341,6 +355,7 @@ public virtual ObjectId GetTextStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -359,6 +374,7 @@ public virtual bool IsFormatEditable(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -376,6 +392,7 @@ public virtual bool IsMerged(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -393,6 +410,7 @@ public virtual void Merge(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CellRange range | Input cell range to merge |
@@ -410,6 +428,7 @@ public virtual void RemoveAllOverrides(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -428,6 +447,7 @@ public virtual void SetAlignment(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -448,6 +468,7 @@ public virtual void SetBackgroundColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -467,6 +488,7 @@ public virtual void SetContentColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -488,6 +510,7 @@ public virtual void SetGridColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -510,6 +533,7 @@ public virtual void SetGridLinetype(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -532,6 +556,7 @@ public virtual void SetGridLineWeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -554,6 +579,7 @@ public virtual void SetGridVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -576,6 +602,7 @@ public virtual void SetMargin(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -598,6 +625,7 @@ public virtual void SetOverride(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks |
@@ -620,6 +648,7 @@ public virtual void SetOverride(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. This can be -1. See remarks. |
@@ -640,6 +669,7 @@ public virtual void SetRotation(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -659,6 +689,7 @@ public virtual void SetScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -678,6 +709,7 @@ public virtual void SetTextHeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -697,6 +729,7 @@ public virtual void SetTextStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int row | Input row index. It should be more than or equal to 0 and less than the number of rows. |
@@ -714,6 +747,7 @@ public virtual void Unmerge(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CellRange range | Input cell range to unmerge |

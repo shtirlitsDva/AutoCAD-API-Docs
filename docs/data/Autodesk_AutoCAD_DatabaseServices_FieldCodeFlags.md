@@ -19,6 +19,7 @@ public enum FieldCodeFlags {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | AddMarkers = 0x10 | If this flag is set, the embedded fields in the text are enclosed using field markers %< and >%. This flag is not applicable when setting the field code, and will be ignored in that context. |

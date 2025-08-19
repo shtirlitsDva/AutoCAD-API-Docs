@@ -75,6 +75,7 @@ public double DashLengthAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of dash to get length of |
@@ -93,6 +94,7 @@ public void SetDashLengthAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of dash to set |
@@ -112,6 +114,7 @@ public void SetShapeIsUcsOrientedAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -131,6 +134,7 @@ public void SetShapeIsUprightAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -150,6 +154,7 @@ public void SetShapeNumberAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index at which to set the shape |
@@ -169,6 +174,7 @@ public void SetShapeOffsetAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index at which to set the shape (or text string) offset |
@@ -188,6 +194,7 @@ public void SetShapeRotationAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -207,6 +214,7 @@ public void SetShapeScaleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index at which to set the shape (or text string) scale |
@@ -226,6 +234,7 @@ public void SetShapeStyleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index at which to set the shape (or text string) scale |
@@ -245,6 +254,7 @@ public void SetTextAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index at which to set the text string |
@@ -261,6 +271,7 @@ public bool ShapeIsUcsOrientedAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -276,6 +287,7 @@ public bool ShapeIsUprightAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -293,6 +305,7 @@ public int ShapeNumberAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -308,6 +321,7 @@ public Vector2d ShapeOffsetAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -323,6 +337,7 @@ public double ShapeRotationAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -338,6 +353,7 @@ public double ShapeScaleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -353,6 +369,7 @@ public ObjectId ShapeStyleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |
@@ -368,6 +385,7 @@ public string TextAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0-based) of shape (or text string) to get |

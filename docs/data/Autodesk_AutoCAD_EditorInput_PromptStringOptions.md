@@ -39,6 +39,7 @@ public PromptStringOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input. |

@@ -15,6 +15,7 @@ public enum HatchEdgeType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | CircularArc = 2 | Circular edge |

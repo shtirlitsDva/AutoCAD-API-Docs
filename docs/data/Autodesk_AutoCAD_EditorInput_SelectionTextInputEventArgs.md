@@ -36,6 +36,7 @@ public void AddObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId[] ids | Input an array of object IDs to be added to the selection set. |
@@ -51,6 +52,7 @@ public void SetErrorMessage(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string errorMessage | Input the error message text. |

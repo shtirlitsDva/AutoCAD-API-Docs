@@ -139,6 +139,7 @@ public SpatialFilterDefinition(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point2dCollection pts | Input boundary definition. If the number of points is 2, they are diagonal points of a rectangle. Otherwise, they are vertices of a polygon. The polygon should be non self intersecting. |
@@ -162,6 +163,7 @@ public SpatialFilterVolume(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d fromPoint | Input the transformed clip boundary "from" point |
@@ -188,6 +190,7 @@ public bool Accepts(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID that is being composed, typically output of a previous iterator's Accepts() method or Id property |
@@ -203,6 +206,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string layer | Input layer name to add |
@@ -218,6 +222,7 @@ public void AddId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID for which mapping data or flag data will be added later |
@@ -237,6 +242,7 @@ public void AddToBuffer(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID that is being composed, typically output of a previous iterator's Accepts() method or Id property |
@@ -252,6 +258,7 @@ public bool ClipVolumeIntersectsExtents(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Extents3d ext | Input extents |
@@ -268,6 +275,7 @@ public void Compute(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | LayerTable pLT | Input layer table of the Database |
@@ -285,6 +293,7 @@ public void GetAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index of layer to get |
@@ -298,6 +307,7 @@ Returns the 32-bit data associated with id.
 Class
 Autodesk.AutoCAD.DatabaseServices.Filters.IndexUpdateData
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID that data is associated with |
@@ -321,6 +331,7 @@ public IntPtr GetIdDataPtr(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID that data is associated with |
@@ -336,6 +347,7 @@ public byte GetIdFlags(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID that flags is associated with |
@@ -352,6 +364,7 @@ public virtual FilteredBlockIterator GetIterator(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.Filters.Filter filter | Input filter (query) to be applied to the index for the iterator based traversal |
@@ -384,6 +397,7 @@ public virtual Extents3d GetQueryBounds(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | BlockReference blockReference | Deprecated |
@@ -407,6 +421,7 @@ public virtual void RebuildFull(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IndexUpdateData indexData | Input IndexUpdateData object for use during the index rebuild |
@@ -422,6 +437,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string layer | Input layer name to remove |
@@ -438,6 +454,7 @@ public void Seek(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | ObjectId to seek to |
@@ -454,6 +471,7 @@ public void SetIdData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID that data is associated with |
@@ -471,6 +489,7 @@ public void SetIdData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID that data is associated with |
@@ -488,6 +507,7 @@ public void SetIdFlags(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Object ID that flags is associated with |
@@ -504,6 +524,7 @@ public void SetPerspectiveCamera(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d fromPoint | Input new base point for the camera |

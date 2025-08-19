@@ -52,6 +52,7 @@ public SelectedObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.EditorInput.SelectionMethod method | Input selection method |
@@ -65,6 +66,7 @@ Obsolete - Use the constructor overload taking IntPtr instead.
 Class
 Autodesk.AutoCAD.EditorInput
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ObjectId id | Input object path |
@@ -93,6 +95,7 @@ public SelectedObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ObjectId id | Input selected object's ID |
@@ -125,6 +128,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input for culture-specific format |

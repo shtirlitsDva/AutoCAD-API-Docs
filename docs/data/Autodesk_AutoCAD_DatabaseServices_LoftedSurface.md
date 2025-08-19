@@ -83,6 +83,7 @@ public virtual void CreateLoftedSurface(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity[] crossSections | Input array of curve entities to be used as cross sections for the lofting operation |
@@ -101,6 +102,7 @@ public LoftProfile GetCrossSectionProfile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int idx | Input index of cross section. |
@@ -118,6 +120,7 @@ public LoftProfile GetGuideProfile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int idx | Input index of guide. |
@@ -179,6 +182,7 @@ public int EndCrossSectionContinuity;
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | value | Input new continuity (must be 0, 1, or 2). |

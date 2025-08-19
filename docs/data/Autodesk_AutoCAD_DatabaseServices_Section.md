@@ -79,6 +79,7 @@ public Section(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection pts | Input vertex points on the section line; should contain at least two points |
@@ -97,6 +98,7 @@ public Section(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection pts | Input vertex points on the section line; should contain at least two points |
@@ -115,6 +117,7 @@ public void AddVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int nInsertAt | Input index at which to add the new vertex |
@@ -134,6 +137,7 @@ public void CreateJog(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d ptOnSection | Input point on the section line at which to create the jog |
@@ -154,6 +158,7 @@ public void GenerateSectionGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity pEnt | Input sectionable entity |
@@ -174,6 +179,7 @@ public Point3d GetVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int nIndex | Input zero-based index of the vertex to be retrieved; should be less than the number of vertices |
@@ -191,6 +197,7 @@ public void GetVertices(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection pts | Output reference to receive vertices |
@@ -208,6 +215,7 @@ public double Height(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SectionHeight nHeightType | Input one of the SectionHeight enum values |
@@ -223,6 +231,7 @@ public SectionHitTestInfo HitTest(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d ptHit | Input point to perform hit test |
@@ -238,6 +247,7 @@ public void RemoveVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int nIndex | Input index of the vertex to remove |
@@ -257,6 +267,7 @@ public void SetHeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SectionHeight nHeightType | Input one of the Height enum val |
@@ -274,6 +285,7 @@ public void SetVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int nIndex | Input zero-based index of the vertex to set; should be less than the number of vertices |

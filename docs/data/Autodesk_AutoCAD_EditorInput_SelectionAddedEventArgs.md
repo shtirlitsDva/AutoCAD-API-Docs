@@ -41,6 +41,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectedObject value | Input value to add |
@@ -56,6 +57,7 @@ public void AddSubEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectedSubObject value | Input subentity to add |
@@ -72,6 +74,7 @@ public void Highlight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int subSelectionIndex | Input subselection index |
@@ -88,6 +91,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index of object to remove |
@@ -104,6 +108,7 @@ public void RemoveSubEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int entityIndex | Input entity index |

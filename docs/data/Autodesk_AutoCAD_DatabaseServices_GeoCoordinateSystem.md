@@ -53,6 +53,7 @@ public static GeoCoordinateSystem Create(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string coordSysIdOrFullDef | A coordinate system name. For example: "WORLD-MERCATOR" |
@@ -88,6 +89,7 @@ public static GeoCoordinateSystem\[\] CreateAll(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ValueType modopt(Point3d) modopt(IsBoxed) geoPt | Input geodetic point in (longitude, latitude, altitude) format. |

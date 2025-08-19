@@ -41,6 +41,7 @@ public int Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DynamicDimensionData data | A DynamicDimensionData object to add. |
@@ -65,6 +66,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DynamicDimensionData[] array | Array to copy from |
@@ -97,6 +99,7 @@ public void RemoveAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int i | The position of the item to be removed. |

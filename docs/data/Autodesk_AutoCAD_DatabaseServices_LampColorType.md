@@ -12,6 +12,7 @@ public enum LampColorType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Kelvin | Color specified as a Kelvin color temperature. |

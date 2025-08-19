@@ -13,6 +13,7 @@ public enum HatchObjectType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | HatchObject | Indicates that the object is currently a classic hatch |

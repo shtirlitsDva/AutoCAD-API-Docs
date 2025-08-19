@@ -12,6 +12,7 @@ public enum SectionViewArrowDirection {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | TowardsCuttingPlane | This flag is set when the section view symbol arrowheads are oriented towards the cutting plane.enum |

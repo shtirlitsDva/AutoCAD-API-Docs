@@ -52,6 +52,7 @@ public ConstrainedRigidSet(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool bScalable | Input boolean indicating whether this rigid set can be uniformly scaled or not. |
@@ -68,6 +69,7 @@ public ConstrainedGeometry GetConstrainedGeomAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input the index. |

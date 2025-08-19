@@ -270,6 +270,7 @@ public static MeshDataCollection GetObjectMesh(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject dbObj | Input object to get the mesh. |
@@ -452,6 +453,7 @@ public override void SetDragStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DragStatus status | Value describing the status of the drag operation; one of the values from the DragStat enumeration |

@@ -157,6 +157,7 @@ public void AddSubentityPaths(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath[] subPaths | Input an array of FullSubentityPath identifiers to add to the entity. |
@@ -178,6 +179,7 @@ public void BoundingBoxIntersectWith(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entityPointer | Input entity with which "this" entity will intersect |
@@ -204,6 +206,7 @@ All points appended to the points array are on the bounding box edges of the ent
 Class
 Autodesk.AutoCAD.DatabaseServices.Entity
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entityPointer | Input entity with which "this" entity will intersect |
@@ -249,6 +252,7 @@ public void BoundingBoxIntersectWith(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entityPointer | Input entity with which "this" entity will intersect |
@@ -277,6 +281,7 @@ First calculates the bounding box for this entity (in WCS coordinates). It then 
 Class
 Autodesk.AutoCAD.DatabaseServices.Entity
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entityPointer | Input entity with which "this" entity will intersect |
@@ -321,6 +326,7 @@ public void DeleteSubentityPaths(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath[] subPaths | Input an array of FullSubentityPath identifiers to delete from the entity |
@@ -352,6 +358,7 @@ public void Explode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObjectCollection entitySet | Input collection of pointers to new entities; this array may already contain pointers from other entities' explode() methods |
@@ -377,6 +384,7 @@ public IntPtrCollection GetGraphicsMarkersAtSubentityPathIntPtr(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath subPath | Input FullSubentityPath object that contains an SubentId property with the information necessary to determine the subentity (or subentities) for which the GS Marker(s) is requested. |
@@ -414,6 +422,7 @@ public void GetGripPoints(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection gripPoints | Input pre-existing array to append the grip points to; output with the entity's grip points appended |
@@ -482,6 +491,7 @@ public void GetObjectSnapPoints(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectSnapModes snapMode | Input osnap mode being requested |
@@ -510,6 +520,7 @@ public void GetObjectSnapPoints(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectSnapModes snapMode | Input osnap mode being requested |
@@ -547,6 +558,7 @@ public void GetStretchPoints(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection stretchPoints | Input pre-existing array to append the stretch points to; output with the entity's stretch points appended |
@@ -562,6 +574,7 @@ public Entity GetSubentity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath id | Input the path to the subentity |
@@ -579,6 +592,7 @@ public Extents3d GetSubentityGeometricExtents(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath subPath | Input the path to the subentity |
@@ -634,6 +648,7 @@ public Entity GetTransformedCopy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d transform | Input matrix by which to transform the copy of the entity |
@@ -678,6 +693,7 @@ public void Highlight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath subId | Input FullSubentityPath that identifies the subentity to highlight |
@@ -719,6 +735,7 @@ public void IntersectWith(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entityPointer | Input entity with which "this" entity is to intersect |
@@ -745,6 +762,7 @@ The thisGraphicSystemMarker and otherGraphicSystemMarker arguments are provided 
 Class
 Autodesk.AutoCAD.DatabaseServices.Entity
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entityPointer | Input entity with which "this" entity is to intersect |
@@ -792,6 +810,7 @@ public void IntersectWith(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entityPointer | Input entity with which "this" entity is to intersect |
@@ -818,6 +837,7 @@ The thisGraphicSystemMarker and otherGraphicSystemMarker arguments are provided 
 Class
 Autodesk.AutoCAD.DatabaseServices.Entity
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entityPointer | Input entity with which "this" entity is to intersect |
@@ -849,6 +869,7 @@ public IntegerCollection JoinEntities(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity[] otherEntities | The other entities to be joined to the primary entity. Note, some implementations might require all of these entities to be of the same type as the primary entity. |
@@ -867,6 +888,7 @@ Polyline2d.JoinEntities requires the given entities to be other, unclosed Polyli
 Polyline.JoinEntities requires the given entities to be other, unclosed Polyline or Polyline2d, Line, and/or Arc entities, which share common start or end points. 
 See the JOIN command for additional information about the behavior of the join operation.
 #### Exceptions
+
 | Exceptions | Description |
 | --- | --- |
 | Autodesk.AutoCAD.Runtime.Exception for ErrorStatus {InvalidInput} or {NotApplicable} | _nt_ |
@@ -887,11 +909,13 @@ public void JoinEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity secondaryEntity | The secondary entity, which provides the data to be joined to the this entity. |
 
 #### Exceptions
+
 | Exceptions | Description |
 | --- | --- |
 | Autodesk.AutoCAD.Runtime.Exception for ErrorStatus {InvalidInput} or {NotApplicable} | _nt_ |
@@ -948,6 +972,7 @@ public void MoveGripPointsAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntegerCollection indices | Input array containing index values (which correspond to grip points reported by the GetGripPoints() method) that indicate which grip points are currently "hot" |
@@ -975,6 +1000,7 @@ public void MoveStretchPointsAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntegerCollection indices | Input array containing index values (which correspond to stretch points reported by the GetStretchPoints() method) that indicate which stretch points are being translated |
@@ -992,6 +1018,7 @@ public void PopHighlight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath subId | Input AcDbFullSubentPath that identifies the subentity to unhighlight |
@@ -1014,6 +1041,7 @@ public void PushHighlight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath subId | Input AcDbFullSubentPath that identifies the subentity to highlight |
@@ -1035,6 +1063,7 @@ public void RecordGraphicsModified(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool setModified | Input Boolean value to indicate if the entity's graphics should be updated on screen when the object is closed |
@@ -1060,6 +1089,7 @@ public virtual void SaveAs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | WorldDraw mode | Input pointer to fully initialized WorldDraw object (or an object of a class derived from WorldDraw) |
@@ -1102,6 +1132,7 @@ public void SetDatabaseDefaults(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database sourceDatabase | Input database whose defaults will be used to set the values of the entity |
@@ -1117,6 +1148,7 @@ public virtual void SetDragStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DragStatus status | Value describing the status of the drag operation; one of the values from the DragStat enumeration |
@@ -1132,6 +1164,7 @@ public virtual void SetGripStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GripStatus status | Value describing the status of the grip operation; one of the values from the GripStatus enumeration |
@@ -1152,6 +1185,7 @@ public virtual void SetLayerId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId newValue | Input name of the LayerTableRecord to be referenced by the entity |
@@ -1175,6 +1209,7 @@ public void SetPropertiesFrom(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entityPointer | Input entity from which to copy the properties |
@@ -1192,6 +1227,7 @@ public void SetSubentityGripStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GripStatus status | Input the status of the grip operation |
@@ -1214,6 +1250,7 @@ public void TransformBy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d transform | Input transformation matrix to be applied to the entity |
@@ -1234,6 +1271,7 @@ public void TransformSubentityPathsBy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath[] subPaths | Input an array of one or more FullSubentityPath objects identifying the subentities to transform |
@@ -1273,6 +1311,7 @@ public void Unhighlight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath subId | Input FullSubentityPath that identifies which subentity to unhighlight |

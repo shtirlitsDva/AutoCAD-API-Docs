@@ -93,6 +93,7 @@ public Group(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string description | Input null terminated string describing the group |
@@ -111,6 +112,7 @@ public void Append(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input objectId of the object to be appended to group |
@@ -128,6 +130,7 @@ public void Append(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection ids | Input objectId collection containing the objectIds of the objects to be appended |
@@ -159,6 +162,7 @@ public int GetIndex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input objectId of the object whose index is being queried |
@@ -174,6 +178,7 @@ public bool Has(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | Input the entity being looked up |
@@ -190,6 +195,7 @@ public void InsertAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input insertion index |
@@ -207,6 +213,7 @@ public void InsertAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input insertion index |
@@ -224,6 +231,7 @@ public void Prepend(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input objectId of the object to be prepended to group |
@@ -240,6 +248,7 @@ public void Prepend(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection ids | Input objectId collection containing the objectIds of the objects to be prepended |
@@ -255,6 +264,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input objectId of the object to be removed |
@@ -270,6 +280,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection ids | Input array of objectIds of objects to be removed from the group |
@@ -285,6 +296,7 @@ public void RemoveAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index of the object to be removed |
@@ -301,6 +313,7 @@ public void RemoveAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input starting index of the objects to be removed |
@@ -318,6 +331,7 @@ public void Replace(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId oldId | Input objectId of the object to be removed from the group |
@@ -350,6 +364,7 @@ public void SetColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.Colors.Color color | Input Color object representing the color to be set |
@@ -365,6 +380,7 @@ public void SetColorIndex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int color | Input AutoCAD color index to be set for entities in the group (color index must be in the range 0 to 256) |
@@ -380,6 +396,7 @@ public void SetHighlight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool value | Input Boolean indicating whether to highlight or not |
@@ -395,6 +412,7 @@ public void SetLayer(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Input objectId of the layer to use |
@@ -410,6 +428,7 @@ public void SetLayer(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string value | Input null terminated string that is the name of the new layer |
@@ -425,6 +444,7 @@ public void SetLinetype(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Input objectId of the line type |
@@ -441,6 +461,7 @@ public void SetLinetype(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string value | Input objectId null terminated string that is the name of the new line type |
@@ -456,6 +477,7 @@ public void SetLinetypeScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Input new value for the line type scale |
@@ -471,6 +493,7 @@ public void SetVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool value | Input enum value for visibility |
@@ -489,6 +512,7 @@ public void Transfer(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int fromIndex | Input start index to transfer from |

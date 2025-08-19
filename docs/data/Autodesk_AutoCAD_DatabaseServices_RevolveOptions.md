@@ -57,6 +57,7 @@ public RevolveOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | RevolveOptions opts | Input object to be copied. |
@@ -75,6 +76,7 @@ public RevolveOptionsCheckRevolveCurveOut CheckRevolveCurve(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d axisPnt | Input point on axis of revolution |

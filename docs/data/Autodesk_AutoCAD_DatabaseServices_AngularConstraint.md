@@ -57,6 +57,7 @@ public AngularConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AngularSectorType type | Input SectorType indicating the angle sector which is used to measure the angle. |
@@ -82,6 +83,7 @@ public static void SetAngleMultiplier(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double multiplier | The angle multiplication factor. |
@@ -100,6 +102,7 @@ public enum AngularSectorType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ParallelAntiClockwise | The angle measured from the forward direction of line 1 to the forward direction of line 2 anticlockwise. |

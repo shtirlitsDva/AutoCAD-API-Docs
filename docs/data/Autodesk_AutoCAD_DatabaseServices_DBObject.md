@@ -288,6 +288,7 @@ public void AddContext(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectContext context | The context to add. |
@@ -303,6 +304,7 @@ public void ApplyPaperOrientationTransform(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.Viewport viewport | The viewport in which the object is to be displayed. |
@@ -322,6 +324,7 @@ public virtual void ApplyPartialUndo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler undoFiler | The undo filer containing the partial undo information to be re-instated |
@@ -338,6 +341,7 @@ public virtual void Audit(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AuditInfo auditInfo | An AuditInfo object |
@@ -371,6 +375,7 @@ public void CloseAndPage(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool onlyWhenClean | Boolean indicating to turn off or on undo recording |
@@ -394,6 +399,7 @@ public virtual DecomposeForSaveReplacementRecord DecomposeForSave(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgVersion version | DWG version being saved to |
@@ -411,6 +417,7 @@ public DBObject DeepClone(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject ownerPointer | Object to which the clones should be appended |
@@ -428,6 +435,7 @@ public void DisableUndoRecording(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool disable | Boolean indicating to turn off or on Undo recording |
@@ -454,6 +462,7 @@ public void DowngradeToNotify(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool wasWritable | Input indicating if object was open for write when upgradeFromNotify was called |
@@ -469,6 +478,7 @@ public void DwgIn(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | DWG filer to be used for this filing operation |
@@ -484,6 +494,7 @@ public void DwgOut(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | DWG filer to be used for this filing operation |
@@ -501,6 +512,7 @@ public void DxfIn(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | DXF filer to be used for this filing operation |
@@ -516,6 +528,7 @@ public void DxfOut(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | Filer to be used for this filing operation |
@@ -539,6 +552,7 @@ public void Erase(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool erasing | Boolean indicating if object is to be erased or unerased |
@@ -554,6 +568,7 @@ public byte\[\] GetBinaryDataForKey(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string key | Input extension dictionary key under which the data is stored |
@@ -579,6 +594,7 @@ public Autodesk.AutoCAD.DatabaseServices.ObjectId GetField(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string propertyName | Input a property name for the field you want to retrieve |
@@ -596,6 +612,7 @@ public virtual FullDwgVersion GetObjectSaveVersion(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | Filer to be used for this filing operation |
@@ -613,6 +630,7 @@ public virtual FullDwgVersion GetObjectSaveVersion(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | DXF filer to be used for this filing operation |
@@ -652,6 +670,7 @@ public ResultBuffer GetXDataForApplication(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string applicationName | Name of the registered application to use when retrieving the xdata |
@@ -675,6 +694,7 @@ public void HandOverTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [CallerMustClose] DBObject newPointer | Object to be used to replace the current object |
@@ -692,6 +712,7 @@ public bool HasContext(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectContext context | The context to check for. |
@@ -707,6 +728,7 @@ public bool HasPersistentReactor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ObjectId objId | Object ID of a persistent reactor object |
@@ -722,6 +744,7 @@ public static bool IsCustomObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ObjectId id | Custom ID to check. |
@@ -746,6 +769,7 @@ public void RemoveContext(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectContext context | The context to remove from the collection. |
@@ -769,6 +793,7 @@ public void RemoveField(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ObjectId id | Field ID to remove from the object |
@@ -784,6 +809,7 @@ public Autodesk.AutoCAD.DatabaseServices.ObjectId RemoveField(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string propertyName | Property name whose field is to be removed |
@@ -809,6 +835,7 @@ public void SetBinaryDataForKey(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string key | Input extension dictionary key to be used |
@@ -825,6 +852,7 @@ public Autodesk.AutoCAD.DatabaseServices.ObjectId SetField(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [CallerMustClose] Field field | Field to set |
@@ -841,6 +869,7 @@ public Autodesk.AutoCAD.DatabaseServices.ObjectId SetField(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string propertyName | Property name for which to set the field |
@@ -873,6 +902,7 @@ public void SetPaperOrientation(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool bPaperOrientation | The new value for the paper orientation property. |
@@ -890,6 +920,7 @@ public bool SupportsCollection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string collectionName | The name of the collection (context type) to test for support. |
@@ -907,6 +938,7 @@ public void SwapIdWith(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ObjectId otherId |
@@ -932,6 +964,7 @@ public virtual void SwapReferences(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IdMapping idMap | Input refedit ID map |
@@ -970,6 +1003,7 @@ public DBObject WblockClone(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | RXObject ownerPointer | Input object to which the clones should be appended. If the owner has not been cloned, then the Database must be passed in. |
@@ -988,6 +1022,7 @@ public void XDataTransformBy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d transform | Transformation matrix to be applied to the XData |

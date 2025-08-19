@@ -13,6 +13,7 @@ public enum DefaultLightingType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | OneDistantLight | Default lighting is provided by one distant light and one ambient light. This matches the display characteristics of previous AutoCAD releases |

@@ -21,6 +21,7 @@ public enum HatchLoopTypes {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Default = 0 | The loop type hasn't been specified yet. It turns to a "real" value as soon as some real loops get created. |

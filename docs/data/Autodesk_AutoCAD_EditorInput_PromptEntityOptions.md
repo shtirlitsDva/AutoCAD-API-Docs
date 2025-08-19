@@ -45,6 +45,7 @@ public PromptEntityOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -61,6 +62,7 @@ public PromptEntityOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string messageAndKeywords | Input message and keywords |
@@ -79,6 +81,7 @@ public void AddAllowedClass(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Type type | Input type of class |
@@ -95,6 +98,7 @@ public void RemoveAllowedClass(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Type type | Input type of class |
@@ -110,6 +114,7 @@ public void SetRejectMessage(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |

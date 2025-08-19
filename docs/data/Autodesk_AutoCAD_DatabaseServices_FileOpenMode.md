@@ -15,6 +15,7 @@ public enum FileOpenMode {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | OpenForReadAndAllShare = 3 | Open for read and allow read and write sharing (same as _SH_DENYNO). Using this value withDatabase.ReadDwgFile() allows other applications full access to the file when the file is opened by this call. This call will open a file for reading when the same file is already opened for writing.Using this mode with Database.ReadDwgFile() does not lock out other applications from writing to the file. It is not safe to do a lazy load in such circumstances. Performing a lazy load means that pieces of the drawing are read-in only as needed. This feature, combined with the possibility of other applications updating the drawing file under this mode, can cause inconsistent reads and other errors. So, when Database.ReadDwgFile()> is used with this mode, ReadDwgFile will call Database.CloseInput() in order to fully read in the file and release the file handle (i.e. no lazy load). without the call to CloseInput(). |

@@ -43,6 +43,7 @@ public PromptDistanceOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |

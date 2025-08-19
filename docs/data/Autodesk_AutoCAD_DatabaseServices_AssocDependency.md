@@ -84,6 +84,7 @@ public void AttachToObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CompoundObjectId compoundId | The CompoundObjectId to attach the dependency to. If regular ObjectId is passed in, it is automatically converted to CompoundObjectId. |
@@ -119,6 +120,7 @@ public static ObjectIdCollection GetDependenciesOnObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool readDependenciesWanted | Read-type dependencies wanted. |
@@ -138,6 +140,7 @@ public static ObjectId GetFirstDependencyOnObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object | The DBObject whose first dependency is requested. The object needs to be open at least for read. |
@@ -157,6 +160,7 @@ public bool IsDependentOnTheSameThingAs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency otherDependency | The other dependency needs to be open for read. |
@@ -177,6 +181,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency otherDependency | The other dependency needs to be open for read. |
@@ -195,6 +200,7 @@ public static void NotifyDependenciesOnObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocStatus newStatus | The new status to be set to the dependencies. |
@@ -213,6 +219,7 @@ public void SetDependentOnObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CompoundObjectId compoundId | The CompoundObjectId the dependency should depend-on (may be null). |
@@ -230,6 +237,7 @@ public void SetStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocStatus newStatus | The new AssocStatus of the dependency. |
@@ -273,6 +281,7 @@ public CompoundObjectId DependentOnCompoundObject;
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | compoundId | The CompoundObjectId, either directly kept in this dependency, or created from the DependentOnObject() ObjectId. |

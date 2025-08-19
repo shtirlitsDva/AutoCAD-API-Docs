@@ -13,6 +13,7 @@ public enum TableBreakFlowDirection {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | DownOrUp = 2 | Break tables in top to bottom (for top to bottom flow table) or bottom to top (for bottom to top flow table) directions. |

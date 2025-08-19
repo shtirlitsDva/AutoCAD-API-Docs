@@ -231,6 +231,7 @@ public virtual Autodesk.AutoCAD.Runtime.ErrorStatus DwgInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to read the object data from. |
@@ -246,6 +247,7 @@ public virtual Autodesk.AutoCAD.Runtime.ErrorStatus DwgOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to read the object data to. |
@@ -261,6 +263,7 @@ public virtual Autodesk.AutoCAD.Runtime.ErrorStatus DxfInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to read the object data from. |
@@ -276,6 +279,7 @@ public virtual Autodesk.AutoCAD.Runtime.ErrorStatus DxfOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to read the object data to. |

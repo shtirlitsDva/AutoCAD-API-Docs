@@ -13,6 +13,7 @@ public enum AnnotativeStates {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | True | The state is true. |

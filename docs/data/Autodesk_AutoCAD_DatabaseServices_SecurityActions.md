@@ -14,6 +14,7 @@ public enum SecurityActions {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | AddTimeStamp = 0x20 | Adds a time stamp key.The AutoCAD installation program creates a unique time stamp key in the system registry immediately below the release number key (as well as adding the same installation ID to the executable itself). This key ensures that different versions of AutoCAD from the same release will be able to populate their own sections of the system registry. Within this key, values are stored for attributes such as the location of AutoCAD files and the language version. |

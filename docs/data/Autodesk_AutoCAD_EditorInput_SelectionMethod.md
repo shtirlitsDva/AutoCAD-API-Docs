@@ -17,6 +17,7 @@ public enum SelectionMethod {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Crossing = 3 | Crossing or crossing polygon selection.For crossing polygon selections, a window ID value is provided in the entity data sublist in order to identify which crossing was used to select the entity. This same window ID is also provided within the data list for the window/crossing/polygon. By matching up these IDs, the application can determine all the information about how the entity was selected.Window IDs start with -1 sequentially decrease (in other words, -1, -2, -3, and so on). Each individual crossing used during the selection process will get its own window ID. |

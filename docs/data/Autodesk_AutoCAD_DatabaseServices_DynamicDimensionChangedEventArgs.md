@@ -37,6 +37,7 @@ public DynamicDimensionChangedEventArgs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input the index of the dimension |

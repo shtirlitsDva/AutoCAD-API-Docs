@@ -14,6 +14,7 @@ public enum HatchStyle {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Normal | Normal hatch style will hatch inward from the outer loop. If it encounters an internal intersection, it turns off hatching until it encounters another intersection. Thus, areas separated from the outside of the hatched area by an odd number of intersections are hatched, while areas separated by an even number of intersections are not. |

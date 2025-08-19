@@ -42,6 +42,7 @@ protected internal unsafe AutoConstrainEvaluationCallback(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AcAutoConstrainEvaluationCallback* impObj | Unmanaged C++ object pointer |
@@ -55,6 +56,7 @@ public virtual GeometricalConstraint.ConstraintType\[\] GetAutoConstrainPriority
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | constraintList | List of constraint types to be considered for autoConstrain in decending order of priority. Constraint type not present in the list will not be considered for autoconstraint. |
@@ -71,6 +73,7 @@ public virtual int GetConstraintPriorityOverride(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GeometricalConstraint.ConstraintType type | Geometric constraint type that is possible between given set of constrained geometry. |
@@ -89,6 +92,7 @@ public int GetTotalConstraints(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ref GeometricalConstraint[] constraints | reference to array of constraints, to return list of constraints found by autoconstraint evaluation. This parameter can be null if caller doesn't want list of constraints. |

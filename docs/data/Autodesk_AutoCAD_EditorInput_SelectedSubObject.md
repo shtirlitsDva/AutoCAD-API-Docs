@@ -50,6 +50,7 @@ public SelectedSubObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.FullSubentityPath path | Input object path |
@@ -63,6 +64,7 @@ Obsolete - Use the constructor overload taking IntPtr instead.
 Class
 Autodesk.AutoCAD.EditorInput
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.FullSubentityPath path | Input object path |
@@ -98,6 +100,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input for culture-specific format |

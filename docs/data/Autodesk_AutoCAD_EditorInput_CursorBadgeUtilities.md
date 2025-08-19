@@ -36,6 +36,7 @@ public bool AddSupplementalCursorImage(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ImageBGRA32 cursorImage | Input image |
@@ -48,6 +49,7 @@ Returns true if successful.
 #### Description
 Gets the cursor offset x, y, which is to the top right corner of the pickbox. 
 #### Parameters
+
 | x | x offset |
 | --- | --- |
 | y | y offset |
@@ -80,6 +82,7 @@ public bool RemoveSupplementalCursorImage(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ImageBGRA32 cursorImage | Input image |
@@ -98,6 +101,7 @@ public void SetSupplementalCursorOffset(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int y | Input Y offset |

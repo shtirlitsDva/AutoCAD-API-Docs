@@ -33,6 +33,7 @@ public virtual void CopyProperties(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity sourceEntity | Input entity from which properties will be copied |

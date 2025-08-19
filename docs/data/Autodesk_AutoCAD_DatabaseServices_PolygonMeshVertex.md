@@ -58,6 +58,7 @@ public PolygonMeshVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d point | Input WCS position point for the vertex |

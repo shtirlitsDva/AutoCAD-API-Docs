@@ -47,6 +47,7 @@ public void GetEqualHelpParameters(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | pHelpParameter1 | The returned pointer to the first AcHelpParameter object. |

@@ -66,6 +66,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IdPair pairToAdd | Input IdPair to add |
@@ -93,6 +94,7 @@ public bool Contains(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId key | Input key to look for |
@@ -108,6 +110,7 @@ public void Delete(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId key | Input objectId which is the key of the ID pair to be deleted from the map |
@@ -133,6 +136,7 @@ public IdPair Lookup(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId key | Input key to look for |

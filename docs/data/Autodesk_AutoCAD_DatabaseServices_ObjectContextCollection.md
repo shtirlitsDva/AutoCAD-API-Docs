@@ -43,6 +43,7 @@ public virtual void AddContext(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectContext ctxt | The context to copy and add to the collection. |
@@ -58,6 +59,7 @@ public virtual ObjectContext GetContext(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string contextName | The name of the context to copy and return. |
@@ -81,6 +83,7 @@ public virtual bool HasContext(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string contextName | The name of the context to find. |
@@ -99,6 +102,7 @@ public virtual void RemoveContext(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string contextName | The name of the context to remove from the collection. |

@@ -65,6 +65,7 @@ public Face(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pointer1 | Input first corner point (in WCS coordinates) |
@@ -95,6 +96,7 @@ public Face(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pointer1 | Input first corner point (in WCS coordinates) |
@@ -117,6 +119,7 @@ public Point3d GetVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short value | Input vertex index number (must be 1 through 4) |
@@ -132,6 +135,7 @@ public bool IsEdgeVisibleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short vertexIndex | Input vertex index number (must be 1 through 4) |
@@ -147,6 +151,7 @@ public void MakeEdgeInvisibleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short vertexIndex | Input vertex index number of starting vertex for edge |
@@ -162,6 +167,7 @@ public void MakeEdgeVisibleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short vertexIndex | Input vertex index number of starting vertex for edge |
@@ -178,6 +184,7 @@ public void SetVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short vertexIndex | Input vertex index number (must be 1 through 4) |

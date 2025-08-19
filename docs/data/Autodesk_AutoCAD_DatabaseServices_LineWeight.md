@@ -6,6 +6,7 @@
 This .NET class wraps the AcDb::LineWeight ObjectARX enumerated type. 
 This enumerated type provides the line weight (thickness) values used to specify how lines will be displayed and plotted. The lineweights are in 100ths of a millimeter, except for the negative values. The negative values denote the default indicated by their constant's name.
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ByBlock = -2 | ByBlock |

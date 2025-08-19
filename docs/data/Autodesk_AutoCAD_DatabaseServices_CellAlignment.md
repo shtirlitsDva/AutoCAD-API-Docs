@@ -20,6 +20,7 @@ public enum CellAlignment {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | BottomCenter = 8 | Centers text at a point specified for the bottom of the text within a text table cell. |

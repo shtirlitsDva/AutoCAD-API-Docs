@@ -25,6 +25,7 @@ public enum LampColorPreset {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | D65White | D65White lamp color. |

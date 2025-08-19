@@ -26,6 +26,7 @@ public enum SelectionMode {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | All = 6 | Select all |

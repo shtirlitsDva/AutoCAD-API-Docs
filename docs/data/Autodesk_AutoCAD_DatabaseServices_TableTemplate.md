@@ -43,6 +43,7 @@ public TableTemplate(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Table table | Input table from which to capture the template. |
@@ -60,6 +61,7 @@ public void Capture(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Table table | Input table from which to capture the template. |
@@ -76,6 +78,7 @@ public Table CreateTable(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | TableCopyOptions copyOption | Input Autodesk.AutoCAD.DatabaseServices.TableCopyOptions object specifying what to capture while capturing the template. |

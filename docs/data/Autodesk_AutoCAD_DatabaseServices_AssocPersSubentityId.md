@@ -62,6 +62,7 @@ public virtual void Audit(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AuditInfo auditInfo | See the AuditInfo documentation. |
@@ -71,6 +72,7 @@ public virtual void Audit(
 #### Description
 A static method that reads the class identification of the actual AssocPersSubentityId-derived class, creates an object of this derived class and calls DwgInFields() on it.
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | AcDbDatabase that is going to own the AcDbAssocPersSubentId. |
@@ -94,6 +96,7 @@ public static void CreateObjectAndDxfInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to read the data from. The first data is the class identification. |
@@ -110,6 +113,7 @@ public virtual void DwgInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to read the object data from. |
@@ -125,6 +129,7 @@ public virtual void DwgOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to write the object data to. |
@@ -140,6 +145,7 @@ public virtual void DxfInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to read the object data from. |
@@ -155,6 +161,7 @@ public virtual void DxfOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to write the object data to. |
@@ -171,6 +178,7 @@ public virtual SubentityId\[\] GetTransientSubentIds(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity needs to be open for read. |
@@ -190,6 +198,7 @@ public virtual bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocPersSubentityId other | The other AssocPersSubentityId. |
@@ -209,6 +218,7 @@ public virtual void Mirror(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity mirroredEntity | The entity that has been mirrored. It needs to be open for read. |
@@ -224,6 +234,7 @@ public abstract SubentityType SubentType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity needs to be open for read. |
@@ -239,6 +250,7 @@ public virtual int TransientSubentCount(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity needs to be open for read. |

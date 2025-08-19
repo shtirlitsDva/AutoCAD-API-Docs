@@ -48,6 +48,7 @@ public virtual bool CanGetValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string valueName | The name of the queried value. |
@@ -67,6 +68,7 @@ public virtual bool CanSetValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string valueName | The name of the queried value. |
@@ -86,6 +88,7 @@ public abstract ResultBuffer GetValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string valueName | The name of the queried value. |
@@ -106,6 +109,7 @@ public virtual void SetValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string valueName | The name of the value to be set. |

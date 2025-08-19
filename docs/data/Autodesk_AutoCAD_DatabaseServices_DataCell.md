@@ -68,6 +68,7 @@ public void SetBool(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool value | Input System.Boolean object. |
@@ -83,6 +84,7 @@ public void SetDouble(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Input System.Double object. |
@@ -98,6 +100,7 @@ public void SetHardOwnershipId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Input Autodesk.AutoCAD.DatabaseServices.ObjectId object. |
@@ -113,6 +116,7 @@ public void SetHardPointerId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Input Autodesk.AutoCAD.DatabaseServices.ObjectId object |
@@ -128,6 +132,7 @@ public void SetInteger(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int value | Input System.Int32 object. |
@@ -143,6 +148,7 @@ public void SetObjectId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Input Autodesk.AutoCAD.DatabaseServices.ObjectId object |
@@ -158,6 +164,7 @@ public void SetPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d value | Input Autodesk.AutoCAD.Geometry.Point3d object |
@@ -173,6 +180,7 @@ public void SetSoftOwnershipId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Input Autodesk.AutoCAD.DatabaseServices.ObjectId object |
@@ -188,6 +196,7 @@ public void SetSoftPointerId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Input Autodesk.AutoCAD.DatabaseServices.ObjectId object |
@@ -203,6 +212,7 @@ public void SetString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string value | Input System.String object |
@@ -218,6 +228,7 @@ public void SetVector(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d value | Input Autodesk.AutoCAD.Geometry.Vector3d object. |

@@ -46,6 +46,7 @@ public Constrained2PointsConstructionLine(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d point1 | Input first 3D point. Relative to the work plane of the owning Assoc2dConstraintGroup object. |

@@ -74,6 +74,7 @@ public Assoc2dConstraintGroup(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Plane plane | Input Plane of the newly created constraint group object. Default value is Plane::kXYPlane. |
@@ -94,6 +95,7 @@ public ThreePointAngleConstraint Add3PointAngularConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ConstrainedPoint consPoint1 | Input reference of the first (angle) point which must be a kind of ConstraintPoint |
@@ -120,6 +122,7 @@ public AngularConstraint AddAngularConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ConstrainedLine consLine1 | Input reference to ConstrainedLine object |
@@ -141,6 +144,7 @@ public ConstrainedGeometry AddConstrainedGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath subentPath | Input FullSubentPath of the constrained entity, down to the subentity level. Only SubentityType.Edge and SubentityType.Vertex are valid subent types. The vertex subent must NOT be edge vertex. |
@@ -165,6 +169,7 @@ public DistanceConstraint AddDistanceConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ConstrainedGeometry consGeom1 | Input reference to the first ConstrainedGeometry object. |
@@ -188,6 +193,7 @@ public GeometricalConstraint AddGeometricalConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GeometricalConstraint.ConstraintType type | Input GeometricalConstraint::GeometricalConstraintType indicating the type of constraint to be created. |
@@ -207,6 +213,7 @@ public GeometricalConstraint AddGeometricalConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GeometricalConstraint.ConstraintType type | Input GeometricalConstraint::GeometricalConstraintType indicating the type of constraint to be created. |
@@ -225,6 +232,7 @@ public static void AddGlobalCallback(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Assoc2dConstraintCallback callback | The callback to be registered. |
@@ -243,6 +251,7 @@ public RadiusDiameterConstraint AddRadiusDiameterConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ConstrainedGeometry consGeom | Input reference to ConstrainedGeometry object which must be a kind of ConstrainedCircle or ConstrainedEllipse. |
@@ -264,6 +273,7 @@ public void AutoConstrain(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath[] paths | List of subentites which are to be constrained automatically. |
@@ -281,6 +291,7 @@ public SolutionStatusType ConstraintStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GeometricalConstraint constraint | Input reference to GeometricalConstraint indicating the constraint object to be checked. |
@@ -298,6 +309,7 @@ public void DeleteConstrainedGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId geomDependencyId | Input ObjectId of the AssocGeomDependency object. |
@@ -313,6 +325,7 @@ public void DeleteConstraint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GeometricalConstraint geomConst | Input GeometricalConstraint indicating the constraint to be deleted. |
@@ -328,6 +341,7 @@ public void GeometryMirrored(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocGeomDependency geomDependency | Reference to AssocGeomDependency for which implicit point needs to be updated for mirror action. |
@@ -343,6 +357,7 @@ public SolutionStatusType GeometryStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ConstrainedGeometry consGeom | Input reference to ConstrainedGeometry indicating the constrained geometry object to be checked. |
@@ -360,6 +375,7 @@ public ObjectIdCollection GetAllConnectedGeomDependencies(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection srcGeomDependencyIds | Input ObjectIdArray indicating the source AssocGeomDependency objects. |
@@ -377,6 +393,7 @@ public ConstrainedGeometry GetConstrainedGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocGeomDependency geomDependency | Input reference to AssocGeomDependency of the constrained entity. The AssocGeomDependency object maybe transient, in other words, not added into the database yet. |
@@ -400,6 +417,7 @@ public ConstrainedGeometry GetConstrainedGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocGeomDependency geomDependency | Input reference to AssocGeomDependency of the constrained entity. The AssocGeomDependency object maybe transient, in other words, not added into the database yet. |
@@ -424,6 +442,7 @@ public ConstrainedGeometry GetConstrainedGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool createArcLineMid | Input Boolean indicating if create implicit midpoint of arc or line segment if it is not there. Default value is false. |
@@ -445,6 +464,7 @@ public ConstraintGroupNode GetGroupNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | uint nodeId | Input ConstraintGroupNodeId indicating the node id. |
@@ -482,6 +502,7 @@ public static void RemoveGlobalCallback(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Assoc2dConstraintCallback callback | The callback to be unregistered. |
@@ -497,6 +518,7 @@ public SolutionStatusType SolutionStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool alsoCheckForConstraints | Input boolean indicating if need to check constraints. Default value is true. |
@@ -514,6 +536,7 @@ public void TransformActionBy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d transform | The given transformation matrix. |
@@ -535,6 +558,7 @@ public enum SolutionStatusType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | WellDefined | All constrained geometries are fully constrained. The degree of freedom of the entire model is 0. |

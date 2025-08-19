@@ -18,6 +18,7 @@ public enum PointCloudItemType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | LegacyPointCloud | Legacy point cloud (load from a .pcg, .isd file). |

@@ -44,6 +44,7 @@ public void ReplaceSelectedObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectedObject newValue | Input new value |

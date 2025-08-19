@@ -54,6 +54,7 @@ public ConstrainedImplicitPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | uint constrCurvId | Input ConstraintGroupNodeId indicating the constrained curve to which this implicit point belongs. |

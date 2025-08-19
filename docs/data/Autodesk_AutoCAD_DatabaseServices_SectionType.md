@@ -14,6 +14,7 @@ public enum SectionType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | LiveSection = 1 | Live sectioning. |

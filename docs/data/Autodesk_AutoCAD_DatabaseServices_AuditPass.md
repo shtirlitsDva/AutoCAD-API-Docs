@@ -12,6 +12,7 @@ public enum AuditPass {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Pass1 = 1 | PASS1 is when class members should be validating their own data fields and avoiding the validation of other objects, even their existence. |

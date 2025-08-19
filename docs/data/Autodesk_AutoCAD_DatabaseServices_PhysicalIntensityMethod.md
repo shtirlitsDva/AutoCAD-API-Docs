@@ -13,6 +13,7 @@ public enum PhysicalIntensityMethod {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | PeakIntensity | Peak Intensity |

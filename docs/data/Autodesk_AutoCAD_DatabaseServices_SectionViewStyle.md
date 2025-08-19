@@ -95,6 +95,7 @@ public string DefaultViewName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | The index of the default name. |
@@ -114,6 +115,7 @@ public string GetViewLabelPattern(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Field field | Input: a field object to be updated with the view label pattern master field. |
@@ -135,6 +137,7 @@ public ObjectId PostViewStyleToDb(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database dataBasePointer | Input: database to be updated |
@@ -156,6 +159,7 @@ public void SetDatabaseDefaults(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database dataBasePointer | Input: database to be used |
@@ -172,6 +176,7 @@ public void SetViewLabelPattern(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string pattern | Input: the pattern string for the view label. |
@@ -191,6 +196,7 @@ public bool ValidateIdentifierExcludeCharacters(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string characters | Input: the characters to validate. |
@@ -208,6 +214,7 @@ public bool ValidateViewName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input: section name to validate. |

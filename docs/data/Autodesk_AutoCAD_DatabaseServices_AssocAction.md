@@ -98,6 +98,7 @@ public void AddDependency(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId dependencyId | ObjectId of the AssocDependency being added to this action. |
@@ -117,6 +118,7 @@ public void AddMoreObjectsToDeepClone(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IdMapping idMap | The IdMapping of the current deep cloning session. |
@@ -135,6 +137,7 @@ public bool AreDependenciesEqual(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency dependency1 | The dependency owned by this action. It needs to be open at least for read. |
@@ -155,6 +158,7 @@ public bool AreDependenciesOnTheSameThing(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency dependency1 | The dependency owned by this action. It needs to be open at least for read. |
@@ -176,6 +180,7 @@ public void DependentObjectCloned(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency dependency | The AssocDependency on the DBObject that has been cloned. |
@@ -193,6 +198,7 @@ public void DragStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.DragStatus status | See the [DragStatus](Autodesk_AutoCAD_DatabaseServices_DragStatus.md "DragStatus Enumeration") enum. |
@@ -223,6 +229,7 @@ public void Evaluate(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocEvaluationCallback evaluationCallback | While the action is being evaluated, it calls methods of the callback object to inform the client code about the evaluation. The callback reference must not be NULL. See the definition of AssocEvaluationCallback for more details. |
@@ -247,6 +254,7 @@ public void EvaluateDependency(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency dependency | The dependency that is to be evaluated. It needs to be open at least for read. |
@@ -291,6 +299,7 @@ public static ObjectIdCollection GetActionsDependentOnObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject dbObj | The DBObject whose actions are requested. The object needs to be open at least for read. |
@@ -325,6 +334,7 @@ public ObjectIdCollection GetDependencies(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool readDependenciesWanted | Read-type dependencies wanted. |
@@ -345,6 +355,7 @@ public void GetDependentActionsToEvaluate(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ActionsToEvaluateCallback actionsToEvaluateCallback | The method uses this callback to report other AssocActions, AssocDependencies and arbitrary DBObjects that should also be scheduled to evaluate when this action is evaluated. |
@@ -362,6 +373,7 @@ public ObjectIdCollection GetDependentObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool readDependenciesWanted | Dependent-on objects wanted. |
@@ -382,6 +394,7 @@ public bool HasDependencyCachedValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency dependency | The dependency that is checked whether it has cached value. It needs to be open at least for read. |
@@ -400,6 +413,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocAction otherAction | The other action needs to be open for read. |
@@ -418,6 +432,7 @@ public bool IsExternalDependency(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency dependency | The dependency that is checked whether it is external. Needs to be open at least for read. |
@@ -437,6 +452,7 @@ public bool IsOwnedDependency(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency dependency | The dependency that is checked whether it is owned by this action. Needs to be open at least for read. |
@@ -456,6 +472,7 @@ public bool IsRelevantDependencyChange(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency dependency | The dependency that is checked whether the change in the object it depends on is relevant or not. It needs to be open at least for read. |
@@ -485,6 +502,7 @@ public void OwnedDependencyStatusChanged(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency ownedDependency | The dependency whose status has just been changed. |
@@ -502,6 +520,7 @@ public void PostProcessAfterDeepClone(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IdMapping idMap | The IdMapping of the current deep cloning session. |
@@ -518,6 +537,7 @@ public void PostProcessAfterDeepCloneCancel(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IdMapping idMap | The IdMapping of the current deep cloning session. |
@@ -567,6 +587,7 @@ public void RemoveAllDependencies(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool alsoEraseThem | Erase the AssocDependencies after removing them. |
@@ -583,6 +604,7 @@ public void RemoveDependency(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId dependencyId | ObjectId of the AssocDependency being removed from this action. |
@@ -602,6 +624,7 @@ public void SetOwningNetwork(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId networkId | The AssocNetwork logically owning this action. |
@@ -621,6 +644,7 @@ public void SetStatus(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocStatus newStatus | The new AssocStatus of the action. |
@@ -638,6 +662,7 @@ public void TransformActionBy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d transform | The provided transformation matrix. |

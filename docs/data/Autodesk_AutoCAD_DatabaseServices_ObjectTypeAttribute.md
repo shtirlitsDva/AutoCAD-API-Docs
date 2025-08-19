@@ -35,6 +35,7 @@ public ObjectTypeAttribute(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Type type | Object type |

@@ -62,6 +62,7 @@ public DataColumn(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataColumn column | Set the column to a specific type |
@@ -77,6 +78,7 @@ public virtual void AppendCell(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataCell cell | New cell to add |
@@ -92,6 +94,7 @@ public void Assign(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataColumn col | New column to add |
@@ -107,6 +110,7 @@ public virtual DataCell GetCellAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index of cell to retrieve |
@@ -122,6 +126,7 @@ public virtual int GetIndexAtCell(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataCell cell | Input cell to be matched |
@@ -138,6 +143,7 @@ public virtual void InsertCellAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Position at which to insert the cell |
@@ -154,6 +160,7 @@ public virtual void RemoveCellAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index of cell to remove from the column |
@@ -170,6 +177,7 @@ public virtual void SetCellAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index of the cell to be updated |

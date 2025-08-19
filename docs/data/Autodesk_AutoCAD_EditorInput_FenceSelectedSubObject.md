@@ -42,6 +42,7 @@ public FenceSelectedSubObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath path | Input subentitiy path |
@@ -56,6 +57,7 @@ Obsolete - Use the constructor overload taking IntPtr instead.
 Class
 Autodesk.AutoCAD.EditorInput
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullSubentityPath path | Input subentitiy path |
@@ -101,6 +103,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input culture-specific format |

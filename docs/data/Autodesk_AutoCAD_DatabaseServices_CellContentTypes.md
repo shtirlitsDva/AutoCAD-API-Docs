@@ -15,6 +15,7 @@ public enum CellContentTypes {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Block = 4 | Content is block |

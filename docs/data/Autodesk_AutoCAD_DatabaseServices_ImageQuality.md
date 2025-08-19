@@ -13,6 +13,7 @@ public enum ImageQuality {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Draft = 0 |

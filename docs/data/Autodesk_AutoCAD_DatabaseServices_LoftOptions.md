@@ -64,6 +64,7 @@ public LoftOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | LoftOptions opts | Input object to be copied into 'this' |
@@ -80,6 +81,7 @@ public LoftOptionsCheckCurvesOut CheckCrossSectionCurves(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity[] crossSectionCurves | Input list of cross-section curves |
@@ -97,6 +99,7 @@ public void CheckGuideCurves(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity[] guideCurves | Input list of guide curves |
@@ -116,6 +119,7 @@ public LoftOptionsCheckCurvesOut CheckLoftCurves(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity[] crossSectionCurves | Input list of cross-section curves |
@@ -135,6 +139,7 @@ public void CheckPathCurve(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity pathCurve | Input path curve |

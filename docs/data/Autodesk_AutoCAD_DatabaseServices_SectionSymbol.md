@@ -81,6 +81,7 @@ public double GetBulgeAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input: zero-based index into the section symbol point bulge collection. |
@@ -101,6 +102,7 @@ public string GetLabelNameAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input: zero-based index into the section symbol point collection. |
@@ -123,6 +125,7 @@ public Vector3d GetLabelOffsetAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input: zero-based index into the section symbol point collection. |
@@ -154,6 +157,7 @@ public Point3d GetSectionPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input: zero-based index into the section symbol point collection. |

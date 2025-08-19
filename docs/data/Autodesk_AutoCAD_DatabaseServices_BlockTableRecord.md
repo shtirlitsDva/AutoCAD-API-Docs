@@ -97,6 +97,7 @@ public ObjectId AppendEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [CallerMustClose] Entity entity | Input the object to append (must not be NULL) |
@@ -112,6 +113,7 @@ public void AssumeOwnershipOf(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection entitiesToMove | Input a collection of entities to change ownership of |
@@ -146,6 +148,7 @@ public ObjectIdCollection GetBlockReferenceIds(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool directOnly | Input an indication that only those BlockReferences that directly refer to this BlockTableRecord should be included in the IDs. If this value is true and the block is nested, the parent block's references will not be included. |
@@ -181,6 +184,7 @@ public Database GetXrefDatabase(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool incrementUnresolved | Input an indication whether or not to return the database of an unresolved xref |

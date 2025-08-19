@@ -42,6 +42,7 @@ public PromptIntegerOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -58,6 +59,7 @@ public PromptIntegerOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string messageAndKeywords | Input message and keywords |
@@ -77,6 +79,7 @@ public PromptIntegerOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string messageAndKeywords | Input message and keywords |

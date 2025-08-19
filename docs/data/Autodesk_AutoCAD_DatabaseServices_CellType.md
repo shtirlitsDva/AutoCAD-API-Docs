@@ -23,6 +23,7 @@ public enum CellType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Unknown | Unspecified, default cell type |

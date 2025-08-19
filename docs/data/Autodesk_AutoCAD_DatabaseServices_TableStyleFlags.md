@@ -15,6 +15,7 @@ public enum TableStyleFlags {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | HorizontalInsideLineFirst = 1 | Indicates the horizontal bottom grid line of the title row is on top of the draw order |

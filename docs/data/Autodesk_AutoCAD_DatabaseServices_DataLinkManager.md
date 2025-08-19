@@ -42,6 +42,7 @@ public ObjectId AddDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataLink dataLink | Data link object to add to the manager. |
@@ -65,6 +66,7 @@ public ObjectId GetDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Name of the data link to get. |
@@ -80,6 +82,7 @@ public void RemoveDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId idDataLink | Reference to the data link to remove. |
@@ -95,6 +98,7 @@ public ObjectId RemoveDataLink(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Key to retrieve the data link. |
@@ -111,6 +115,7 @@ public void Update(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.UpdateDirection direction | Update direction. |
@@ -129,6 +134,7 @@ public void Update(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection dataIds | Data link ids to update |

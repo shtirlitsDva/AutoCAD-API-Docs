@@ -136,6 +136,7 @@ public virtual void Extend(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool extendStart | Input whether to extend the curve's start or end . |
@@ -152,6 +153,7 @@ public virtual void Extend(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double newParameter | Input the new start or end parameter on the curve |
@@ -168,6 +170,7 @@ public virtual Point3d GetClosestPointTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d givenPoint | Input the point (in WCS coordinates) for which to find nearest point on curve |
@@ -186,6 +189,7 @@ public virtual Point3d GetClosestPointTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d givenPoint | Input the point (in WCS coordinates) for which to find nearest point on curve |
@@ -203,6 +207,7 @@ public virtual double GetDistanceAtParameter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Input the object representing the parameter. |
@@ -220,6 +225,7 @@ public virtual double GetDistAtPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d point | Input the object representing the point. |
@@ -235,6 +241,7 @@ public virtual Vector3d GetFirstDerivative(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Input the derivative value |
@@ -250,6 +257,7 @@ public virtual Vector3d GetFirstDerivative(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d point | Input the derivative value |
@@ -283,6 +291,7 @@ public virtual DBObjectCollection GetOffsetCurves(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double offsetDist | Input the distance to offset the curve |
@@ -299,6 +308,7 @@ public virtual DBObjectCollection GetOffsetCurvesGivenPlaneNormal(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Vector3d normal | Input the normal vector for plane in which to offset |
@@ -315,6 +325,7 @@ public virtual Curve GetOrthoProjectedCurve(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Plane planeToProjectOn | Input plane onto which the curve is to be projected |
@@ -330,6 +341,7 @@ public virtual double GetParameterAtDistance(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double dist | Input distance along the curve from the beginning of the curve to the location for the desired parameter. |
@@ -345,6 +357,7 @@ public virtual double GetParameterAtPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d point | Input point (in WCS coordinates) on the curve at which the parameter is desired Returns the parameter of the curve at point |
@@ -360,6 +373,7 @@ public virtual Point3d GetPointAtDist(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Input distance along the curve from the beginning of the curve to the location of the desired point |
@@ -375,6 +389,7 @@ public virtual Point3d GetPointAtParameter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Input parameter on the curve at which the point is desired |
@@ -391,6 +406,7 @@ public virtual Curve GetProjectedCurve(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Plane planeToProjectOn | Input plane onto which the curve is to be projected |
@@ -407,6 +423,7 @@ public virtual Vector3d GetSecondDerivative(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Input the derivative value |
@@ -422,6 +439,7 @@ public virtual Vector3d GetSecondDerivative(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d point | Input the derivative value |
@@ -437,6 +455,7 @@ public virtual DBObjectCollection GetSplitCurves(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DoubleCollection value | Input collection of points (in WCS coordinates) on the curve |
@@ -452,6 +471,7 @@ public virtual DBObjectCollection GetSplitCurves(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection points | Input collection of parameters on the curve |

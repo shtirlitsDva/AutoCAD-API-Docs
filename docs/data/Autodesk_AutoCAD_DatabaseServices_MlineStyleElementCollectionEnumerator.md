@@ -40,6 +40,7 @@ public MlineStyleElementCollectionEnumerator(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | MlineStyleElementCollection col | Input collection to generate from |

@@ -87,6 +87,7 @@ public void addCroppingBoundary(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PointCloudCrop cropping | An AcDbPointCloudCrop object which is to be added. |
@@ -106,6 +107,7 @@ public static ObjectId AttachPointCloud(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string filename | Point cloud source file path. This represent the original filepath use to cerate the index. This entry can be blank. |
@@ -135,6 +137,7 @@ public PointCloudItem findRegionItem(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int regionId | The region ID to be returned. |
@@ -160,6 +163,7 @@ public string GetColorSchemeForStylization(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PointCloudStylizationType type | Indicates a stylization type. |
@@ -238,6 +242,7 @@ public void setAllRegionsVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool visible | The visibility for all regions. |
@@ -254,6 +259,7 @@ public void setAllScansVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool visible | The visibility of all scans. |
@@ -270,6 +276,7 @@ public void SetColorSchemeForStylization(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Indicates the name of a color scheme to be set. |
@@ -289,6 +296,7 @@ public void setRegionVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int regionId | The region ID |
@@ -306,6 +314,7 @@ public void setScanVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string scanGuid | The scan GUID |
@@ -322,6 +331,7 @@ public bool TransformBy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d xform | The input transform matrix. |

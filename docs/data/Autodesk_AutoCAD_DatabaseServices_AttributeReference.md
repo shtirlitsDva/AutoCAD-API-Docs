@@ -75,6 +75,7 @@ public void SetAttributeFromBlock(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AttributeDefinition definition | Input the the attribute definition entity to be used as a data template |
@@ -91,6 +92,7 @@ public void SetAttributeFromBlock(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d blockTransform | Input a block transformation matrix. |

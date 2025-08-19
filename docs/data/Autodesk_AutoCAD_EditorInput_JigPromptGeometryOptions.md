@@ -51,6 +51,7 @@ public JigPromptGeometryOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -67,6 +68,7 @@ public JigPromptGeometryOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string messageAndKeywords | Input prompt message and keywords |

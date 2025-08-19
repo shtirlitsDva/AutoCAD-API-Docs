@@ -48,6 +48,7 @@ public EntityAlignmentEventArgs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.Entity Entity | Input Autodesk.AutoCAD.DatabaseServices.Entity object. |

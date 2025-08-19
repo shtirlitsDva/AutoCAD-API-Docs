@@ -77,6 +77,7 @@ public virtual HelpParameter GetConnectedHelpParameterFor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ConstrainedGeometry consGeom | The reference to ConstrainedGeometry object. |
@@ -116,6 +117,7 @@ public enum ConstraintType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Horizontal | Horizontal constraint. Can be applied to a line or two points. |

@@ -39,6 +39,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectedObject value | Input object to be added. |
@@ -54,6 +55,7 @@ public void AddSubEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectedSubObject value | Input object to be added. |
@@ -69,6 +71,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index of item to removes |
@@ -85,6 +88,7 @@ public void RemoveSubEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int entityIndex | Input entity index of item to remove |

@@ -58,6 +58,7 @@ public int Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Item to add |
@@ -81,6 +82,7 @@ public bool Contains(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Item to check for |
@@ -97,6 +99,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId[] array | Array to copy from |
@@ -121,6 +124,7 @@ public int IndexOf(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Item to search for |
@@ -137,6 +141,7 @@ public void Insert(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index to insert at |
@@ -153,6 +158,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Object to remove |
@@ -168,6 +174,7 @@ public void RemoveAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index of object to remove |

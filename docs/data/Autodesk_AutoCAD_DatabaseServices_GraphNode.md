@@ -74,6 +74,7 @@ public void AddRefTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode outGoingNode | Input to the outgoing node |
@@ -89,6 +90,7 @@ public void Clear(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte flags | Input flag values to clear for this node |
@@ -106,6 +108,7 @@ public GraphNode CycleIn(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input desired node index |
@@ -123,6 +126,7 @@ public GraphNode CycleOut(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input desired node index |
@@ -146,6 +150,7 @@ public GraphNode In(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input desired node index |
@@ -161,6 +166,7 @@ public bool IsMarkedAs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int flag | Input flag values to check for this node |
@@ -176,6 +182,7 @@ public void MarkAs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte flags | Input flag values to set for this node |
@@ -193,6 +200,7 @@ public void MarkTree(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | byte flags | Input flag values to set for this node and all nested out nodes |
@@ -209,6 +217,7 @@ public GraphNode Out(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input desired node index |
@@ -224,6 +233,7 @@ public void RemoveRefTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode nodeToRemoveReference | Input node to remove reference of |
@@ -240,6 +250,7 @@ public void SetEdgeGrowthRate(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int outEdgeRate | Number of outgoing edges allocated at one time |

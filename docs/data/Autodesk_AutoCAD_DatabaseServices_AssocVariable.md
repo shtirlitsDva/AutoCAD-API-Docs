@@ -64,6 +64,7 @@ public static void AddGlobalCallback(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | pCallback | The callback to be registered. |
@@ -84,6 +85,7 @@ public string EvaluateExpression(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ref ObjectIdCollection objectIds | Array of ids of value-providing objects. It is an in/out argument. It is being appended during the evaluation with ids of the value-providing objects whose values have been obtained (currently these objects are only AssocVariables). |
@@ -104,6 +106,7 @@ public string EvaluateExpression(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ref ResultBuffer evaluatedExpressionValue | Returned evaluated value of the expression. |
@@ -122,6 +125,7 @@ public ObjectId FindObjectByName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string objectName | The name of the searched-for object. |
@@ -152,6 +156,7 @@ public static void RemoveGlobalCallback(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | pCallback | The callback to be unregistered. |
@@ -169,6 +174,7 @@ public void SetName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string newName | New name of the variable. |
@@ -192,6 +198,7 @@ public void ValidateNameAndExpression(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string nameToValidate | The variable name to validate. May be null. |

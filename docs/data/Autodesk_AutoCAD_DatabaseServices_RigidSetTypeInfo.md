@@ -13,6 +13,7 @@ public enum RigidSetTypeInfo {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | NotRigidSet | Not a rigid set. |

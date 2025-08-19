@@ -177,6 +177,7 @@ public void CloneLayout(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string copyName | Input to the old Layout name |
@@ -195,6 +196,7 @@ public void CopyLayout(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string copyName | Input name of Layout object to be copied |
@@ -211,6 +213,7 @@ public ObjectId CreateLayout(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string newName | Input name to give new Layout object |
@@ -226,6 +229,7 @@ public void DeleteLayout(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string deleteName | Input name of Layout object to delete |
@@ -241,6 +245,7 @@ public ObjectId GetLayoutId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name of Layout object to search for |
@@ -256,6 +261,7 @@ public ObjectId GetNonRectangularViewportIdFromClipId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId clipId | Input ObjectId of clip entity to get the nonrectangular viewport ID from |
@@ -272,6 +278,7 @@ public bool LayoutExists(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string name | Input name of layout to find. |
@@ -288,6 +295,7 @@ public void RenameLayout(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string oldName | Input name of Layout object to rename |

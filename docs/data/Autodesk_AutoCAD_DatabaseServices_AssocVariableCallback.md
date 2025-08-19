@@ -45,6 +45,7 @@ public abstract bool CanBeErased(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocVariable variable | The AcDbAssocVariable that is to be erased. |
@@ -64,6 +65,7 @@ public abstract string ValidateNameAndExpression(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocVariable variable | The variable whose name and/or expression are being validated. |

@@ -58,6 +58,7 @@ public ResultBuffer(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | params TypedValue[] values | Input values |
@@ -75,6 +76,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object value | Input object to add |
@@ -90,6 +92,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | TypedValue value | Input object to add |
@@ -114,6 +117,7 @@ public static ResultBuffer Create(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntPtr buffer | Input pointer |
@@ -130,6 +134,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Object to check against |
@@ -169,6 +174,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input culture definition |
@@ -185,6 +191,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string format | Input format for string |
@@ -202,6 +209,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ResultBuffer a | Left operand |
@@ -219,6 +227,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ResultBuffer a | Left operand |

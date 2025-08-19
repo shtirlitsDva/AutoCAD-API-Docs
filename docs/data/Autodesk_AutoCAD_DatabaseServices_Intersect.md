@@ -14,6 +14,7 @@ public enum Intersect {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | OnBothOperands |

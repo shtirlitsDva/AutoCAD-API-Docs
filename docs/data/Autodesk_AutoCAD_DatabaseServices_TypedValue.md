@@ -47,6 +47,7 @@ public TypedValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int typeCode | Input the type code. |
@@ -63,6 +64,7 @@ public TypedValue(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int typeCode | Input the type code. |
@@ -79,6 +81,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Input object to compare with. |
@@ -110,6 +113,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input System.IFormatProvider object. |
@@ -126,6 +130,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string format | Input format to display |
@@ -145,6 +150,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | TypedValue a | Left operand |
@@ -162,6 +168,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | TypedValue a | Left operand |

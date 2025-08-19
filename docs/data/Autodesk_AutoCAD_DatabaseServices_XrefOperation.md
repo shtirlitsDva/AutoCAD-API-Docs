@@ -19,6 +19,7 @@ public enum XrefOperation {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | XrefAttachOperation = 0 | Attaches an xref file to the database specified by HostDb or the current document in the editor if HostDb is null. |

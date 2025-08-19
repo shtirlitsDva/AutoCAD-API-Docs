@@ -13,6 +13,7 @@ public enum DetailSymbolBoundaryType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | CircularBoundary | enum |

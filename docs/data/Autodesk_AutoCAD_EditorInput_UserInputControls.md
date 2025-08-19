@@ -26,6 +26,7 @@ public enum UserInputControls {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Accept3dCoordinates = 0x80 | Sets the "Accept Z coordinate" mode. Input is restricted to 2d input by default. |

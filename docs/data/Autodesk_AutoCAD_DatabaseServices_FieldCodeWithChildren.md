@@ -39,6 +39,7 @@ public void Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int i | Index at which the new entry will be added to the array of children. |

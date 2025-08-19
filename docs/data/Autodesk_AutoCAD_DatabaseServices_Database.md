@@ -528,6 +528,7 @@ public Database(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool buildDefaultDrawing | System.Boolean specifying whether or not to build an empty object |
@@ -973,6 +974,7 @@ public void AbortDeepClone(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IdMapping idMap | Input used in the deepClone operation being aborted |
@@ -988,6 +990,7 @@ public ObjectId AddDBObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [CallerMustClose] DBObject appendIt | Input object to be added to the database |
@@ -1016,6 +1019,7 @@ public ObjectId AttachXref(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input xref file path name |
@@ -1032,6 +1036,7 @@ public void AuditXData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AuditInfo info | Not implemented |
@@ -1049,6 +1054,7 @@ public void BindXrefs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection xrefIds | Input collection of ObjectIds for the xref BlockTableRecords to bind. |
@@ -1065,6 +1071,7 @@ public string ClassDxfName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | RXClass getMyDxfName | Input Autodesk.AutoCAD.Runtime.RXClass object to get the name of. |
@@ -1084,6 +1091,7 @@ public void CloseInput(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool closeFile | Input System.Boolean indicating whether to close the drawing file |
@@ -1101,6 +1109,7 @@ public int CountEmptyObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int flags | The setting of the count mode. It is stored as a bitcode using the combination of the following enum values:ZeroLengthCurve - Count zero length curves (AcDbCurve derived objects such as LINE, POLYLINE, SPLINE, etc.)EmptyText - Count empty TEXT/MTEXT objects (which contain only spaces, tabs, enters and/or new lines)AllEmptyObj - Count all empty objects |
@@ -1122,6 +1131,7 @@ public void CountHardReferences(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection ids | Input collection of objectId entities of objects to find the count of hard references to those objects |
@@ -1138,6 +1148,7 @@ public static Database DbFromId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | long id | Input integer that represents the runtime ID of the Database to return |
@@ -1159,6 +1170,7 @@ public void DeepCloneObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection identifiers | Input collection of objects to be deep cloned |
@@ -1177,6 +1189,7 @@ public void DetachXref(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId xrefId | Input object ID of the xref block to detach |
@@ -1203,6 +1216,7 @@ public void DisableUndoRecording(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool disable | Input Boolean indicating turn Undo on or off |
@@ -1222,6 +1236,7 @@ public void DxfIn(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input full path of the DXF file to be read into database |
@@ -1242,6 +1257,7 @@ public void DxfOut(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input name or URL of the new DXF file to create (the .dxf extension is not added automatically) |
@@ -1263,6 +1279,7 @@ public void DxfOut(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input name or URL of the new DXF file to create (the .dxf extension is not added automatically) |
@@ -1284,6 +1301,7 @@ public void DxfOutEx(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input name or URL of the new DXF file to create (the .dxf extension is not added automatically) |
@@ -1303,6 +1321,7 @@ public int EraseEmptyObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int flags | The setting of the erase mode. It is stored as a bitcode using the combination of the following enum values:ZeroLengthCurve - Erase zero length curves (AcDbCurve derived objects such as LINE, POLYLINE, SPLINE, etc.)EmptyText - Erase empty TEXT/MTEXT objects (which contain only spaces, tabs, enters and/or new lines)AllEmptyObj - Erase all empty objects |
@@ -1332,6 +1351,7 @@ public FieldEvaluationResult EvaluateFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FieldEvaluationContext context | Input bitwise value that determines the contexts in which fields should be evaluated. Refer to the DatabaseServices.FieldEvaluationContext enum for available context values. |
@@ -1349,6 +1369,7 @@ public FieldEvaluationResult EvaluateFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FieldEvaluationContext context | Input bitwise value that determines the contexts in which fields should be evaluated. Refer to the DatabaseServices.FieldEvaluationContext enum for available context values. |
@@ -1395,6 +1416,7 @@ public DimStyleTableRecord GetDimensionStyleChildData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | RXClass classDescriptor | Input object to check. |
@@ -1412,6 +1434,7 @@ public ObjectId GetDimensionStyleChildId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | RXClass classDescriptor | Input dimension class descriptor |
@@ -1428,6 +1451,7 @@ public ObjectId GetDimensionStyleParentId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId childStyle | Input child dimension style ID |
@@ -1459,6 +1483,7 @@ public XrefGraph GetHostDwgXrefGraph(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool includeGhosts | If set to true, includes ghost nodes. |
@@ -1484,6 +1509,7 @@ public Autodesk.AutoCAD.DatabaseServices.LineWeight GetNearestLineWeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int weight | Input lineweight in hundredths of a millimeter |
@@ -1502,6 +1528,7 @@ public ObjectId GetObjectId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool createIfNotFound | Input Boolean indicating to create a objectId stub if input handle is not found |
@@ -1535,6 +1562,7 @@ public ObjectIdCollection GetViewports(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool bGetPaperspaceVports | Input flag indicating whether to return paperspace viewports associated with layouts |
@@ -1558,6 +1586,7 @@ public static long IdFromDb(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database dataBase | Input Database of which to get its runtime ID |
@@ -1578,6 +1607,7 @@ public void Insert(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d transform | Input transformation matrix applied to all objects being inserted |
@@ -1599,6 +1629,7 @@ public ObjectId Insert(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string blockName | Input name to be used by the new block table record created by this function |
@@ -1621,6 +1652,7 @@ public ObjectId Insert(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string sourceBlockName | Input name of the blockTableRecord |
@@ -1639,6 +1671,7 @@ public static bool IsObjectNonPersistent(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input ID of the object to be interrogated |
@@ -1654,6 +1687,7 @@ public bool IsValidLineWeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int weight | Input lineweight in hundredths of a millimeter |
@@ -1672,6 +1706,7 @@ public void LoadLineTypeFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string lineTypeName | Input linetype name string (wild cards may be used) |
@@ -1690,6 +1725,7 @@ public void LoadMlineStyleFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string mlineStyleName | Input MlineStyle name string (no wild cards) |
@@ -1707,6 +1743,7 @@ public static void MarkObjectNonPersistent(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input ID of the object to be modified |
@@ -1727,6 +1764,7 @@ public ObjectId OverlayXref(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input xref file path name |
@@ -1747,6 +1785,7 @@ public void Purge(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection ids | Input collection of object ID entities of objects |
@@ -1769,6 +1808,7 @@ public void Purge(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdGraph idGraph | Input graph of objects in the database. The graph will be returned containing only those objects that may safely be removed from the database. |
@@ -1791,6 +1831,7 @@ public void ReadDwgFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntPtr drawingFile | Input pointer to DWG file to read |
@@ -1817,6 +1858,7 @@ public void ReadDwgFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input name or URL of file to read |
@@ -1857,6 +1899,7 @@ public void ReadDwgFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input name or URL of file to read |
@@ -1877,6 +1920,7 @@ public void ReclaimMemoryFromErasedObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection ids | A collection of object ids whose memory is to be reclaimed by deleting their objects. All object ids in the collection must correspond to erased objects, which must be entirely closed. |
@@ -1892,6 +1936,7 @@ public void ReloadXrefs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection xrefIds | Input collection of ObjectIds for the xref BlockTableRecords to unload |
@@ -1921,6 +1966,7 @@ public void ResolveXrefs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool useThreadEngine | Input Boolean indicating whether to use the thread engine for xref resolution |
@@ -1982,6 +2028,7 @@ public void SaveAs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input file name or URL to write database out to |
@@ -2013,6 +2060,7 @@ public void SaveAs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input file name or URL to write database out to |
@@ -2032,6 +2080,7 @@ public void SaveAs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string fileName | Input file name or URL to write database out to |
@@ -2057,6 +2106,7 @@ public void SetDimstyleData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DimStyleTableRecord style | Input pointer to DimStyleTableRecord from which to copy dimension variable information |
@@ -2074,11 +2124,13 @@ public Autodesk.AutoCAD.DatabaseServices.TimeZone SetTimeZoneAsUtcOffset(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double offset | Input the offset, in hours |
 
 #### Exceptions
+
 | Exceptions | Description |
 | --- | --- |
 | validInput | Thrown if a valid time zone is not found |
@@ -2097,6 +2149,7 @@ public void SetWorldPaperspaceUcsBaseOrigin(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d origin | Input new origin point in WCS coordinates |
@@ -2114,6 +2167,7 @@ public void SetWorldUcsBaseOrigin(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d origin | Input new origin point in WCS coordinates |
@@ -2131,6 +2185,7 @@ public string TimeZoneDescription(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.TimeZone tz | Input a value from the TimeZone enum |
@@ -2146,11 +2201,13 @@ public double TimeZoneOffset(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.TimeZone tz | Input one of the time zones contained in the TimeZone enum |
 
 #### Exceptions
+
 | Exceptions | Description |
 | --- | --- |
 | validInput | Thrown if an invalid TimeZone is passed in |
@@ -2168,6 +2225,7 @@ public void UnloadXrefs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection xrefIds | Input collection of ObjectIds for the xref BlockTableRecords to unload |
@@ -2184,6 +2242,7 @@ public void UpdateExt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool doBestFit | Determines whether to generate the tightest bounding box |
@@ -2232,6 +2291,7 @@ public void WblockCloneObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection identifiers | Input collection of objects to be deep cloned |
@@ -2251,6 +2311,7 @@ public Point3d WorldPaperspaceUcsBaseOrigin(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OrthographicView orthoView | Input desired view |
@@ -2266,6 +2327,7 @@ public Point3d WorldUcsBaseOrigin(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OrthographicView orthoView | Input view for which base point is desired |
@@ -2284,6 +2346,7 @@ public void XBindXrefs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection xrefSymbolIds | Input collection of ObjectIds of SymbolTableRecord objects to be bound. |
@@ -2292,6 +2355,7 @@ public void XBindXrefs(
 ### AutoCAD.DatabaseServices.Database.ApplyPartialOpenFilters@SpatialFilter@Autodesk.AutoCAD.DatabaseServices.Filters.LayerFilter
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | spatialFilter | Specifies the model space volume to be used for spatial filtering |

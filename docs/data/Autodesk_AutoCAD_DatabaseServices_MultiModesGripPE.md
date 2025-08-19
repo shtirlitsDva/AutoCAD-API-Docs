@@ -63,6 +63,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.GripMode CurrentMode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The Entity whose current mode is requested. |
@@ -82,6 +83,7 @@ public virtual uint CurrentModeId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The Entity whose current mode id is requested. |
@@ -103,6 +105,7 @@ public virtual bool GetGripModes(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The Entity whose modes are requested. The object needs to be open at least for read. |
@@ -124,6 +127,7 @@ public virtual GripType GetGripType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The Entity whose grip type is requested. |
@@ -142,6 +146,7 @@ public virtual void Reset(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The Entity whose current mode is reset to default. |
@@ -159,6 +164,7 @@ public virtual bool SetCurrentMode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The Entity whose current mode is to be set current. |
@@ -179,6 +185,7 @@ public enum GripType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Primary | The primary grip. Always shown if host applications's GRIPS variable is not 0; |

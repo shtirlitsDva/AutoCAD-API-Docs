@@ -55,6 +55,7 @@ public int Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode value | Item to add. |
@@ -78,6 +79,7 @@ public bool Contains(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode value | Object to check for |
@@ -94,6 +96,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode[] array | Array to copy from |
@@ -118,6 +121,7 @@ public int IndexOf(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode value | Item to seek |
@@ -134,6 +138,7 @@ public void Insert(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Location to insert |
@@ -150,6 +155,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | GraphNode value | Item to remove. |
@@ -165,6 +171,7 @@ public void RemoveAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index to remove from |

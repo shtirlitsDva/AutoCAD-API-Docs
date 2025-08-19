@@ -40,6 +40,7 @@ public virtual ObjectId DimensionStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Dimension dimension | Dimension that this overrule is applied against. |
@@ -58,6 +59,7 @@ public virtual void GetDimstyleData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Dimension dimension | Dimension that this overrule is applied against. |
@@ -86,6 +88,7 @@ public virtual void SetDimensionStyle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Dimension dimension | Dimension that this overrule is applied against. |
@@ -105,6 +108,7 @@ public virtual void SetDimstyleData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Dimension dimension | Dimension that this overrule is applied against. |
@@ -122,6 +126,7 @@ public virtual void SetDimstyleData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Dimension dimension | Dimension that this overrule is applied against. |
@@ -139,6 +144,7 @@ public sealed override void SetExtensionDictionaryEntryFilter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string entryName | Name of dictionary entry. |
@@ -158,6 +164,7 @@ public sealed override void SetIdFilter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId[] ids | Array of ids defining the lookup table |
@@ -187,6 +194,7 @@ public sealed override void SetXDataFilter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string registeredApplicationName | Name of the registered application. |

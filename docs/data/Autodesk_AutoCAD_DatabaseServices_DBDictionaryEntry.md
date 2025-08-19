@@ -45,6 +45,7 @@ public DBDictionaryEntry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string key | Original key |
@@ -69,6 +70,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input System.IFormatProvider object. |

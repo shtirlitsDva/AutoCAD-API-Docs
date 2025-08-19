@@ -17,6 +17,7 @@ public enum ShadePlotResLevel {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Draft | Plot as wireframe; this setting is legacy mode. |

@@ -15,6 +15,7 @@ public enum SegmentType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Line | This is a non-zero length line segment. |

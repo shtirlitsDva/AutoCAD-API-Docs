@@ -13,6 +13,7 @@ public enum BlockScaling {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Any | Block references associated with this block table record can be non-uniformly scaled. |

@@ -14,6 +14,7 @@ public enum Vertex3dType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | SimpleVertex | A standard vertex within a 3D polyline. |

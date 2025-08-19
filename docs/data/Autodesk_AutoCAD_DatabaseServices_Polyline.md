@@ -129,6 +129,7 @@ public void AddVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) before which to insert the vertex |
@@ -151,6 +152,7 @@ public void ConvertFrom(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | Input pointer to the Polyline2d to copy from |
@@ -169,6 +171,7 @@ public Polyline2d ConvertTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool transferId | Input Boolean indicating whether or not to do a handOverTo between the Polyline and the Polyline2d. |
@@ -184,6 +187,7 @@ public CircularArc2d GetArcSegment2dAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex for start of arc |
@@ -199,6 +203,7 @@ public CircularArc3d GetArcSegmentAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex for start of arc |
@@ -214,6 +219,7 @@ public double GetBulgeAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex for start of bulge |
@@ -229,6 +235,7 @@ public double GetEndWidthAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the polyline |
@@ -244,6 +251,7 @@ public LineSegment2d GetLineSegment2dAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex for start of segment |
@@ -259,6 +267,7 @@ public LineSegment3d GetLineSegmentAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex for start of segment |
@@ -274,6 +283,7 @@ public Point2d GetPoint2dAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex |
@@ -289,6 +299,7 @@ public Point3d GetPoint3dAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int value | Input index (0 based) of the vertex |
@@ -305,6 +316,7 @@ public SegmentType GetSegmentType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex |
@@ -320,6 +332,7 @@ public double GetStartWidthAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex |
@@ -354,6 +367,7 @@ public virtual bool OnSegmentAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex |
@@ -371,6 +385,7 @@ public void RemoveVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex to remove |
@@ -389,6 +404,7 @@ public void Reset(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool reuse | Input Boolean indicating whether or not to retain some vertices |
@@ -406,6 +422,7 @@ public void SetBulgeAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex |
@@ -423,6 +440,7 @@ public void SetEndWidthAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex |
@@ -440,6 +458,7 @@ public void SetPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex |
@@ -457,6 +476,7 @@ public void SetStartWidthAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of the vertex |

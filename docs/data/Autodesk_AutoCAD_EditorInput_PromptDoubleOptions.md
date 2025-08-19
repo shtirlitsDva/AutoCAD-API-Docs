@@ -39,6 +39,7 @@ public PromptDoubleOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -55,6 +56,7 @@ public PromptDoubleOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string messageAndKeywords | Input prompt message and keywords |

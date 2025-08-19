@@ -14,6 +14,7 @@ public enum PlotStyleNameType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | PlotStyleNameByLayer |

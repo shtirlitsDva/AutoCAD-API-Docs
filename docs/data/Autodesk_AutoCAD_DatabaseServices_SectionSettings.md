@@ -91,6 +91,7 @@ public Autodesk.AutoCAD.Colors.Color Color(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -107,6 +108,7 @@ public ObjectId DestinationBlock(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type for which the destination block is to be returned |
@@ -122,6 +124,7 @@ public string DestinationFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type for which the destination file is to be returned |
@@ -138,6 +141,7 @@ public bool DivisionLines(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -155,6 +159,7 @@ public int EdgeTransparency(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -172,6 +177,7 @@ public int FaceTransparency(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -188,6 +194,7 @@ public SectionGeneration GenerationOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type for which the generation options object is to be returned |
@@ -204,6 +211,7 @@ public string GetHatchPatternName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -221,6 +229,7 @@ public Autodesk.AutoCAD.DatabaseServices.HatchPatternType GetHatchPatternType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -238,6 +247,7 @@ public void GetSourceObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type for which the source objects are to be returned |
@@ -255,6 +265,7 @@ public double HatchAngle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -272,6 +283,7 @@ public double HatchScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -289,6 +301,7 @@ public double HatchSpacing(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -306,6 +319,7 @@ public bool HatchVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -323,6 +337,7 @@ public bool HiddenLine(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -340,6 +355,7 @@ public string Layer(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -357,6 +373,7 @@ public string Linetype(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -374,6 +391,7 @@ public double LinetypeScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -391,6 +409,7 @@ public Autodesk.AutoCAD.DatabaseServices.LineWeight LineWeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -408,6 +427,7 @@ public string PlotStyleName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -425,6 +445,7 @@ public void Reset(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type to be reset |
@@ -442,6 +463,7 @@ public void SetColor(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -460,6 +482,7 @@ public void SetDestinationBlock(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type for which the destination block is to be set |
@@ -477,6 +500,7 @@ public void SetDestinationFile(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type for which the destination file is to be set |
@@ -495,6 +519,7 @@ public void SetDivisionLines(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -514,6 +539,7 @@ public void SetEdgeTransparency(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -533,6 +559,7 @@ public void SetFaceTransparency(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -554,6 +581,7 @@ public void SetGenerationOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type for which the generation options are to be set |
@@ -572,6 +600,7 @@ public void SetHatchAngle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -591,6 +620,7 @@ public void SetHatchPatternName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -610,6 +640,7 @@ public void SetHatchPatternType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -629,6 +660,7 @@ public void SetHatchScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -647,6 +679,7 @@ public void SetHatchSpacing(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -665,6 +698,7 @@ public void SetHatchVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -684,6 +718,7 @@ public void SetHiddenLine(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -703,6 +738,7 @@ public void SetLayer(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -722,6 +758,7 @@ public void SetLinetype(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -741,6 +778,7 @@ public void SetLinetypeScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -760,6 +798,7 @@ public void SetLineWeight(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -779,6 +818,7 @@ public void SetPlotStyleName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -797,6 +837,7 @@ public void SetSourceObjects(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -815,6 +856,7 @@ public void SetVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |
@@ -833,6 +875,7 @@ public bool Visibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.SectionType nSecType | Input section type |

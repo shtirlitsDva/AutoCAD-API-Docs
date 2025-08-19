@@ -51,6 +51,7 @@ public override bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity owning the subentities of this and the other AssocSingleEdgePersSubentId. |
@@ -69,6 +70,7 @@ public override SubentityType SubentType(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | Not used. |
@@ -86,6 +88,7 @@ public override int TransientSubentCount(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | Not used. |

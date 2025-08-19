@@ -16,6 +16,7 @@ public enum TextVerticalMode {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | TextBase | TV_BASE |

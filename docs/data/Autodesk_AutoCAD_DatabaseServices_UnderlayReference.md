@@ -86,6 +86,7 @@ public void SetClipBoundary(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point2d[] points | Input the clip boundary. An array describing a self intersecting polyline is not allowed. An array of two points is allowed and is treated as the minimum, maximum point of a rectangle. |

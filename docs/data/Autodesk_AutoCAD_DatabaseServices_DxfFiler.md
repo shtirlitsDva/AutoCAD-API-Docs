@@ -93,6 +93,7 @@ public virtual bool AtSubclassData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string value | subClassName that should be compared |
@@ -119,6 +120,7 @@ public virtual void HaltAtClassBoundaries(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool value | Input Boolean indicating whether or not to halt at certain key markers in the file |
@@ -203,6 +205,7 @@ public virtual void SetError(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.Runtime.ErrorStatus value | Input ErrorStatus error code |
@@ -221,6 +224,7 @@ public virtual void SetError(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string format | Input error message string |
@@ -243,6 +247,7 @@ public virtual void WriteBool(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | Input DXF group code to be written out |
@@ -265,6 +270,7 @@ public virtual void WriteBoolean(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out Boolean to be written out |
@@ -286,6 +292,7 @@ public virtual void WriteByte(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | Input DXF group code to be written out |
@@ -307,6 +314,7 @@ public virtual void WriteBytes(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | Input DXF group code to be written out |
@@ -329,6 +337,7 @@ public virtual void WriteDouble(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -365,6 +374,7 @@ public virtual void WriteHandle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -386,6 +396,7 @@ public virtual void WriteInt16(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -407,6 +418,7 @@ public virtual void WriteInt32(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -441,6 +453,7 @@ public virtual void WriteObjectId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -463,6 +476,7 @@ public virtual void WritePoint2d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -486,6 +500,7 @@ public virtual void WritePoint3d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -508,6 +523,7 @@ public virtual void WriteResultBuffer(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ResultBuffer buffer | Resbuf structure to be written out |
@@ -530,6 +546,7 @@ public virtual void WriteScale3d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -552,6 +569,7 @@ public virtual void WriteString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -573,6 +591,7 @@ public virtual void WriteUInt16(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -594,6 +613,7 @@ public virtual void WriteUInt32(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -627,6 +647,7 @@ public virtual void WriteVector2d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |
@@ -650,6 +671,7 @@ public virtual void WriteVector3d(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfCode opCode | DXF group code to be written out |

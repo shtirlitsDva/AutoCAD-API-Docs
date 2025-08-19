@@ -15,6 +15,7 @@ public enum AnnotationType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | MText | The annotation is an MText. |

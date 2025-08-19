@@ -45,6 +45,7 @@ public enum StdScaleType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ScaleToFit | Scaled to Fit. |

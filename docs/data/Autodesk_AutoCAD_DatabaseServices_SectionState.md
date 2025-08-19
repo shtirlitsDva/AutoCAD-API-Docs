@@ -13,6 +13,7 @@ public enum SectionState {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Boundary = 2 | Section plane is bounded by the section line, two side lines, and a back line. However it extends infinitely up and down. |

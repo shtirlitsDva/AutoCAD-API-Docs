@@ -73,6 +73,7 @@ public ObjectId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntPtr oldId | Input pointer to construct from |
@@ -88,6 +89,7 @@ public bool Compare(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value1 | Input object to compare against |
@@ -111,6 +113,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Input object to check against |
@@ -144,6 +147,7 @@ public DBObject GetObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OpenMode mode | Input mode to retrieve the object |
@@ -160,6 +164,7 @@ public DBObject GetObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OpenMode mode | Input mode to retrieve the object |
@@ -178,6 +183,7 @@ public DBObject GetObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OpenMode mode | Input mode to retrieve the object |
@@ -203,6 +209,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input culture definition |
@@ -219,6 +226,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId a | Left operand |
@@ -236,6 +244,7 @@ public static bool operator <(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value1 | Left operand |
@@ -253,6 +262,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId a | Left operand |
@@ -270,6 +280,7 @@ public static bool operator >(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value1 | Left operand |

@@ -39,6 +39,7 @@ public AssocObjectTransaction(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocAction actionBeingEvaluated | The action that is just being evaluated. |
@@ -54,6 +55,7 @@ public AssocObjectTransaction(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocActionBody actionBodyBeingEvaluated | The action that is just being evaluated. |
@@ -69,6 +71,7 @@ public AssocObjectTransaction(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependency dependencyBeingEvaluated | The action that is just being evaluated. |
@@ -84,6 +87,7 @@ public AssocObjectTransaction(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AssocDependencyBody dependencyBodyBeingEvaluated | The action that is just being evaluated. |
@@ -102,6 +106,7 @@ public DBObject GetDBObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId objectId | ObjectId of the object that should be opened. |
@@ -120,6 +125,7 @@ public bool IsSubstituteObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject dbObject | Object for which it finds out whether there is a substitute object. |

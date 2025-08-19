@@ -16,6 +16,7 @@ public enum PointCloudStylizationType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ClassificationRamp = 6 | Colorizes points based on a classification assigned to the points. AutoCAD uses a default color scheme for LAS classification values. |

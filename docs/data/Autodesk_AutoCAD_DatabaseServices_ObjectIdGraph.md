@@ -48,6 +48,7 @@ public void AddNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdGraphNode nodeToAdd | Input ObjectIdGraphNode to add to the graph. |
@@ -63,6 +64,7 @@ public void DelNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | nodeToAdd | Input ObjectIdGraphNode to remove from the graph. |
@@ -78,6 +80,7 @@ public ObjectIdGraphNode FindNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input ObjectId for node to find. |
@@ -93,6 +96,7 @@ public ObjectIdGraphNode IdNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input zero based index of the node to get. |

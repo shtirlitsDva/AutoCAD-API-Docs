@@ -44,6 +44,7 @@ public PromptCornerOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |

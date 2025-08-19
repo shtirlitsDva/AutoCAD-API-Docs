@@ -14,6 +14,7 @@ public enum RowType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | DataRow = 1 | Indicates a row that is neither title row nor header row. |

@@ -118,6 +118,7 @@ public Spline(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int degree | Specifies degree of spline |
@@ -153,6 +154,7 @@ public Spline(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d center | Center point (in WCS coordinates) of the elliptical arc |
@@ -181,6 +183,7 @@ public Spline(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection fitPoints | Array of points (in WCS coordinates) through which to fit the curve. |
@@ -208,6 +211,7 @@ public Spline(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection point | Array of points (in WCS coordinates) through which to fit the curve |
@@ -245,6 +249,7 @@ public Spline(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection point | Array of points (in WCS coordinates) through which to fit the curve |
@@ -279,6 +284,7 @@ public void ElevateDegree(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int newDegree | Input new spline degree value (in the range (existing degree) to 25) |
@@ -297,6 +303,7 @@ public Point3d GetControlPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of point to get |
@@ -312,6 +319,7 @@ public Point3d GetFitPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) value |
@@ -340,6 +348,7 @@ public void InsertFitPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) where new fit point is to be inserted |
@@ -357,6 +366,7 @@ public void InsertKnot(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Input parameter where knot is to be added |
@@ -374,6 +384,7 @@ public Autodesk.AutoCAD.Runtime.ErrorStatus ModifyPositionAndTangent(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double param | Parameter |
@@ -422,6 +433,7 @@ public void RemoveFitPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index (0 based) of fit point to be removed |
@@ -438,6 +450,7 @@ public void SetControlPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of control point to replace |
@@ -455,6 +468,7 @@ public void SetFitPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of fit point to replace |
@@ -472,6 +486,7 @@ public void SetWeightAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of control point at which to change the weight |
@@ -511,6 +526,7 @@ public Curve ToPolyline(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | uint numOfVertices | Target number of vertices. The resulting polyline will have vertices no more than this value. |
@@ -545,6 +561,7 @@ public Curve ToPolylineWithPrecision(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int precision | Target precision |
@@ -588,6 +605,7 @@ public double WeightAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index (0 based) of control point |

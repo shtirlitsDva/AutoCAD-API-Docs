@@ -90,6 +90,7 @@ public static ObjectId CreateImageDictionary(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | Input AutoCAD database in which to create the dictionary |
@@ -113,6 +114,7 @@ public virtual int GetEntityCount(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | out bool locked | Input locked value |
@@ -128,6 +130,7 @@ public static ObjectId GetImageDictionary(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Database database | Input AutoCAD database in which to find the dictionary |
@@ -145,6 +148,7 @@ public virtual IntPtr ImageCopy(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool forceImageLoad | Input Boolean indicating whether to load the image if it is not currently loaded |
@@ -195,6 +199,7 @@ public virtual void SetImage(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntPtr image | Input NULL or pointer to valid Atil::Image object |
@@ -214,6 +219,7 @@ public static string SuggestName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBDictionary imageDictionary | Input pointer to the (previously opened for reading) image dictionary within which this name must be unique |
@@ -231,6 +237,7 @@ public virtual void Unload(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [MarshalAs(UnmanagedType.U1)] bool modifyDatabase | Input Boolean indicating whether or not to do undo recording |

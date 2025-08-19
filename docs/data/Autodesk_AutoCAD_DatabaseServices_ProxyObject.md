@@ -55,6 +55,7 @@ public static void ResurrectMeNow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input object ID of object to be resurrected |

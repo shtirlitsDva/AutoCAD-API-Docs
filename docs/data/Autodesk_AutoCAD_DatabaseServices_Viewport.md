@@ -159,6 +159,7 @@ public void FreezeLayersInViewport(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IEnumerator layerIds | Input array of object IDs of layers to be frozen in the viewport |
@@ -182,6 +183,7 @@ public ObjectId GetPreviousBackground(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.GraphicsInterface.DrawableType type | Input type of the preferred previous background object |
@@ -191,6 +193,7 @@ public ObjectId GetPreviousBackground(
 #### Description
 This function returns the origin, x-axis, and y-axis of the ucs for this viewport.
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ref Point3d origin | Input origin |
@@ -215,6 +218,7 @@ public bool IsLayerFrozenInViewport(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId layerId | Input id of the LayerTableRecord in question |
@@ -231,6 +235,7 @@ public void SetPreviousBackground(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Input object ID of the new background |
@@ -249,6 +254,7 @@ public void SetShadePlot(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ShadePlotType type | Input type of shade plot |
@@ -265,6 +271,7 @@ public ObjectId SetSun(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [CallerMustClose] DBObject sun | Input a sun object |
@@ -280,6 +287,7 @@ public void SetUcs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OrthographicView view | Input orthographic UCS |
@@ -295,6 +303,7 @@ public void SetUcs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId userCoordinateSystemId | Input reference to a valid UcsTableRecord object |
@@ -312,6 +321,7 @@ public void SetUcs(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d origin | Input origin |
@@ -339,6 +349,7 @@ public void SetViewDirection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.OrthographicView view | Input orthographic view |
@@ -362,6 +373,7 @@ public void ThawLayersInViewport(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IEnumerator layerIds | Input enumeration of object IDs of layers to be thawed in the viewport |

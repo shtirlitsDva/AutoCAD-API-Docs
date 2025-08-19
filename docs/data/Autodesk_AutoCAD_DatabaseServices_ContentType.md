@@ -14,6 +14,7 @@ public enum ContentType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | NoneContent | MLeader has no content |

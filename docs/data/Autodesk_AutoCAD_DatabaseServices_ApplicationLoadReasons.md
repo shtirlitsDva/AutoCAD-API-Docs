@@ -17,6 +17,7 @@ public enum ApplicationLoadReasons {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | LoadDisabled = 0x10 | Do not demand load the .NET application for any reason |

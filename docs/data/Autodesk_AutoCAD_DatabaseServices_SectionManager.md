@@ -60,6 +60,7 @@ public ObjectId GetSection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string pszName | Input name of the section plane to get |
@@ -75,6 +76,7 @@ public string GetUniqueSectionName(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string pszBaseName | Input System.String object. |

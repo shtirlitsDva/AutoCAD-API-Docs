@@ -74,6 +74,7 @@ public ObjectId GetPreviousBackground(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.GraphicsInterface.DrawableType type | Input type of the preferred previous background object. |
@@ -90,6 +91,7 @@ public void SetPreviousBackground(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId value | Input object ID of the new background. |

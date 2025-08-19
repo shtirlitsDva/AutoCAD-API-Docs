@@ -183,6 +183,7 @@ public enum MethodType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Divide | Divide method arranges given number of items on entire path equidistantly. |

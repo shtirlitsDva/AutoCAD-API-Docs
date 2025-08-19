@@ -15,6 +15,7 @@ public enum FrameSetting {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ImageFrameAbove = 1 | Frame drawn above image |

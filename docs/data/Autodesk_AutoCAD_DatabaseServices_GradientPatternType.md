@@ -13,6 +13,7 @@ public enum GradientPatternType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | PreDefinedGradient | Indicates that the gradient name refers to one of the predefined gradient patterns |

@@ -13,6 +13,7 @@ public enum ModelDocViewLabelAlignmentType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | AlignmentLeft | Left justification for the view label text.enum |

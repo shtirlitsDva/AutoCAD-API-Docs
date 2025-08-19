@@ -81,6 +81,7 @@ public Ellipse(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d center | Input center of the ellipse |
@@ -102,6 +103,7 @@ public double GetAngleAtParameter(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double value | Input parameter to evaluate |
@@ -118,6 +120,7 @@ public double GetParameterAtAngle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double angle | Input angle (in radians) at which the parameter is desired |
@@ -144,6 +147,7 @@ public void Set(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d center | Input center point (in WCS coordinates) for the ellipse |

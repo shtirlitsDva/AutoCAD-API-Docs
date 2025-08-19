@@ -48,6 +48,7 @@ public JigPromptDistanceOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -64,6 +65,7 @@ public JigPromptDistanceOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string messageAndKeywords | Input prompt message and keywords |

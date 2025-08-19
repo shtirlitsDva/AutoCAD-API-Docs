@@ -40,6 +40,7 @@ public PromptNestedEntityOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -56,6 +57,7 @@ public PromptNestedEntityOptions(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string messageAndKeywords | Input message and keywords |

@@ -40,6 +40,7 @@ public ObjectIdGraphNode(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input ObjectId that the node will contain. |
@@ -56,6 +57,7 @@ public static ObjectIdGraphNode Create(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntPtr unmanagedPointer | Input pointer to the AcDbObjectIdGraphNode object that the new ObjectIdGraphNode will wrap. |

@@ -73,6 +73,7 @@ public BlockReference(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d position | Input Autodesk.AutoCAD.Geometry.Point3d object, the position point |
@@ -99,6 +100,7 @@ public virtual void ConvertToStaticBlock(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string newBlockName | Input the name of the new block definition |
@@ -134,6 +136,7 @@ public Extents3d GeometryExtentsBestFit(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Matrix3d parentTransform | Input Autodesk.AutoCAD.Geometry.Matrix3d transformation to be applied to the block reference’s geometry |

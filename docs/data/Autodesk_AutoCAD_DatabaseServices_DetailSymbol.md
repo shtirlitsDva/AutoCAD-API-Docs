@@ -67,6 +67,7 @@ public bool IsOverriddenProperty(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | flag | Input: the NAMESPACE_ACDB::DetailViewModelEdge value to test if it is overridden |

@@ -20,6 +20,7 @@ public enum LineSpacingStyle {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | AtLeast = 1 | Line spacing is a minimum that may be adjusted to accommodate larger font sizes or graphics that would not otherwise fit within the specified spacing |

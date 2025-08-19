@@ -56,6 +56,7 @@ public Solid(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pointer1 | Input first point (in WCS) for solid |
@@ -76,6 +77,7 @@ public Solid(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pointer1 | Input first point (in WCS) for solid |
@@ -94,6 +96,7 @@ public Point3d GetPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short index | Input index (1-4) of the desired point in the solid |
@@ -110,6 +113,7 @@ public void SetPointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short index | Input index (1-4) of the point to set in the solid |

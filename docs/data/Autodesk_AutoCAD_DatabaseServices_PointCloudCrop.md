@@ -51,6 +51,7 @@ public static PointCloudCrop Create(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IntPtr unmanagedObjPtr | Specifies the AcDbPointCloudCrop pointer. For a valid pointer, it binds the created PointCloudCrop with it; if it is System::IntPtr::Zero, it creates a non-binded PointCloudCrop. |

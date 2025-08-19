@@ -63,6 +63,7 @@ public FaceRecord(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short vertex0 | Input index number of first vertex for the face |
@@ -81,6 +82,7 @@ public short GetVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short faceIndex | Input face corner index number (must be 0 through 3) |
@@ -96,6 +98,7 @@ public bool IsEdgeVisibleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short faceIndex | Input face corner index number (must be 0 through 3) |
@@ -111,6 +114,7 @@ public void MakeEdgeInvisibleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short faceIndex | Input index number of starting corner for edge (must be 0 - 3) |
@@ -126,6 +130,7 @@ public void MakeEdgeVisibleAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short faceIndex | Input index number of starting corner for edge (must be 0 - 3) |
@@ -142,6 +147,7 @@ public void SetVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | short faceIndex | Input face corner index number (must be 0 - 3) |

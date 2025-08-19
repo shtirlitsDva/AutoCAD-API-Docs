@@ -12,6 +12,7 @@ public enum ModelDocViewLabelAttachmentPoint {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | AboveView | The view label text is to be attached above the model documentation view.enum |

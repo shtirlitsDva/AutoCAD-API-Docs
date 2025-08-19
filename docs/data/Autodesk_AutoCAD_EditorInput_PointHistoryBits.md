@@ -39,6 +39,7 @@ public enum PointHistoryBits {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | Aligned = 0x400 | AutoAlign enabled. |

@@ -14,6 +14,7 @@ public enum LeaderType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | InVisibleLeader | Invisible leader |

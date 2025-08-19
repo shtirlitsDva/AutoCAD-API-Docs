@@ -61,6 +61,7 @@ public virtual RegionAreaProperties AreaProperties(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ref Point3d origin | Input point (in WCS coords) for origin of the coordinate system to usefor evaluation. |
@@ -82,6 +83,7 @@ public virtual void BooleanOperation(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | BooleanOperationType operation | Input type of Boolean operation. |
@@ -97,6 +99,7 @@ public static DBObjectCollection CreateFromCurves(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObjectCollection curveSegments | Input collection to curve entities used to define the region's perimeter(s) |

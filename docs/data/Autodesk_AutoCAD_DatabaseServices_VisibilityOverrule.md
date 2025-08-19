@@ -46,6 +46,7 @@ public virtual void SetVisibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | An Autodesk.AutoCAD.DatabaseServices.Entity that this overrule is applied against. |
@@ -63,6 +64,7 @@ public virtual Autodesk.AutoCAD.DatabaseServices.Visibility Visibility(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | An Autodesk.AutoCAD.DatabaseServices.Entity that this overrule is applied against. |

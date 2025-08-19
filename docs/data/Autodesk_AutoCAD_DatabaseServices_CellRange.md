@@ -67,6 +67,7 @@ public override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object pRange | Input range to check against. |
@@ -91,6 +92,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CellRange t1 | Input Autodesk.AutoCAD.DatabaseServices.CellRange object for left operator. |
@@ -108,6 +110,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CellRange t1 | Input Autodesk.AutoCAD.DatabaseServices.CellRange object for left operator. |

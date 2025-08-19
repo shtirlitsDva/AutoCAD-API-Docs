@@ -94,6 +94,7 @@ public virtual bool AppendVertex(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pointToAdd | Input point (in WCS coordinates) to add to the vertex list |
@@ -139,6 +140,7 @@ public void SetDimstyleData(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DimStyleTableRecord style | Input objectId of the desired DimensionStyle |
@@ -156,6 +158,7 @@ public virtual void SetPlane(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Plane value | Input desired plane within which the leader will reside |
@@ -173,6 +176,7 @@ public virtual bool SetVertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index number (0 based) of the vertex to change |
@@ -189,6 +193,7 @@ public virtual Point3d VertexAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int value | Input index number (0 based) of the vertex desired |

@@ -64,6 +64,7 @@ public Arc(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d center | Input the center point of the arc. |
@@ -86,6 +87,7 @@ public Arc(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d center | Input the center point of the arc. |

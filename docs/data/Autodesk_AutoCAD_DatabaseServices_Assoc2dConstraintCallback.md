@@ -45,6 +45,7 @@ public virtual bool CanBeRelaxed(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ExplicitConstraint constraint | The dimension constraint that is to be erased. |
@@ -63,6 +64,7 @@ public virtual void ConstraintDeactivated(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ExplicitConstraint constraint | The constraint that is to be activated or deactivated. |

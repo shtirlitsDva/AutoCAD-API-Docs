@@ -56,6 +56,7 @@ public int Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataCell value | Input Autodesk.AutoCAD.DatabaseServices.DataCell object |
@@ -79,6 +80,7 @@ public bool Contains(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataCell value | Input Autodesk.AutoCAD.DatabaseServices.DataCell object. |
@@ -95,6 +97,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataCell[] array | Input Autodesk.AutoCAD.DatabaseServices.DataCell[] object |
@@ -119,6 +122,7 @@ public int IndexOf(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataCell value | Input Autodesk.AutoCAD.DatabaseServices.DataCell object |
@@ -135,6 +139,7 @@ public void Insert(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input index to insert at |
@@ -151,6 +156,7 @@ public void Remove(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DataCell value | Input value to be removed. |
@@ -166,6 +172,7 @@ public void RemoveAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Index to remove from |

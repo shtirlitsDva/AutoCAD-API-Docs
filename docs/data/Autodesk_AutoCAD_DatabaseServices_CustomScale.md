@@ -47,6 +47,7 @@ public CustomScale(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | double numerator | Input numerator value |
@@ -63,6 +64,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Input object to compare |
@@ -86,6 +88,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CustomScale a | Input scale to compare |
@@ -102,6 +105,7 @@ public bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CustomScale a | Input custom scale to compare |
@@ -126,6 +130,7 @@ public string ToString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IFormatProvider provider | Input System.IFormatProvider object definition. |
@@ -142,6 +147,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CustomScale a | Input left operand |
@@ -159,6 +165,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | CustomScale a | Input left operand |

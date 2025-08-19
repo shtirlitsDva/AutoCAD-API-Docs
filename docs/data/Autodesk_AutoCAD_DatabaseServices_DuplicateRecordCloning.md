@@ -16,6 +16,7 @@ public enum DuplicateRecordCloning {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | NotApplicable |

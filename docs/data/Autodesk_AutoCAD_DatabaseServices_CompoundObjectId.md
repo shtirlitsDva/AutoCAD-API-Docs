@@ -85,6 +85,7 @@ public CompoundObjectId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | ObjectId of the DBObject that this CompoundObjectId is going to reference. |
@@ -101,6 +102,7 @@ public CompoundObjectId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | ObjectId of the DBObject that this CompoundObjectId is going to reference. |
@@ -119,6 +121,7 @@ public CompoundObjectId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | ObjectId of the DBObject that this CompoundObjectId is going to reference. |
@@ -137,6 +140,7 @@ public void DwgInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to read the object data from. |
@@ -153,6 +157,7 @@ public void DwgOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to read the object data to. |
@@ -170,6 +175,7 @@ public void DxfInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to read the object data from. |
@@ -186,6 +192,7 @@ public void DxfOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to read the object data to. |
@@ -202,6 +209,7 @@ public bool IsValid(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int validityCheckingLevel | Input the level of testing. |
@@ -227,6 +235,7 @@ public bool Remap(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | IdMapping idMap | See the description of the IdMapping class. |
@@ -256,6 +265,7 @@ public void Set(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | ObjectId of the Object that this CompoundObjectId is going to reference. |
@@ -274,6 +284,7 @@ public void Set(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | ObjectId of the DBObject that this CompoundObjectId is going to reference. |
@@ -300,6 +311,7 @@ public void SetFullPath(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectIdCollection fullPath | The path of AcDbBlockRefrences and the leaf level object itself as the last element of the array. |
@@ -321,6 +333,7 @@ public enum StatusType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | CouldNotResolveNonTerminal = 2 | Couldn't be resolved - xref not found, unloaded when last saved, etc. non-terminal |

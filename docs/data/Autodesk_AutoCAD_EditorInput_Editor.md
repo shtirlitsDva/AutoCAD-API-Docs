@@ -491,6 +491,7 @@ public PromptResult DoPrompt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptOptions opt | Input options for the prompt |
@@ -506,6 +507,7 @@ public PromptResult Drag(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Jig jig | Input the jig to drag |
@@ -522,6 +524,7 @@ public PromptPointResult Drag(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptDragOptions options | Input dragging options |
@@ -539,6 +542,7 @@ public PromptPointResult Drag(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectionSet selection | Input the selection set |
@@ -559,6 +563,7 @@ public void DrawVector(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d from | Input beginning point |
@@ -578,6 +583,7 @@ public void DrawVectors(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ResultBuffer rb | Input result buffer containing vectors |
@@ -594,6 +600,7 @@ public PromptDoubleResult GetAngle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptAngleOptions options | Input optional parameters of the prompt. |
@@ -609,6 +616,7 @@ public PromptDoubleResult GetAngle(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message to be displayed to the user during the prompt. |
@@ -632,6 +640,7 @@ public PromptPointResult GetCorner(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptCornerOptions options | Input optional parameters of the prompt. |
@@ -648,6 +657,7 @@ public PromptPointResult GetCorner(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message to be displayed to the user during the prompt. |
@@ -672,6 +682,7 @@ public PromptDoubleResult GetDistance(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptDistanceOptions options | Input optional parameters of the prompt. |
@@ -687,6 +698,7 @@ public PromptDoubleResult GetDistance(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message to be displayed to the user during the prompt. |
@@ -702,6 +714,7 @@ public PromptDoubleResult GetDouble(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptDoubleOptions options | Input optional parameters of the prompt. |
@@ -717,6 +730,7 @@ public PromptDoubleResult GetDouble(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message to be displayed to the user during the prompt. |
@@ -734,6 +748,7 @@ public PromptEntityResult GetEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptEntityOptions options | Input optional parameters of the prompt. |
@@ -751,6 +766,7 @@ public PromptEntityResult GetEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -766,6 +782,7 @@ public PromptFileNameResult GetFileNameForOpen(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptOpenFileOptions options | Input file opening options |
@@ -781,6 +798,7 @@ public PromptFileNameResult GetFileNameForOpen(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt string |
@@ -796,6 +814,7 @@ public PromptFileNameResult GetFileNameForSave(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptSaveFileOptions options | Input file saving options |
@@ -811,6 +830,7 @@ public PromptFileNameResult GetFileNameForSave(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input prompt message |
@@ -827,6 +847,7 @@ public PromptIntegerResult GetInteger(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptIntegerOptions options | Input optional parameters of the prompt. |
@@ -843,6 +864,7 @@ public PromptIntegerResult GetInteger(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message to be displayed to the user during the prompt. |
@@ -861,6 +883,7 @@ public PromptResult GetKeywords(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptKeywordOptions options | Input optional parameters of the prompt. |
@@ -880,6 +903,7 @@ public PromptResult GetKeywords(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message to be displayed to the user during the prompt. |
@@ -896,6 +920,7 @@ public PromptNestedEntityResult GetNestedEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptNestedEntityOptions options | Input optional parameters of the prompt. |
@@ -911,6 +936,7 @@ public PromptNestedEntityResult GetNestedEntity(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message to be displayed to the user during the prompt |
@@ -926,6 +952,7 @@ public PromptPointResult GetPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptPointOptions options | Input optional parameters of the prompt. |
@@ -941,6 +968,7 @@ public PromptPointResult GetPoint(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message to be displayed to the user during the prompt. |
@@ -964,6 +992,7 @@ public PromptSelectionResult GetSelection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptSelectionOptions options | Input selection options |
@@ -980,6 +1009,7 @@ public PromptSelectionResult GetSelection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptSelectionOptions options | Input selection options |
@@ -996,6 +1026,7 @@ public PromptSelectionResult GetSelection(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectionFilter filter | Input selection filter |
@@ -1011,6 +1042,7 @@ public PromptResult GetString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | PromptStringOptions options | Input optional parameters of the prompt. |
@@ -1026,6 +1058,7 @@ public PromptResult GetString(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message to be displayed to the user during the prompt |
@@ -1041,6 +1074,7 @@ public int GetViewportNumber(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point point | Input point to get viewport number from |
@@ -1056,6 +1090,7 @@ public int InitCommandVersion(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int nVersion | The new version variable to set |
@@ -1072,6 +1107,7 @@ public Point PointToScreen(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pt | Input point to grab |
@@ -1088,6 +1124,7 @@ public Point3d PointToWorld(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point pt | Input point to grab |
@@ -1104,6 +1141,7 @@ public Point3d PointToWorld(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point pt | Input point to grab |
@@ -1144,6 +1182,7 @@ public PromptSelectionResult SelectAll(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | SelectionFilter filter | Input selection filter |
@@ -1159,6 +1198,7 @@ public PromptSelectionResult SelectCrossingPolygon(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection polygon | Input collection of points that represent vertices of the polygon. |
@@ -1175,6 +1215,7 @@ public PromptSelectionResult SelectCrossingPolygon(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection polygon | Input collection of points that represent vertices of the polygon. |
@@ -1192,6 +1233,7 @@ public PromptSelectionResult SelectCrossingWindow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pt1 | Input first corner of selection window |
@@ -1210,6 +1252,7 @@ public PromptSelectionResult SelectCrossingWindow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pt1 | Input first corner of selection window |
@@ -1240,6 +1283,7 @@ public PromptSelectionResult SelectFence(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection fence | Input collection of points that represent vertices of the fence. |
@@ -1256,6 +1300,7 @@ public PromptSelectionResult SelectFence(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection fence | Input collection of points that represent vertices of the fence. |
@@ -1300,6 +1345,7 @@ public PromptSelectionResult SelectWindow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pt1 | Input first corner of selection window. |
@@ -1318,6 +1364,7 @@ public PromptSelectionResult SelectWindow(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d pt1 | Input first corner of selection window |
@@ -1335,6 +1382,7 @@ public PromptSelectionResult SelectWindowPolygon(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection polygon | Input collection of points that represent vertices of the polygon. |
@@ -1351,6 +1399,7 @@ public PromptSelectionResult SelectWindowPolygon(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3dCollection polygon | Input collection of points that represent vertices of the polygon. |
@@ -1367,6 +1416,7 @@ public void SetCurrentView(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ViewTableRecord value | Input new view table record value |
@@ -1403,6 +1453,7 @@ public Point3d Snap(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string snapMode | Input new snap mode |
@@ -1419,6 +1470,7 @@ public EditorUserInteraction StartUserInteraction(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | modalForm | Input control form |
@@ -1461,6 +1513,7 @@ public DBObjectCollection TraceBoundary(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d seedPoint | The seed point, in UCS, for the boundary trace. |
@@ -1539,6 +1592,7 @@ public ObjectId ViewportIdFromNumber(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int viewportNumber | Input viewport number |
@@ -1554,6 +1608,7 @@ public void WriteMessage(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input messsage |
@@ -1570,6 +1625,7 @@ public void WriteMessage(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string message | Input message |

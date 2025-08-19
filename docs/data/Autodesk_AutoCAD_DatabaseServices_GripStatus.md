@@ -14,6 +14,7 @@ public enum GripStatus {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | GripsDone | The entity's grips have been deleted in the host application and the entity is no longer involved in any grip edit operations |

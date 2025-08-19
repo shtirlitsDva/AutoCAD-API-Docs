@@ -64,6 +64,7 @@ public virtual AssocPersSubentityId CreateNewPersSubent(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for write, but usually no changes to the entity will be made. |
@@ -84,6 +85,7 @@ public virtual SubentityId\[\] GetAllSubentities(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for read. |
@@ -103,6 +105,7 @@ public virtual Curve3d GetEdgeSubentityGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for read. |
@@ -125,6 +128,7 @@ public virtual void GetEdgeVertexSubentities(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for read. |
@@ -145,6 +149,7 @@ public virtual Autodesk.AutoCAD.Geometry.Surface GetFaceSubentityGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for read. |
@@ -163,6 +168,7 @@ public virtual int GetRigidSetState(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for read. |
@@ -180,6 +186,7 @@ public virtual Matrix3d GetRigidSetTransform(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for read. |
@@ -202,6 +209,7 @@ public virtual void GetSplineEdgeVertexSubentities(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for read. |
@@ -223,6 +231,7 @@ public virtual Matrix3d GetSubentGeometryXform(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for read. |
@@ -243,6 +252,7 @@ public virtual SubentityId\[\] GetTransientSubentityIds(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity needs to be open for read. |
@@ -264,6 +274,7 @@ public virtual Point3d GetVertexSubentityGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for read. |
@@ -284,6 +295,7 @@ public virtual void MirrorPersSubent(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity mirroredEntity | The entity that has been mirrored. It needs to be open for read. |
@@ -302,6 +314,7 @@ public virtual void SetEdgeSubentityGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for write. |
@@ -321,6 +334,7 @@ public virtual void SetFaceSubentityGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for write. |
@@ -339,6 +353,7 @@ public virtual void SetRigidSetTransform(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for write. |
@@ -357,6 +372,7 @@ public virtual void SetVertexSubentityGeometry(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity must be open for write. |

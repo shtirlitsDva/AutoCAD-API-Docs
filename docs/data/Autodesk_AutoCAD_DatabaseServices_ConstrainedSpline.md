@@ -53,6 +53,7 @@ public ConstrainedSpline(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId geomDependencyId | Input ObjectId indicating the AssocGeomDependency object to which this constrained spline is holding on. |
@@ -69,6 +70,7 @@ public Point3d DefinePointAt(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int index | Input the index. |

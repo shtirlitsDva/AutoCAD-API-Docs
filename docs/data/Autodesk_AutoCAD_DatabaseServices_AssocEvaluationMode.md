@@ -12,6 +12,7 @@ public enum AssocEvaluationMode {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | ModifyObjectsAssocEvaluationMode | The standard action evaluation mode in which the objects the action depends-on via write-dependencies are modified so that they satisfy the requirements imposed on them by the action.If this cannot be achieved, the action needs to report an error and set its status to FailedToEvaluateAssocStatus or possibly to ErasedAssocStatus (if it wants itself to be erased.) |

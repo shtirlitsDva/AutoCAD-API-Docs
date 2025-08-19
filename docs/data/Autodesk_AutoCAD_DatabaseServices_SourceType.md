@@ -14,6 +14,7 @@ public enum SourceType {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | SourceNotDefined | The source of the view data is undefined or unknown. Return value is an enum. |

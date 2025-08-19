@@ -44,6 +44,7 @@ public FullDwgVersion(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgVersion majorVersion | Input major version |
@@ -60,6 +61,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object other | Object to compare |
@@ -92,6 +94,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullDwgVersion ver1 | Left operand |
@@ -109,6 +112,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | FullDwgVersion ver1 | Left operand |

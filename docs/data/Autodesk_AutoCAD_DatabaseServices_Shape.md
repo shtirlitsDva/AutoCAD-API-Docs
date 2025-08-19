@@ -59,6 +59,7 @@ public Shape(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Point3d position | Input insertion point of the shape, in WCS coordinates |

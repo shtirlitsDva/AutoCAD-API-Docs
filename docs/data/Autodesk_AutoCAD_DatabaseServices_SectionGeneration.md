@@ -16,6 +16,7 @@ public enum SectionGeneration {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | DestinationFile = 0x40 | Saves the generated section in an external file. |

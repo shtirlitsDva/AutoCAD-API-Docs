@@ -50,6 +50,7 @@ public ObjectId Add(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [CallerMustClose] SymbolTableRecord value | Input record to add to the table |
@@ -73,6 +74,7 @@ public bool Has(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input object ID of record to search for |
@@ -88,6 +90,7 @@ public bool Has(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | string key | Input name of record to search for |

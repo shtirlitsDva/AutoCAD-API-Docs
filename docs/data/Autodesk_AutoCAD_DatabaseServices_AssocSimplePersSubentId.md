@@ -58,6 +58,7 @@ public override void Audit(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | AuditInfo auditInfo | See the [AuditInfo](Autodesk_AutoCAD_DatabaseServices_AuditInfo.md "AuditInfo Class") documentation. |
@@ -73,6 +74,7 @@ public override void DwgInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to read the object data from. |
@@ -88,6 +90,7 @@ public override void DwgOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DwgFiler filer | The filer to write the object data to. |
@@ -103,6 +106,7 @@ public override void DxfInFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to read the object data from. |
@@ -118,6 +122,7 @@ public override void DxfOutFields(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DxfFiler filer | The filer to write the object data to. |
@@ -134,6 +139,7 @@ public override bool IsEqualTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | The entity owning the subentities of this and the other AssocPersSubentityId. |
@@ -176,6 +182,7 @@ public override int TransientSubentCount(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Entity entity | Not used. |

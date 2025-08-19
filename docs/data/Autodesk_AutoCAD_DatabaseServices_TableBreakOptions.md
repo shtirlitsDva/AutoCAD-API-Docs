@@ -16,6 +16,7 @@ public enum TableBreakOptions {
 ```
 
 #### Members
+
 | Members | Description |
 | --- | --- |
 | AllowManualHeights = 0x10 | Allow setting of maximum height for individual tables. |

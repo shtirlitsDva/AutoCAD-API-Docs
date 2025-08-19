@@ -54,6 +54,7 @@ public virtual void AddNewlyCreatedDBObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | DBObject obj | Input object to be added or removed |
@@ -88,6 +89,7 @@ public virtual DBObject GetObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input objectId of object to obtain |
@@ -108,6 +110,7 @@ public virtual DBObject GetObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input objectId of object to obtain |
@@ -130,6 +133,7 @@ public virtual DBObject GetObject(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId id | Input objectId of object to obtain |

@@ -31,6 +31,7 @@ public sealed class AttributeCollection : ICollection, IEnumerable, ISubObject;
 #### Description
 Returns the block reference with the new attribute.
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | [CallerMustClose] AttributeReference attributeToAddToBlockReference | Input the attribute to add. |
@@ -54,6 +55,7 @@ public void CopyTo(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ObjectId[] array | Input the array to copy to. |

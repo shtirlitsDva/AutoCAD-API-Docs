@@ -50,6 +50,7 @@ public XrefObjectId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ObjectId LocalId | Input Autodesk.AutoCAD.DatabaseServices.ObjectId  object. |
@@ -66,6 +67,7 @@ public XrefObjectId(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | Autodesk.AutoCAD.DatabaseServices.ObjectId XrefBlockTableRecordId | Input Autodesk.AutoCAD.DatabaseServices.ObjectId  object. |
@@ -83,6 +85,7 @@ public static XrefObjectId Deserialize(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | ResultBuffer rbStart | Input Autodesk.AutoCAD.DatabaseServices.ResultBuffer object. |
@@ -99,6 +102,7 @@ public sealed override bool Equals(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | object obj | Input System.Object object. |
@@ -131,6 +135,7 @@ public static bool operator !=(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | XrefObjectId a | Left operand |
@@ -148,6 +153,7 @@ public static bool operator ==(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | XrefObjectId a | Left operand |
