@@ -107,6 +107,7 @@ public Polyline(
 ```
 
 #### Parameters
+
 | Parameters | Description |
 | --- | --- |
 | int vertices | Input number of vertices to allocate memory for |
