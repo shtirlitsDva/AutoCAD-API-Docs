@@ -1,0 +1,2962 @@
+{
+    "Autodesk_AutoCAD_DatabaseServices_AbstractViewTable": {
+        "title": "AbstractViewTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AbstractViewTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AbstractViewTableRecord": {
+        "title": "AbstractViewTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AbstractViewTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ActionsToEvaluateCallback": {
+        "title": "ActionsToEvaluateCallback Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ActionsToEvaluateCallback.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AlignedDimension": {
+        "title": "AlignedDimension Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AlignedDimension.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AngleConstraint": {
+        "title": "AngleConstraint Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AngleConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AngularConstraint": {
+        "title": "AngularConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AngularConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AnnotationScale": {
+        "title": "AnnotationScale Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AnnotationScale.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AnnotationType": {
+        "title": "AnnotationType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AnnotationType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AnnotativeStates": {
+        "title": "AnnotativeStates Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AnnotativeStates.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ApplicationLoadReasons": {
+        "title": "ApplicationLoadReasons Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ApplicationLoadReasons.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Arc": {
+        "title": "Arc Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Arc.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ArcDimension": {
+        "title": "ArcDimension Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ArcDimension.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Assoc2dConstraintCallback": {
+        "title": "Assoc2dConstraintCallback Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Assoc2dConstraintCallback.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Assoc2dConstraintGroup": {
+        "title": "Assoc2dConstraintGroup Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Assoc2dConstraintGroup.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocAction": {
+        "title": "AssocAction Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocAction.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocActionBody": {
+        "title": "AssocActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocActionParam": {
+        "title": "AssocActionParam Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocActionParam.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocArray": {
+        "title": "AssocArray Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocArray.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocArrayCommonParameters": {
+        "title": "AssocArrayCommonParameters Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocArrayCommonParameters.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocArrayParameters": {
+        "title": "AssocArrayParameters Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocArrayParameters.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocArrayPathParameters": {
+        "title": "AssocArrayPathParameters Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocArrayPathParameters.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocArrayPolarParameters": {
+        "title": "AssocArrayPolarParameters Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocArrayPolarParameters.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocArrayRectangularParameters": {
+        "title": "AssocArrayRectangularParameters Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocArrayRectangularParameters.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocAsmBodyActionParam": {
+        "title": "AssocAsmBodyActionParam Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocAsmBodyActionParam.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocBlendSurfaceActionBody": {
+        "title": "AssocBlendSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocBlendSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocCompoundActionParam": {
+        "title": "AssocCompoundActionParam Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocCompoundActionParam.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocConstraintType": {
+        "title": "AssocConstraintType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocConstraintType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocDependency": {
+        "title": "AssocDependency Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocDependency.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocDependencyBody": {
+        "title": "AssocDependencyBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocDependencyBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocDependencyPE": {
+        "title": "AssocDependencyPE Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocDependencyPE.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocDimDependencyBody": {
+        "title": "AssocDimDependencyBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocDimDependencyBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocDimDependencyBodyBase": {
+        "title": "AssocDimDependencyBodyBase Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocDimDependencyBodyBase.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocDraggingState": {
+        "title": "AssocDraggingState Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocDraggingState.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocEdgeActionParam": {
+        "title": "AssocEdgeActionParam Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocEdgeActionParam.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocEdgeChamferActionBody": {
+        "title": "AssocEdgeChamferActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocEdgeChamferActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocEdgeFilletActionBody": {
+        "title": "AssocEdgeFilletActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocEdgeFilletActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocEvaluationCallback": {
+        "title": "AssocEvaluationCallback Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocEvaluationCallback.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocEvaluationMode": {
+        "title": "AssocEvaluationMode Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocEvaluationMode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocEvaluationPriority": {
+        "title": "AssocEvaluationPriority Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocEvaluationPriority.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocExtendSurfaceActionBody": {
+        "title": "AssocExtendSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocExtendSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocExtrudedSurfaceActionBody": {
+        "title": "AssocExtrudedSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocExtrudedSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocFaceActionParam": {
+        "title": "AssocFaceActionParam Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocFaceActionParam.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocFilletSurfaceActionBody": {
+        "title": "AssocFilletSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocFilletSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocGeomDependency": {
+        "title": "AssocGeomDependency Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocGeomDependency.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocGlobalUtility": {
+        "title": "AssocGlobalUtility Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocGlobalUtility.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocLoftedSurfaceActionBody": {
+        "title": "AssocLoftedSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocLoftedSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocManager": {
+        "title": "AssocManager Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocManager.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocNetwork": {
+        "title": "AssocNetwork Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocNetwork.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocNetworkSurfaceActionBody": {
+        "title": "AssocNetworkSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocNetworkSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocObjectTransaction": {
+        "title": "AssocObjectTransaction Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocObjectTransaction.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocOffsetSurfaceActionBody": {
+        "title": "AssocOffsetSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocOffsetSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocParamBasedActionBody": {
+        "title": "AssocParamBasedActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocParamBasedActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocPatchSurfaceActionBody": {
+        "title": "AssocPatchSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocPatchSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocPathActionParam": {
+        "title": "AssocPathActionParam Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocPathActionParam.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocPathBasedSurfaceActionBody": {
+        "title": "AssocPathBasedSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocPathBasedSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocPersSubentityId": {
+        "title": "AssocPersSubentityId Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocPersSubentityId.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocPersSubentityIdPE": {
+        "title": "AssocPersSubentityIdPE Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocPersSubentityIdPE.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocPlaneSurfaceActionBody": {
+        "title": "AssocPlaneSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocPlaneSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocRevolvedSurfaceActionBody": {
+        "title": "AssocRevolvedSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocRevolvedSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocSimplePersSubentId": {
+        "title": "AssocSimplePersSubentId Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocSimplePersSubentId.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocSingleEdgePersSubentId": {
+        "title": "AssocSingleEdgePersSubentId Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocSingleEdgePersSubentId.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocStatus": {
+        "title": "AssocStatus Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocStatus.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocSurfaceActionBody": {
+        "title": "AssocSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocSweptSurfaceActionBody": {
+        "title": "AssocSweptSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocSweptSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocTransformationType": {
+        "title": "AssocTransformationType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocTransformationType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocTrimSurfaceActionBody": {
+        "title": "AssocTrimSurfaceActionBody Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocTrimSurfaceActionBody.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocValueDependency": {
+        "title": "AssocValueDependency Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocValueDependency.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocValueProviderPE": {
+        "title": "AssocValueProviderPE Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocValueProviderPE.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocVariable": {
+        "title": "AssocVariable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocVariable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocVariableCallback": {
+        "title": "AssocVariableCallback Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocVariableCallback.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AssocVertexActionParam": {
+        "title": "AssocVertexActionParam Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AssocVertexActionParam.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AttachmentPoint": {
+        "title": "AttachmentPoint Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AttachmentPoint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AttributeCollection": {
+        "title": "AttributeCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AttributeCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AttributeDefinition": {
+        "title": "AttributeDefinition Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AttributeDefinition.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AttributeReference": {
+        "title": "AttributeReference Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AttributeReference.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AuditInfo": {
+        "title": "AuditInfo Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AuditInfo.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AuditPass": {
+        "title": "AuditPass Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AuditPass.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_AutoConstrainEvaluationCallback": {
+        "title": "AutoConstrainEvaluationCallback Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_AutoConstrainEvaluationCallback.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Background": {
+        "title": "Background Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Background.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BeginInsertEventArgs": {
+        "title": "BeginInsertEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BeginInsertEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BeginWblockBlockEventArgs": {
+        "title": "BeginWblockBlockEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BeginWblockBlockEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BeginWblockEntireDatabaseEventArgs": {
+        "title": "BeginWblockEntireDatabaseEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BeginWblockEntireDatabaseEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BeginWblockObjectsEventArgs": {
+        "title": "BeginWblockObjectsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BeginWblockObjectsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BeginWblockSelectedObjectsEventArgs": {
+        "title": "BeginWblockSelectedObjectsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BeginWblockSelectedObjectsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlendOptions": {
+        "title": "BlendOptions Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlendOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlendOptionsBuilder": {
+        "title": "BlendOptionsBuilder Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlendOptionsBuilder.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlockBegin": {
+        "title": "BlockBegin Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlockBegin.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlockConnectionType": {
+        "title": "BlockConnectionType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlockConnectionType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlockEnd": {
+        "title": "BlockEnd Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlockEnd.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlockInsertionPointsEventArgs": {
+        "title": "BlockInsertionPointsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlockInsertionPointsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlockReference": {
+        "title": "BlockReference Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlockReference.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlockScaling": {
+        "title": "BlockScaling Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlockScaling.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlockTable": {
+        "title": "BlockTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlockTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlockTableRecord": {
+        "title": "BlockTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlockTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BlockTableRecordEnumerator": {
+        "title": "BlockTableRecordEnumerator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BlockTableRecordEnumerator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Body": {
+        "title": "Body Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Body.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BooleanOperationType": {
+        "title": "BooleanOperationType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BooleanOperationType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BulgeVertex": {
+        "title": "BulgeVertex Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BulgeVertex.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_BulgeVertexCollection": {
+        "title": "BulgeVertexCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_BulgeVertexCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CallerMustCloseAttribute": {
+        "title": "CallerMustCloseAttribute Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CallerMustCloseAttribute.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Cell": {
+        "title": "Cell Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Cell.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellAlignment": {
+        "title": "CellAlignment Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellAlignment.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellClass": {
+        "title": "CellClass Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellClass.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellContentLayout": {
+        "title": "CellContentLayout Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellContentLayout.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellContentTypes": {
+        "title": "CellContentTypes Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellContentTypes.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellEdgeMasks": {
+        "title": "CellEdgeMasks Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellEdgeMasks.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellMargins": {
+        "title": "CellMargins Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellMargins.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellOption": {
+        "title": "CellOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellProperties": {
+        "title": "CellProperties Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellProperties.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellRange": {
+        "title": "CellRange Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellRange.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellStates": {
+        "title": "CellStates Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellStates.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CellType": {
+        "title": "CellType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CellType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CenterPointConstraint": {
+        "title": "CenterPointConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CenterPointConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Circle": {
+        "title": "Circle Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Circle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ClipBoundaryType": {
+        "title": "ClipBoundaryType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ClipBoundaryType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ColinearConstraint": {
+        "title": "ColinearConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ColinearConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CollisionType": {
+        "title": "CollisionType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CollisionType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ColumnType": {
+        "title": "ColumnType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ColumnType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CompositeConstraint": {
+        "title": "CompositeConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CompositeConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CompoundObjectId": {
+        "title": "CompoundObjectId Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CompoundObjectId.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConcentricConstraint": {
+        "title": "ConcentricConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConcentricConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainType": {
+        "title": "ConstrainType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Constrained2PointsConstructionLine": {
+        "title": "Constrained2PointsConstructionLine Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Constrained2PointsConstructionLine.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedArc": {
+        "title": "ConstrainedArc Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedArc.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedBoundedEllipse": {
+        "title": "ConstrainedBoundedEllipse Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedBoundedEllipse.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedBoundedLine": {
+        "title": "ConstrainedBoundedLine Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedBoundedLine.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedCircle": {
+        "title": "ConstrainedCircle Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedCircle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedConstructionLine": {
+        "title": "ConstrainedConstructionLine Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedConstructionLine.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedCurve": {
+        "title": "ConstrainedCurve Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedCurve.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedDatumLine": {
+        "title": "ConstrainedDatumLine Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedDatumLine.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedEllipse": {
+        "title": "ConstrainedEllipse Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedEllipse.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedGeometry": {
+        "title": "ConstrainedGeometry Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedGeometry.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedImplicitPoint": {
+        "title": "ConstrainedImplicitPoint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedImplicitPoint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedLine": {
+        "title": "ConstrainedLine Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedLine.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedPoint": {
+        "title": "ConstrainedPoint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedPoint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedRigidSet": {
+        "title": "ConstrainedRigidSet Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedRigidSet.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstrainedSpline": {
+        "title": "ConstrainedSpline Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstrainedSpline.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ConstraintGroupNode": {
+        "title": "ConstraintGroupNode Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ConstraintGroupNode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ContentType": {
+        "title": "ContentType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ContentType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Curve": {
+        "title": "Curve Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Curve.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CustomObjectSnapMode": {
+        "title": "CustomObjectSnapMode Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CustomObjectSnapMode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_CustomScale": {
+        "title": "CustomScale Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_CustomScale.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DBDictionary": {
+        "title": "DBDictionary Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DBDictionary.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DBDictionaryEntry": {
+        "title": "DBDictionaryEntry Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DBDictionaryEntry.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DBObject": {
+        "title": "DBObject Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DBObject.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DBObjectCollection": {
+        "title": "DBObjectCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DBObjectCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DBObjectReference": {
+        "title": "DBObjectReference Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DBObjectReference.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DBObjectReferenceCollection": {
+        "title": "DBObjectReferenceCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DBObjectReferenceCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DBPoint": {
+        "title": "DBPoint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DBPoint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DBText": {
+        "title": "DBText Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DBText.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DBVisualStyle": {
+        "title": "DBVisualStyle Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DBVisualStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataAdapterProvider": {
+        "title": "DataAdapterProvider Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataAdapterProvider.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataCell": {
+        "title": "DataCell Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataCell.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataCellCollection": {
+        "title": "DataCellCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataCellCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataColumn": {
+        "title": "DataColumn Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataColumn.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataLink": {
+        "title": "DataLink Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataLink.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataLinkGetSourceContext": {
+        "title": "DataLinkGetSourceContext Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataLinkGetSourceContext.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataLinkManager": {
+        "title": "DataLinkManager Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataLinkManager.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataLinkOption": {
+        "title": "DataLinkOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataLinkOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataTable": {
+        "title": "DataTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DataType": {
+        "title": "DataType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DataType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Database": {
+        "title": "Database Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Database.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DatabaseIOEventArgs": {
+        "title": "DatabaseIOEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DatabaseIOEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DatabaseSummaryInfo": {
+        "title": "DatabaseSummaryInfo Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DatabaseSummaryInfo.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DatabaseSummaryInfoBuilder": {
+        "title": "DatabaseSummaryInfoBuilder Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DatabaseSummaryInfoBuilder.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DbDictionaryEnumerator": {
+        "title": "DbDictionaryEnumerator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DbDictionaryEnumerator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DbHomeView": {
+        "title": "DbHomeView Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DbHomeView.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DecomposeForSaveReplacementRecord": {
+        "title": "DecomposeForSaveReplacementRecord Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DecomposeForSaveReplacementRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DeepCloneType": {
+        "title": "DeepCloneType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DeepCloneType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DefaultLightingType": {
+        "title": "DefaultLightingType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DefaultLightingType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DetailSymbol": {
+        "title": "DetailSymbol Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DetailSymbol.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DetailSymbolBoundaryType": {
+        "title": "DetailSymbolBoundaryType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DetailSymbolBoundaryType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DetailSymbolOverriddenProperty": {
+        "title": "DetailSymbolOverriddenProperty Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DetailSymbolOverriddenProperty.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DetailViewIdentifierPlacement": {
+        "title": "DetailViewIdentifierPlacement Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DetailViewIdentifierPlacement.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DetailViewModelEdge": {
+        "title": "DetailViewModelEdge Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DetailViewModelEdge.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DetailViewStyle": {
+        "title": "DetailViewStyle Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DetailViewStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DgnDefinition": {
+        "title": "DgnDefinition Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DgnDefinition.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DgnReference": {
+        "title": "DgnReference Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DgnReference.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DgnUnderlayItem": {
+        "title": "DgnUnderlayItem Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DgnUnderlayItem.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DiametricDimension": {
+        "title": "DiametricDimension Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DiametricDimension.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DictionaryWithDefaultDictionary": {
+        "title": "DictionaryWithDefaultDictionary Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DictionaryWithDefaultDictionary.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DimArrowFlag": {
+        "title": "DimArrowFlag Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DimArrowFlag.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DimStyleTable": {
+        "title": "DimStyleTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DimStyleTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DimStyleTableRecord": {
+        "title": "DimStyleTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DimStyleTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Dimension": {
+        "title": "Dimension Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Dimension.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DimensionCenterMarkType": {
+        "title": "DimensionCenterMarkType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DimensionCenterMarkType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DimensionStyleOverrule": {
+        "title": "DimensionStyleOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DimensionStyleOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DistanceConstraint": {
+        "title": "DistanceConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DistanceConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DragStatus": {
+        "title": "DragStatus Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DragStatus.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DrawLeaderOrderType": {
+        "title": "DrawLeaderOrderType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DrawLeaderOrderType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DrawMLeaderOrderType": {
+        "title": "DrawMLeaderOrderType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DrawMLeaderOrderType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DrawOrderTable": {
+        "title": "DrawOrderTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DrawOrderTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DuplicateRecordCloning": {
+        "title": "DuplicateRecordCloning Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DuplicateRecordCloning.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DwfDefinition": {
+        "title": "DwfDefinition Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DwfDefinition.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DwfReference": {
+        "title": "DwfReference Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DwfReference.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DwgFiler": {
+        "title": "DwgFiler Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DwgFiler.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DwgVersion": {
+        "title": "DwgVersion Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DwgVersion.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DxfCode": {
+        "title": "DxfCode Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DxfCode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DxfFiler": {
+        "title": "DxfFiler Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DxfFiler.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DynamicBlockReferenceProperty": {
+        "title": "DynamicBlockReferenceProperty Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DynamicBlockReferenceProperty.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DynamicBlockReferencePropertyCollection": {
+        "title": "DynamicBlockReferencePropertyCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DynamicBlockReferencePropertyCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DynamicBlockReferencePropertyCollectionEnumerator": {
+        "title": "DynamicBlockReferencePropertyCollectionEnumerator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DynamicBlockReferencePropertyCollectionEnumerator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DynamicBlockReferencePropertyUnitsType": {
+        "title": "DynamicBlockReferencePropertyUnitsType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DynamicBlockReferencePropertyUnitsType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DynamicDimensionChangedEventArgs": {
+        "title": "DynamicDimensionChangedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DynamicDimensionChangedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DynamicDimensionData": {
+        "title": "DynamicDimensionData Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DynamicDimensionData.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_DynamicDimensionDataCollection": {
+        "title": "DynamicDimensionDataCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_DynamicDimensionDataCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_EdgeRef": {
+        "title": "EdgeRef Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_EdgeRef.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Ellipse": {
+        "title": "Ellipse Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Ellipse.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_EndCap": {
+        "title": "EndCap Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_EndCap.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Entity": {
+        "title": "Entity Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Entity.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_EntityAlignmentEventArgs": {
+        "title": "EntityAlignmentEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_EntityAlignmentEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_EqualCurvatureConstraint": {
+        "title": "EqualCurvatureConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_EqualCurvatureConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_EqualDistanceConstraint": {
+        "title": "EqualDistanceConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_EqualDistanceConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_EqualHelpParameterConstraint": {
+        "title": "EqualHelpParameterConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_EqualHelpParameterConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_EqualLengthConstraint": {
+        "title": "EqualLengthConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_EqualLengthConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_EqualRadiusConstraint": {
+        "title": "EqualRadiusConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_EqualRadiusConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ExplicitConstraint": {
+        "title": "ExplicitConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ExplicitConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Extents2d": {
+        "title": "Extents2d Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Extents2d.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Extents3d": {
+        "title": "Extents3d Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Extents3d.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ExtrudedSurface": {
+        "title": "ExtrudedSurface Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ExtrudedSurface.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Face": {
+        "title": "Face Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Face.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FaceRecord": {
+        "title": "FaceRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FaceRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FaceRef": {
+        "title": "FaceRef Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FaceRef.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FeatureControlFrame": {
+        "title": "FeatureControlFrame Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FeatureControlFrame.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Field": {
+        "title": "Field Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Field.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FieldCodeFlags": {
+        "title": "FieldCodeFlags Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FieldCodeFlags.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FieldCodeWithChildren": {
+        "title": "FieldCodeWithChildren Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FieldCodeWithChildren.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationContext": {
+        "title": "FieldEvaluationContext Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationContext.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationOptions": {
+        "title": "FieldEvaluationOptions Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationResult": {
+        "title": "FieldEvaluationResult Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationResult.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationStatus": {
+        "title": "FieldEvaluationStatus Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationStatus.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationStatusResult": {
+        "title": "FieldEvaluationStatusResult Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FieldEvaluationStatusResult.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FieldFilingOptions": {
+        "title": "FieldFilingOptions Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FieldFilingOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FieldState": {
+        "title": "FieldState Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FieldState.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FileOpenMode": {
+        "title": "FileOpenMode Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FileOpenMode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FilerType": {
+        "title": "FilerType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FilerType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FilletTrimMode": {
+        "title": "FilletTrimMode Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FilletTrimMode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Filters": {
+        "title": "Filters Namespace",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Filters.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FindFileHint": {
+        "title": "FindFileHint Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FindFileHint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FitData": {
+        "title": "FitData Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FitData.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FixedConstraint": {
+        "title": "FixedConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FixedConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FlowDirection": {
+        "title": "FlowDirection Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FlowDirection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Font": {
+        "title": "Font Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Font.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FormatOption": {
+        "title": "FormatOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FormatOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FormattedTableData": {
+        "title": "FormattedTableData Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FormattedTableData.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FrameSetting": {
+        "title": "FrameSetting Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FrameSetting.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FullDwgVersion": {
+        "title": "FullDwgVersion Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FullDwgVersion.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_FullSubentityPath": {
+        "title": "FullSubentityPath Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_FullSubentityPath.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_G2SmoothConstraint": {
+        "title": "G2SmoothConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_G2SmoothConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeoCSProjectionCode": {
+        "title": "GeoCSProjectionCode Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeoCSProjectionCode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeoCSType": {
+        "title": "GeoCSType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeoCSType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeoCSUnit": {
+        "title": "GeoCSUnit Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeoCSUnit.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeoCoordinateCategory": {
+        "title": "GeoCoordinateCategory Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeoCoordinateCategory.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeoCoordinateSystem": {
+        "title": "GeoCoordinateSystem Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeoCoordinateSystem.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeoCoordinateTransformer": {
+        "title": "GeoCoordinateTransformer Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeoCoordinateTransformer.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeoLocationData": {
+        "title": "GeoLocationData Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeoLocationData.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeoPositionMarker": {
+        "title": "GeoPositionMarker Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeoPositionMarker.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeomRef": {
+        "title": "GeomRef Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeomRef.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeomapImage": {
+        "title": "GeomapImage Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeomapImage.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeometricalConstraint": {
+        "title": "GeometricalConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeometricalConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GeometryOverrule": {
+        "title": "GeometryOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GeometryOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GradientBackground": {
+        "title": "GradientBackground Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GradientBackground.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GradientColor": {
+        "title": "GradientColor Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GradientColor.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GradientPatternType": {
+        "title": "GradientPatternType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GradientPatternType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Graph": {
+        "title": "Graph Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Graph.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GraphNode": {
+        "title": "GraphNode Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GraphNode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GraphNodeCollection": {
+        "title": "GraphNodeCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GraphNodeCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GraphicsMetafileType": {
+        "title": "GraphicsMetafileType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GraphicsMetafileType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GridLineStyle": {
+        "title": "GridLineStyle Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GridLineStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GridLineType": {
+        "title": "GridLineType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GridLineType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GridProperties": {
+        "title": "GridProperties Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GridProperties.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GridPropertyParameter": {
+        "title": "GridPropertyParameter Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GridPropertyParameter.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GripData": {
+        "title": "GripData Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GripData.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GripMode": {
+        "title": "GripMode Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GripMode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GripModeCollection": {
+        "title": "GripModeCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GripModeCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GripOverrule": {
+        "title": "GripOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GripOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GripStatus": {
+        "title": "GripStatus Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GripStatus.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GroundPlaneBackground": {
+        "title": "GroundPlaneBackground Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GroundPlaneBackground.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Group": {
+        "title": "Group Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Group.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_GsMarkType": {
+        "title": "GsMarkType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_GsMarkType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Handle": {
+        "title": "Handle Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Handle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Hatch": {
+        "title": "Hatch Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Hatch.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HatchEdgeType": {
+        "title": "HatchEdgeType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HatchEdgeType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HatchLoop": {
+        "title": "HatchLoop Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HatchLoop.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HatchLoopTypes": {
+        "title": "HatchLoopTypes Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HatchLoopTypes.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HatchObjectType": {
+        "title": "HatchObjectType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HatchObjectType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HatchPatternType": {
+        "title": "HatchPatternType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HatchPatternType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HatchStyle": {
+        "title": "HatchStyle Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HatchStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Helix": {
+        "title": "Helix Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Helix.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HelpParameter": {
+        "title": "HelpParameter Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HelpParameter.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HighlightOverrule": {
+        "title": "HighlightOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HighlightOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HighlightStateOverrule": {
+        "title": "HighlightStateOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HighlightStateOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HorizontalConstraint": {
+        "title": "HorizontalConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HorizontalConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HostApplicationServices": {
+        "title": "HostApplicationServices Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HostApplicationServices.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HyperLink": {
+        "title": "HyperLink Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HyperLink.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_HyperLinkCollection": {
+        "title": "HyperLinkCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_HyperLinkCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_IBLBackground": {
+        "title": "IBLBackground Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_IBLBackground.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ITextEditorSelectable": {
+        "title": "ITextEditorSelectable Interface",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ITextEditorSelectable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_IdMapping": {
+        "title": "IdMapping Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_IdMapping.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_IdMappingEventArgs": {
+        "title": "IdMappingEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_IdMappingEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_IdPair": {
+        "title": "IdPair Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_IdPair.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Image": {
+        "title": "Image Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Image.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ImageBackground": {
+        "title": "ImageBackground Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ImageBackground.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ImageDisplayOptions": {
+        "title": "ImageDisplayOptions Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ImageDisplayOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ImageQuality": {
+        "title": "ImageQuality Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ImageQuality.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ImplicitPointType": {
+        "title": "ImplicitPointType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ImplicitPointType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_IndexCreation": {
+        "title": "IndexCreation Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_IndexCreation.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_InterferenceProtocolExtension": {
+        "title": "InterferenceProtocolExtension Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_InterferenceProtocolExtension.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Intersect": {
+        "title": "Intersect Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Intersect.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ItemLocator": {
+        "title": "ItemLocator Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ItemLocator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_JoinStyle": {
+        "title": "JoinStyle Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_JoinStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LampColorPreset": {
+        "title": "LampColorPreset Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LampColorPreset.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LampColorType": {
+        "title": "LampColorType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LampColorType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayerEvaluation": {
+        "title": "LayerEvaluation Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayerEvaluation.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayerStateManager": {
+        "title": "LayerStateManager Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayerStateManager.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayerStateMasks": {
+        "title": "LayerStateMasks Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayerStateMasks.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayerTable": {
+        "title": "LayerTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayerTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayerTableRecord": {
+        "title": "LayerTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayerTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayerViewportProperties": {
+        "title": "LayerViewportProperties Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayerViewportProperties.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Layout": {
+        "title": "Layout Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Layout.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayoutCopiedEventArgs": {
+        "title": "LayoutCopiedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayoutCopiedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayoutCopiedEventHandler": {
+        "title": "LayoutCopiedEventHandler Type",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayoutCopiedEventHandler.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayoutEventArgs": {
+        "title": "LayoutEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayoutEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayoutEventHandler": {
+        "title": "LayoutEventHandler Type",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayoutEventHandler.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayoutManager": {
+        "title": "LayoutManager Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayoutManager.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayoutRenamedEventArgs": {
+        "title": "LayoutRenamedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayoutRenamedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LayoutRenamedEventHandler": {
+        "title": "LayoutRenamedEventHandler Type",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LayoutRenamedEventHandler.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Leader": {
+        "title": "Leader Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Leader.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LeaderDirectionType": {
+        "title": "LeaderDirectionType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LeaderDirectionType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LeaderType": {
+        "title": "LeaderType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LeaderType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Light": {
+        "title": "Light Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Light.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LightingUnits": {
+        "title": "LightingUnits Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LightingUnits.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Line": {
+        "title": "Line Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Line.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LineAngularDimension2": {
+        "title": "LineAngularDimension2 Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LineAngularDimension2.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LineSpacingStyle": {
+        "title": "LineSpacingStyle Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LineSpacingStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LineWeight": {
+        "title": "LineWeight Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LineWeight.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LineWeightConverter": {
+        "title": "LineWeightConverter Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LineWeightConverter.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LinetypeTable": {
+        "title": "LinetypeTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LinetypeTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LinetypeTableRecord": {
+        "title": "LinetypeTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LinetypeTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LinkedData": {
+        "title": "LinkedData Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LinkedData.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LinkedTableData": {
+        "title": "LinkedTableData Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LinkedTableData.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LoftOptions": {
+        "title": "LoftOptions Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LoftOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LoftOptionsBuilder": {
+        "title": "LoftOptionsBuilder Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LoftOptionsBuilder.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LoftOptionsCheckCurvesOut": {
+        "title": "LoftOptionsCheckCurvesOut Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LoftOptionsCheckCurvesOut.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LoftOptionsNormalOption": {
+        "title": "LoftOptionsNormalOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LoftOptionsNormalOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LoftProfile": {
+        "title": "LoftProfile Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LoftProfile.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LoftedSurface": {
+        "title": "LoftedSurface Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LoftedSurface.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LongTransaction": {
+        "title": "LongTransaction Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LongTransaction.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_LongTransactionType": {
+        "title": "LongTransactionType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_LongTransactionType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MInsertBlock": {
+        "title": "MInsertBlock Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MInsertBlock.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MLeader": {
+        "title": "MLeader Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MLeader.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MLeaderStyle": {
+        "title": "MLeaderStyle Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MLeaderStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MText": {
+        "title": "MText Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MText.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MTextFragment": {
+        "title": "MTextFragment Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MTextFragment.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MTextFragmentCallback": {
+        "title": "MTextFragmentCallback Type",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MTextFragmentCallback.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MTextFragmentCallbackStatus": {
+        "title": "MTextFragmentCallbackStatus Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MTextFragmentCallbackStatus.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MaintenanceReleaseVersion": {
+        "title": "MaintenanceReleaseVersion Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MaintenanceReleaseVersion.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MatchProperties": {
+        "title": "MatchProperties Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MatchProperties.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Material": {
+        "title": "Material Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Material.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MeasurementValue": {
+        "title": "MeasurementValue Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MeasurementValue.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MergeCellStyleOption": {
+        "title": "MergeCellStyleOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MergeCellStyleOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MeshDataCollection": {
+        "title": "MeshDataCollection Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MeshDataCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MeshFaceterData": {
+        "title": "MeshFaceterData Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MeshFaceterData.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MeshPointMaps": {
+        "title": "MeshPointMaps Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MeshPointMaps.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MidPointConstraint": {
+        "title": "MidPointConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MidPointConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Mline": {
+        "title": "Mline Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Mline.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MlineJustification": {
+        "title": "MlineJustification Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MlineJustification.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MlineStyle": {
+        "title": "MlineStyle Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MlineStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MlineStyleElement": {
+        "title": "MlineStyleElement Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MlineStyleElement.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MlineStyleElementCollection": {
+        "title": "MlineStyleElementCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MlineStyleElementCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MlineStyleElementCollectionEnumerator": {
+        "title": "MlineStyleElementCollectionEnumerator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MlineStyleElementCollectionEnumerator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ModelDocViewLabelAlignmentType": {
+        "title": "ModelDocViewLabelAlignmentType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ModelDocViewLabelAlignmentType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ModelDocViewLabelAttachmentPoint": {
+        "title": "ModelDocViewLabelAttachmentPoint Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ModelDocViewLabelAttachmentPoint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ModelerFlavor": {
+        "title": "ModelerFlavor Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ModelerFlavor.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MoveType": {
+        "title": "MoveType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MoveType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_MultiModesGripPE": {
+        "title": "MultiModesGripPE Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_MultiModesGripPE.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_NewLayerNotification": {
+        "title": "NewLayerNotification Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_NewLayerNotification.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_NormalConstraint": {
+        "title": "NormalConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_NormalConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Notifier": {
+        "title": "Notifier Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Notifier.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_NurbSurface": {
+        "title": "NurbSurface Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_NurbSurface.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_NurbsData": {
+        "title": "NurbsData Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_NurbsData.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectClosedEventArgs": {
+        "title": "ObjectClosedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectClosedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectClosedEventHandler": {
+        "title": "ObjectClosedEventHandler Type",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectClosedEventHandler.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectContext": {
+        "title": "ObjectContext Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectContext.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectContextCollection": {
+        "title": "ObjectContextCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectContextCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectContextCollectionEnumerator": {
+        "title": "ObjectContextCollectionEnumerator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectContextCollectionEnumerator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectContextManager": {
+        "title": "ObjectContextManager Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectContextManager.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectErasedEventArgs": {
+        "title": "ObjectErasedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectErasedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectErasedEventHandler": {
+        "title": "ObjectErasedEventHandler Type",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectErasedEventHandler.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectEventArgs": {
+        "title": "ObjectEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectEventHandler": {
+        "title": "ObjectEventHandler Type",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectEventHandler.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectId": {
+        "title": "ObjectId Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectId.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectIdCollection": {
+        "title": "ObjectIdCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectIdCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectIdGraph": {
+        "title": "ObjectIdGraph Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectIdGraph.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectIdGraphNode": {
+        "title": "ObjectIdGraphNode Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectIdGraphNode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectOverrule": {
+        "title": "ObjectOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectSnapContext": {
+        "title": "ObjectSnapContext Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectSnapContext.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectSnapInfo": {
+        "title": "ObjectSnapInfo Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectSnapInfo.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectSnapModes": {
+        "title": "ObjectSnapModes Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectSnapModes.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ObjectTypeAttribute": {
+        "title": "ObjectTypeAttribute Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ObjectTypeAttribute.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Ole2Frame": {
+        "title": "Ole2Frame Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Ole2Frame.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_OpenCloseTransaction": {
+        "title": "OpenCloseTransaction Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_OpenCloseTransaction.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_OpenMode": {
+        "title": "OpenMode Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_OpenMode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_OpenModeAttribute": {
+        "title": "OpenModeAttribute Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_OpenModeAttribute.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_OrdinateDimension": {
+        "title": "OrdinateDimension Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_OrdinateDimension.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_OrthographicView": {
+        "title": "OrthographicView Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_OrthographicView.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_OsnapOverrule": {
+        "title": "OsnapOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_OsnapOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PCAdsName": {
+        "title": "PCAdsName Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PCAdsName.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PaperOrientationStates": {
+        "title": "PaperOrientationStates Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PaperOrientationStates.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ParallelConstraint": {
+        "title": "ParallelConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ParallelConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ParseOption": {
+        "title": "ParseOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ParseOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PasswordOptions": {
+        "title": "PasswordOptions Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PasswordOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PathOption": {
+        "title": "PathOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PathOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PathRef": {
+        "title": "PathRef Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PathRef.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PatternDefinition": {
+        "title": "PatternDefinition Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PatternDefinition.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PdfDefinition": {
+        "title": "PdfDefinition Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PdfDefinition.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PdfReference": {
+        "title": "PdfReference Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PdfReference.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PerpendicularConstraint": {
+        "title": "PerpendicularConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PerpendicularConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PhysicalIntensityMethod": {
+        "title": "PhysicalIntensityMethod Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PhysicalIntensityMethod.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlaceHolder": {
+        "title": "PlaceHolder Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlaceHolder.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Planarity": {
+        "title": "Planarity Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Planarity.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlaneSurface": {
+        "title": "PlaneSurface Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlaneSurface.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlotPaperUnit": {
+        "title": "PlotPaperUnit Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlotPaperUnit.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlotRotation": {
+        "title": "PlotRotation Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlotRotation.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlotSettings": {
+        "title": "PlotSettings Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlotSettings.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlotSettingsShadePlotType": {
+        "title": "PlotSettingsShadePlotType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlotSettingsShadePlotType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlotSettingsValidator": {
+        "title": "PlotSettingsValidator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlotSettingsValidator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlotStyleDescriptor": {
+        "title": "PlotStyleDescriptor Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlotStyleDescriptor.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlotStyleNameType": {
+        "title": "PlotStyleNameType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlotStyleNameType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlotStyleTableChangedEventArgs": {
+        "title": "PlotStyleTableChangedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlotStyleTableChangedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PlotType": {
+        "title": "PlotType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PlotType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Point3AngularDimension": {
+        "title": "Point3AngularDimension Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Point3AngularDimension.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloud": {
+        "title": "PointCloud Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloud.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudClassificationColorRamp": {
+        "title": "PointCloudClassificationColorRamp Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudClassificationColorRamp.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudColorMap": {
+        "title": "PointCloudColorMap Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudColorMap.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudColorRamp": {
+        "title": "PointCloudColorRamp Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudColorRamp.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudCrop": {
+        "title": "PointCloudCrop Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudCrop.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudCropType": {
+        "title": "PointCloudCropType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudCropType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudDefEx": {
+        "title": "PointCloudDefEx Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudDefEx.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudDispOptionOutOfRange": {
+        "title": "PointCloudDispOptionOutOfRange Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudDispOptionOutOfRange.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudEx": {
+        "title": "PointCloudEx Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudEx.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudItem": {
+        "title": "PointCloudItem Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudItem.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudItemType": {
+        "title": "PointCloudItemType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudItemType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudProperty": {
+        "title": "PointCloudProperty Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudProperty.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudPropertyState": {
+        "title": "PointCloudPropertyState Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudPropertyState.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCloudStylizationType": {
+        "title": "PointCloudStylizationType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCloudStylizationType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCoincidenceConstraint": {
+        "title": "PointCoincidenceConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCoincidenceConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PointCurveConstraint": {
+        "title": "PointCurveConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PointCurveConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Poly2dType": {
+        "title": "Poly2dType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Poly2dType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Poly3dType": {
+        "title": "Poly3dType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Poly3dType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PolyFaceMesh": {
+        "title": "PolyFaceMesh Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PolyFaceMesh.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PolyFaceMeshVertex": {
+        "title": "PolyFaceMeshVertex Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PolyFaceMeshVertex.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PolyMeshType": {
+        "title": "PolyMeshType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PolyMeshType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PolygonMesh": {
+        "title": "PolygonMesh Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PolygonMesh.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PolygonMeshVertex": {
+        "title": "PolygonMeshVertex Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PolygonMeshVertex.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Polyline": {
+        "title": "Polyline Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Polyline.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Polyline2d": {
+        "title": "Polyline2d Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Polyline2d.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Polyline3d": {
+        "title": "Polyline3d Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Polyline3d.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PolylineVertex3d": {
+        "title": "PolylineVertex3d Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PolylineVertex3d.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Profile3d": {
+        "title": "Profile3d Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Profile3d.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_PropertiesOverrule": {
+        "title": "PropertiesOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_PropertiesOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ProxyEntity": {
+        "title": "ProxyEntity Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ProxyEntity.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ProxyObject": {
+        "title": "ProxyObject Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ProxyObject.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ProxyResurrectionCompletedEventArgs": {
+        "title": "ProxyResurrectionCompletedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ProxyResurrectionCompletedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RadialDimension": {
+        "title": "RadialDimension Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RadialDimension.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RadialDimensionLarge": {
+        "title": "RadialDimensionLarge Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RadialDimensionLarge.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RadiusDiameterConstraint": {
+        "title": "RadiusDiameterConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RadiusDiameterConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RapidRTRenderSettings": {
+        "title": "RapidRTRenderSettings Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RapidRTRenderSettings.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RapidRTRenderTarget": {
+        "title": "RapidRTRenderTarget Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RapidRTRenderTarget.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RasterImage": {
+        "title": "RasterImage Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RasterImage.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RasterImageDef": {
+        "title": "RasterImageDef Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RasterImageDef.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RasterVariables": {
+        "title": "RasterVariables Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RasterVariables.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Ray": {
+        "title": "Ray Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Ray.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Rectangle3d": {
+        "title": "Rectangle3d Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Rectangle3d.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RegAppTable": {
+        "title": "RegAppTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RegAppTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RegAppTableRecord": {
+        "title": "RegAppTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RegAppTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Region": {
+        "title": "Region Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Region.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RegionAreaProperties": {
+        "title": "RegionAreaProperties Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RegionAreaProperties.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RenderEnvironment": {
+        "title": "RenderEnvironment Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RenderEnvironment.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RenderGlobal": {
+        "title": "RenderGlobal Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RenderGlobal.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RenderSettings": {
+        "title": "RenderSettings Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RenderSettings.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ResultBuffer": {
+        "title": "ResultBuffer Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ResultBuffer.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ResultBufferEnumerator": {
+        "title": "ResultBufferEnumerator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ResultBufferEnumerator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RevolveOptions": {
+        "title": "RevolveOptions Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RevolveOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RevolveOptionsBuilder": {
+        "title": "RevolveOptionsBuilder Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RevolveOptionsBuilder.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RevolveOptionsCheckRevolveCurveOut": {
+        "title": "RevolveOptionsCheckRevolveCurveOut Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RevolveOptionsCheckRevolveCurveOut.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RevolvedSurface": {
+        "title": "RevolvedSurface Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RevolvedSurface.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RigidSetTypeInfo": {
+        "title": "RigidSetTypeInfo Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RigidSetTypeInfo.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RotatedDimension": {
+        "title": "RotatedDimension Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RotatedDimension.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RotationAngle": {
+        "title": "RotationAngle Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RotationAngle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_RowType": {
+        "title": "RowType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_RowType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SaveType": {
+        "title": "SaveType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SaveType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Section": {
+        "title": "Section Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Section.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionGeneration": {
+        "title": "SectionGeneration Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionGeneration.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionGeometry": {
+        "title": "SectionGeometry Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionGeometry.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionHeight": {
+        "title": "SectionHeight Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionHeight.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionHitTestInfo": {
+        "title": "SectionHitTestInfo Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionHitTestInfo.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionManager": {
+        "title": "SectionManager Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionManager.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionSettings": {
+        "title": "SectionSettings Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionSettings.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionState": {
+        "title": "SectionState Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionState.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionSubItem": {
+        "title": "SectionSubItem Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionSubItem.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionSymbol": {
+        "title": "SectionSymbol Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionSymbol.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionType": {
+        "title": "SectionType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionViewArrowDirection": {
+        "title": "SectionViewArrowDirection Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionViewArrowDirection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionViewIdentifierPosition": {
+        "title": "SectionViewIdentifierPosition Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionViewIdentifierPosition.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SectionViewStyle": {
+        "title": "SectionViewStyle Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SectionViewStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SecurityActions": {
+        "title": "SecurityActions Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SecurityActions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SecurityAlgorithm": {
+        "title": "SecurityAlgorithm Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SecurityAlgorithm.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SecurityParameters": {
+        "title": "SecurityParameters Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SecurityParameters.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SegmentType": {
+        "title": "SegmentType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SegmentType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SelectType": {
+        "title": "SelectType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SelectType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SequenceEnd": {
+        "title": "SequenceEnd Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SequenceEnd.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ShadePlotResLevel": {
+        "title": "ShadePlotResLevel Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ShadePlotResLevel.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ShadePlotType": {
+        "title": "ShadePlotType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ShadePlotType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Shape": {
+        "title": "Shape Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Shape.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Solid": {
+        "title": "Solid Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Solid.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Solid3d": {
+        "title": "Solid3d Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Solid3d.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Solid3dMassProperties": {
+        "title": "Solid3dMassProperties Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Solid3dMassProperties.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SolidBackground": {
+        "title": "SolidBackground Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SolidBackground.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SourceType": {
+        "title": "SourceType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SourceType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Spline": {
+        "title": "Spline Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Spline.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SplineType": {
+        "title": "SplineType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SplineType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_StandardScaleType": {
+        "title": "StandardScaleType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_StandardScaleType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_StdScaleType": {
+        "title": "StdScaleType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_StdScaleType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SubDMesh": {
+        "title": "SubDMesh Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SubDMesh.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SubentRef": {
+        "title": "SubentRef Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SubentRef.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SubentityGeometry": {
+        "title": "SubentityGeometry Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SubentityGeometry.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SubentityOverrule": {
+        "title": "SubentityOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SubentityOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SubentityType": {
+        "title": "SubentityType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SubentityType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Sun": {
+        "title": "Sun Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Sun.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Surface": {
+        "title": "Surface Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Surface.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SurfaceTrimInfo": {
+        "title": "SurfaceTrimInfo Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SurfaceTrimInfo.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SweepOptions": {
+        "title": "SweepOptions Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SweepOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SweepOptionsAlignOption": {
+        "title": "SweepOptionsAlignOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SweepOptionsAlignOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SweepOptionsBuilder": {
+        "title": "SweepOptionsBuilder Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SweepOptionsBuilder.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SweptSurface": {
+        "title": "SweptSurface Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SweptSurface.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SymbolTable": {
+        "title": "SymbolTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SymbolTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SymbolTableEnumerator": {
+        "title": "SymbolTableEnumerator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SymbolTableEnumerator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SymbolTableRecord": {
+        "title": "SymbolTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SymbolTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SymbolUtilityServices": {
+        "title": "SymbolUtilityServices Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SymbolUtilityServices.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_SymmetricConstraint": {
+        "title": "SymmetricConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_SymmetricConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Table": {
+        "title": "Table Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Table.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableBreakFlowDirection": {
+        "title": "TableBreakFlowDirection Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableBreakFlowDirection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableBreakOptions": {
+        "title": "TableBreakOptions Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableBreakOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableCellType": {
+        "title": "TableCellType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableCellType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableContent": {
+        "title": "TableContent Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableContent.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableCopyOptions": {
+        "title": "TableCopyOptions Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableCopyOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableEnumerator": {
+        "title": "TableEnumerator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableEnumerator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableEnumeratorOption": {
+        "title": "TableEnumeratorOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableEnumeratorOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableFillOptions": {
+        "title": "TableFillOptions Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableFillOptions.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableHitTestInfo": {
+        "title": "TableHitTestInfo Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableHitTestInfo.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableHitTestType": {
+        "title": "TableHitTestType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableHitTestType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableStyle": {
+        "title": "TableStyle Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableStyle.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableStyleFlags": {
+        "title": "TableStyleFlags Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableStyleFlags.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableStyleOverride": {
+        "title": "TableStyleOverride Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableStyleOverride.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TableTemplate": {
+        "title": "TableTemplate Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TableTemplate.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TangentConstraint": {
+        "title": "TangentConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TangentConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextAlignment": {
+        "title": "TextAlignment Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextAlignment.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextAlignmentType": {
+        "title": "TextAlignmentType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextAlignmentType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextAngleType": {
+        "title": "TextAngleType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextAngleType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextAttachmentDirection": {
+        "title": "TextAttachmentDirection Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextAttachmentDirection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextAttachmentType": {
+        "title": "TextAttachmentType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextAttachmentType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditor": {
+        "title": "TextEditor Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditor.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorColumn": {
+        "title": "TextEditorColumn Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorColumn.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorColumns": {
+        "title": "TextEditorColumns Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorColumns.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorCursor": {
+        "title": "TextEditorCursor Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorCursor.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorLocation": {
+        "title": "TextEditorLocation Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorLocation.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorParagraph": {
+        "title": "TextEditorParagraph Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorParagraph.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorParagraphTab": {
+        "title": "TextEditorParagraphTab Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorParagraphTab.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorSelection": {
+        "title": "TextEditorSelection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorSelection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorSelectionbase": {
+        "title": "TextEditorSelectionbase Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorSelectionbase.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorStack": {
+        "title": "TextEditorStack Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorStack.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextEditorWipeout": {
+        "title": "TextEditorWipeout Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextEditorWipeout.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextHorizontalMode": {
+        "title": "TextHorizontalMode Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextHorizontalMode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextStyleTable": {
+        "title": "TextStyleTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextStyleTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextStyleTableRecord": {
+        "title": "TextStyleTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextStyleTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TextVerticalMode": {
+        "title": "TextVerticalMode Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TextVerticalMode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ThreePointAngleConstraint": {
+        "title": "ThreePointAngleConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ThreePointAngleConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Transaction": {
+        "title": "Transaction Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Transaction.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TransactionManager": {
+        "title": "TransactionManager Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TransactionManager.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TransformOverrule": {
+        "title": "TransformOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TransformOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_TypedValue": {
+        "title": "TypedValue Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_TypedValue.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UcsTable": {
+        "title": "UcsTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UcsTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UcsTableRecord": {
+        "title": "UcsTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UcsTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnderlayDefinition": {
+        "title": "UnderlayDefinition Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnderlayDefinition.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnderlayFile": {
+        "title": "UnderlayFile Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnderlayFile.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnderlayHost": {
+        "title": "UnderlayHost Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnderlayHost.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnderlayItem": {
+        "title": "UnderlayItem Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnderlayItem.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnderlayItemCollection": {
+        "title": "UnderlayItemCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnderlayItemCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnderlayLayer": {
+        "title": "UnderlayLayer Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnderlayLayer.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnderlayLayerCollection": {
+        "title": "UnderlayLayerCollection Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnderlayLayerCollection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnderlayLayerState": {
+        "title": "UnderlayLayerState Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnderlayLayerState.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnderlayReference": {
+        "title": "UnderlayReference Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnderlayReference.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Unit": {
+        "title": "Unit Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Unit.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnitType": {
+        "title": "UnitType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnitType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnitsConverter": {
+        "title": "UnitsConverter Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnitsConverter.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnitsValue": {
+        "title": "UnitsValue Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnitsValue.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UnmanagedPointCloudColorSchemeCollectionReactor": {
+        "title": "UnmanagedPointCloudColorSchemeCollectionReactor Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UnmanagedPointCloudColorSchemeCollectionReactor.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UpdateDirection": {
+        "title": "UpdateDirection Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UpdateDirection.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_UpdateOption": {
+        "title": "UpdateOption Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_UpdateOption.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Vertex": {
+        "title": "Vertex Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Vertex.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Vertex2d": {
+        "title": "Vertex2d Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Vertex2d.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Vertex2dType": {
+        "title": "Vertex2dType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Vertex2dType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Vertex3dType": {
+        "title": "Vertex3dType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Vertex3dType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_VertexRef": {
+        "title": "VertexRef Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_VertexRef.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_VerticalConstraint": {
+        "title": "VerticalConstraint Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_VerticalConstraint.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ViewBorder": {
+        "title": "ViewBorder Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ViewBorder.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ViewRepBlockReference": {
+        "title": "ViewRepBlockReference Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ViewRepBlockReference.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ViewStyleType": {
+        "title": "ViewStyleType Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ViewStyleType.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ViewTable": {
+        "title": "ViewTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ViewTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ViewTableRecord": {
+        "title": "ViewTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ViewTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Viewport": {
+        "title": "Viewport Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Viewport.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ViewportTable": {
+        "title": "ViewportTable Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ViewportTable.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_ViewportTableRecord": {
+        "title": "ViewportTableRecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_ViewportTableRecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Visibility": {
+        "title": "Visibility Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Visibility.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_VisibilityOverrule": {
+        "title": "VisibilityOverrule Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_VisibilityOverrule.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_WblockNoticeEventArgs": {
+        "title": "WblockNoticeEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_WblockNoticeEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Wipeout": {
+        "title": "Wipeout Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Wipeout.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Xline": {
+        "title": "Xline Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Xline.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_Xrecord": {
+        "title": "Xrecord Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_Xrecord.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrecordEnumerator": {
+        "title": "XrecordEnumerator Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrecordEnumerator.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefBeginOperationEventArgs": {
+        "title": "XrefBeginOperationEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefBeginOperationEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefComandeeredEventArgs": {
+        "title": "XrefComandeeredEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefComandeeredEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefGraph": {
+        "title": "XrefGraph Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefGraph.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefGraphNode": {
+        "title": "XrefGraphNode Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefGraphNode.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefNotificationStatus": {
+        "title": "XrefNotificationStatus Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefNotificationStatus.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefObjectId": {
+        "title": "XrefObjectId Structure",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefObjectId.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefOperation": {
+        "title": "XrefOperation Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefOperation.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefPreXrefLockFileEventArgs": {
+        "title": "XrefPreXrefLockFileEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefPreXrefLockFileEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefRedirectedEventArgs": {
+        "title": "XrefRedirectedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefRedirectedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefStatus": {
+        "title": "XrefStatus Enumeration",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefStatus.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefSubCommandEventArgs": {
+        "title": "XrefSubCommandEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefSubCommandEventArgs.md"
+    },
+    "Autodesk_AutoCAD_DatabaseServices_XrefVetoableSubCommandEventArgs": {
+        "title": "XrefVetoableSubCommandEventArgs Class",
+        "filename": "Autodesk_AutoCAD_DatabaseServices_XrefVetoableSubCommandEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_AddedKeywords": {
+        "title": "AddedKeywords Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_AddedKeywords.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_Camera": {
+        "title": "Camera Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_Camera.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_ConstraintUtilities": {
+        "title": "ConstraintUtilities Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_ConstraintUtilities.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_CrossingOrWindowSelectedObject": {
+        "title": "CrossingOrWindowSelectedObject Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_CrossingOrWindowSelectedObject.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_CrossingOrWindowSelectedSubObject": {
+        "title": "CrossingOrWindowSelectedSubObject Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_CrossingOrWindowSelectedSubObject.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_CursorBadgeUtilities": {
+        "title": "CursorBadgeUtilities Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_CursorBadgeUtilities.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_CursorType": {
+        "title": "CursorType Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_CursorType.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_DragCursor": {
+        "title": "DragCursor Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_DragCursor.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_DrawJig": {
+        "title": "DrawJig Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_DrawJig.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_Editor": {
+        "title": "Editor Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_Editor.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_EditorExtension": {
+        "title": "EditorExtension Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_EditorExtension.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_EditorUserInteraction": {
+        "title": "EditorUserInteraction Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_EditorUserInteraction.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_EditorVisualStyle": {
+        "title": "EditorVisualStyle Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_EditorVisualStyle.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_EntityJig": {
+        "title": "EntityJig Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_EntityJig.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_FenceSelectedObject": {
+        "title": "FenceSelectedObject Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_FenceSelectedObject.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_FenceSelectedSubObject": {
+        "title": "FenceSelectedSubObject Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_FenceSelectedSubObject.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_InputPointContext": {
+        "title": "InputPointContext Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_InputPointContext.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_Jig": {
+        "title": "Jig Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_Jig.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_JigPromptAngleOptions": {
+        "title": "JigPromptAngleOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_JigPromptAngleOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_JigPromptDistanceOptions": {
+        "title": "JigPromptDistanceOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_JigPromptDistanceOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_JigPromptGeometryOptions": {
+        "title": "JigPromptGeometryOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_JigPromptGeometryOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_JigPromptOptions": {
+        "title": "JigPromptOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_JigPromptOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_JigPromptPointOptions": {
+        "title": "JigPromptPointOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_JigPromptPointOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_JigPromptStringOptions": {
+        "title": "JigPromptStringOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_JigPromptStringOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_JigPrompts": {
+        "title": "JigPrompts Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_JigPrompts.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_Keyword": {
+        "title": "Keyword Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_Keyword.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_KeywordCollection": {
+        "title": "KeywordCollection Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_KeywordCollection.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreview": {
+        "title": "LivePreview Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreview.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreviewAction": {
+        "title": "LivePreviewAction Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreviewAction.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreviewActionBase": {
+        "title": "LivePreviewActionBase Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreviewActionBase.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreviewCommand": {
+        "title": "LivePreviewCommand Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreviewCommand.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreviewContextParameter": {
+        "title": "LivePreviewContextParameter Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreviewContextParameter.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreviewContextProxy": {
+        "title": "LivePreviewContextProxy Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreviewContextProxy.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreviewContextType": {
+        "title": "LivePreviewContextType Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreviewContextType.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreviewDelegate": {
+        "title": "LivePreviewDelegate Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreviewDelegate.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreviewEventArgs": {
+        "title": "LivePreviewEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreviewEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_LivePreviewPropertySetting": {
+        "title": "LivePreviewPropertySetting Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_LivePreviewPropertySetting.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_ObjectSnapMasks": {
+        "title": "ObjectSnapMasks Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_ObjectSnapMasks.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PickPointDescriptor": {
+        "title": "PickPointDescriptor Structure",
+        "filename": "Autodesk_AutoCAD_EditorInput_PickPointDescriptor.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PickPointKind": {
+        "title": "PickPointKind Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_PickPointKind.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PickPointSelectedObject": {
+        "title": "PickPointSelectedObject Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PickPointSelectedObject.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PickPointSelectedSubObject": {
+        "title": "PickPointSelectedSubObject Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PickPointSelectedSubObject.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PointFilterEventArgs": {
+        "title": "PointFilterEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PointFilterEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PointFilterResult": {
+        "title": "PointFilterResult Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PointFilterResult.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PointHistoryBits": {
+        "title": "PointHistoryBits Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_PointHistoryBits.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PointMonitorEventArgs": {
+        "title": "PointMonitorEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PointMonitorEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptAngleOptions": {
+        "title": "PromptAngleOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptAngleOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptAngleOptionsEventArgs": {
+        "title": "PromptAngleOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptAngleOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptCornerOptions": {
+        "title": "PromptCornerOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptCornerOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptDistanceOptions": {
+        "title": "PromptDistanceOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptDistanceOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptDistanceOptionsEventArgs": {
+        "title": "PromptDistanceOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptDistanceOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptDoubleOptions": {
+        "title": "PromptDoubleOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptDoubleOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptDoubleOptionsEventArgs": {
+        "title": "PromptDoubleOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptDoubleOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptDoubleResult": {
+        "title": "PromptDoubleResult Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptDoubleResult.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptDoubleResultEventArgs": {
+        "title": "PromptDoubleResultEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptDoubleResultEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptDragOptions": {
+        "title": "PromptDragOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptDragOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptEditorOptions": {
+        "title": "PromptEditorOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptEditorOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptEntityOptions": {
+        "title": "PromptEntityOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptEntityOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptEntityOptionsEventArgs": {
+        "title": "PromptEntityOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptEntityOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptEntityResult": {
+        "title": "PromptEntityResult Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptEntityResult.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptEntityResultEventArgs": {
+        "title": "PromptEntityResultEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptEntityResultEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptFileNameResult": {
+        "title": "PromptFileNameResult Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptFileNameResult.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptFileOptions": {
+        "title": "PromptFileOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptFileOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptForEntityEndingEventArgs": {
+        "title": "PromptForEntityEndingEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptForEntityEndingEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptForSelectionEndingEventArgs": {
+        "title": "PromptForSelectionEndingEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptForSelectionEndingEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptIntegerOptions": {
+        "title": "PromptIntegerOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptIntegerOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptIntegerOptionsEventArgs": {
+        "title": "PromptIntegerOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptIntegerOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptIntegerResult": {
+        "title": "PromptIntegerResult Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptIntegerResult.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptIntegerResultEventArgs": {
+        "title": "PromptIntegerResultEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptIntegerResultEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptKeywordOptions": {
+        "title": "PromptKeywordOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptKeywordOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptKeywordOptionsEventArgs": {
+        "title": "PromptKeywordOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptKeywordOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptNestedEntityOptions": {
+        "title": "PromptNestedEntityOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptNestedEntityOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptNestedEntityOptionsEventArgs": {
+        "title": "PromptNestedEntityOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptNestedEntityOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptNestedEntityResult": {
+        "title": "PromptNestedEntityResult Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptNestedEntityResult.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptNestedEntityResultEventArgs": {
+        "title": "PromptNestedEntityResultEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptNestedEntityResultEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptNumericalOptions": {
+        "title": "PromptNumericalOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptNumericalOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptOpenFileOptions": {
+        "title": "PromptOpenFileOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptOpenFileOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptOptions": {
+        "title": "PromptOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptPointOptions": {
+        "title": "PromptPointOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptPointOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptPointOptionsEventArgs": {
+        "title": "PromptPointOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptPointOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptPointResult": {
+        "title": "PromptPointResult Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptPointResult.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptPointResultEventArgs": {
+        "title": "PromptPointResultEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptPointResultEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptResult": {
+        "title": "PromptResult Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptResult.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptSaveFileOptions": {
+        "title": "PromptSaveFileOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptSaveFileOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptSelectionOptions": {
+        "title": "PromptSelectionOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptSelectionOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptSelectionOptionsEventArgs": {
+        "title": "PromptSelectionOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptSelectionOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptSelectionResult": {
+        "title": "PromptSelectionResult Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptSelectionResult.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptSelectionResultEventArgs": {
+        "title": "PromptSelectionResultEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptSelectionResultEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptStatus": {
+        "title": "PromptStatus Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptStatus.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptStringOptions": {
+        "title": "PromptStringOptions Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptStringOptions.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptStringOptionsEventArgs": {
+        "title": "PromptStringOptionsEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptStringOptionsEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_PromptStringResultEventArgs": {
+        "title": "PromptStringResultEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_PromptStringResultEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_RolloverEventArgs": {
+        "title": "RolloverEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_RolloverEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SamplerStatus": {
+        "title": "SamplerStatus Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_SamplerStatus.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectedObject": {
+        "title": "SelectedObject Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectedObject.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectedSubObject": {
+        "title": "SelectedSubObject Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectedSubObject.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectionAddedEventArgs": {
+        "title": "SelectionAddedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectionAddedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectionDetails": {
+        "title": "SelectionDetails Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectionDetails.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectionFilter": {
+        "title": "SelectionFilter Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectionFilter.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectionFlags": {
+        "title": "SelectionFlags Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectionFlags.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectionMethod": {
+        "title": "SelectionMethod Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectionMethod.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectionMode": {
+        "title": "SelectionMode Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectionMode.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectionRemovedEventArgs": {
+        "title": "SelectionRemovedEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectionRemovedEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectionSet": {
+        "title": "SelectionSet Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectionSet.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SelectionTextInputEventArgs": {
+        "title": "SelectionTextInputEventArgs Class",
+        "filename": "Autodesk_AutoCAD_EditorInput_SelectionTextInputEventArgs.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_SubtractedKeywords": {
+        "title": "SubtractedKeywords Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_SubtractedKeywords.md"
+    },
+    "Autodesk_AutoCAD_EditorInput_UserInputControls": {
+        "title": "UserInputControls Enumeration",
+        "filename": "Autodesk_AutoCAD_EditorInput_UserInputControls.md"
+    }
+}
