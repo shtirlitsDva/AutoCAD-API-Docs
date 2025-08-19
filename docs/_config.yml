@@ -16,10 +16,21 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+collections:
+  ref:
+    output: true
+    permalink: /ref/:path/
+
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
 
 # Markdown settings
 markdown: kramdown
