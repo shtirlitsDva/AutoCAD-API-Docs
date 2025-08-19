@@ -16,11 +16,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-collections:
-  ref:
-    output: true
-    permalink: /ref/:path/
-
 # Plugins
 plugins:
   - jekyll-feed
