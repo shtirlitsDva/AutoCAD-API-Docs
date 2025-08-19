@@ -6,7 +6,7 @@ description: Documentation for the AutoCAD API
 theme: jekyll-theme-cayman
 
 # Optional settings
-url: "https://shtirlitsdva.github.io/AutoCAD-API-Docs"
+url: "https://shtirlitsdva.github.io"
 baseurl: "/AutoCAD-API-Docs"
 
 # Exclude files and directories from the site
